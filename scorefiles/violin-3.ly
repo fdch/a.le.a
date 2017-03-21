@@ -14,6 +14,7 @@
 }
 \score {
   <<
+    \set Score.skipBars = ##t
     \new Staff \with { 
       instrumentName = "violin" 
       shortInstrumentName = "vn."} 

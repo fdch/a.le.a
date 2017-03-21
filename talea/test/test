@@ -1,9 +1,0 @@
-#!/bin/bash
-
-#ARG=22
-#echo $((ARG-2))
-#echo $((ARG*2))
-#exit
-
-
-grep

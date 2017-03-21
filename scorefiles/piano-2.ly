@@ -16,6 +16,8 @@
 }
 \score {
   <<
+    \set Score.skipBars = ##t
+    \set Score.skipBars = ##t
     \ottavate #'(2 . 7) #'(-3 . -7) ##t
     \new PianoStaff <<
       \set PianoStaff.instrumentName = #"piano "

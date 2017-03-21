@@ -360,7 +360,7 @@ cello_one_part = \relative c, {
   <gis cis \harmonic>1~\ppp\< |
   % ________________________________________bar 9 :
   <gis cis \harmonic>2~ 
-  <gis cis \harmonic>4\>\p 
+  <gis cis \harmonic>4\p 
   r8\!  c,8~  |
   % ________________________________________bar 10 :
   c4. 

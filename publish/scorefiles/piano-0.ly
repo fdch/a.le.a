@@ -24,6 +24,7 @@
       \new Staff = "pianoR_one_part" \pianoR_one_part
     >>
   >>
+  \midi {}
   \layout {
     \mergeDifferentlyHeadedOn
     \mergeDifferentlyDottedOn

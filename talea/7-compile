@@ -1,7 +1,0 @@
-#!/bin/bash
-MAIN=$(pwd)
-cd $MAIN/scorefiles
-echo "compiling all in <scorefiles>, this will take time..."
-lilypond *
-cd ..
-exit

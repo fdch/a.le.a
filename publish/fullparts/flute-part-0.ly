@@ -192,7 +192,7 @@ flute_one_part = \relative c' {
    \once \override NoteHead.style = #'triangle e16\sfz  e16\(\pp\<^"uniss cl."   cis'16  bes16 
   g16  e16  cis'16  bes16 
   g16  e16  cis'16  bes16 
-  g16  f16  es16  b'16\mf\>  |
+  g16  f16  es16  b'16\mf  |
   % ________________________________________bar 60 :
   as16  f16  es16  cis'16 
   b16  a16  g16  f16 

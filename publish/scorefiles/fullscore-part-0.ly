@@ -8,6 +8,8 @@
 \include "../../lib/ottavate.ly"
 \include "../fullparts/pianoL-part-0.ly"
 \include "../fullparts/pianoR-part-0.ly"
+\include "../fullparts/elec-part-0.ly"
+\include "../fullparts/video-part-0.ly"
 
 \header {
   title = "a.le.a"
@@ -21,8 +23,35 @@
 \score {
   <<     
     \set Score.skipBars = ##t
+	\new Staff \with { 
+	  \magnifyStaff #4/7
+      instrumentName = "elec"	
+		shortInstrumentName = "el."
+
+      } 
+    {
+      <<
+        \new Voice {        
+          \elec_one_part
+        }
+      >>
+    }
+	\new Staff \with { 
+	  \magnifyStaff #4/7
+      instrumentName = "video" 
+		shortInstrumentName = "vi."
+      } 
+    {
+      <<
+        \new Voice {        
+          \video_one_part
+        }
+      >>
+    }
+
     \new Staff \with { 
       instrumentName = "flute" 
+		shortInstrumentName = "fl."
       } 
     {
       <<
@@ -73,7 +102,7 @@
     }
     \ottavate #'(2 . 7) #'(-2 . -6) ##t
     \new PianoStaff <<
-      \set PianoStaff.instrumentName = #"piano "
+     \set PianoStaff.instrumentName = #"piano "
       \set PianoStaff.shortInstrumentName = #"pno."
       \new Staff = "pianoL_one_part" \pianoL_one_part
       \new Staff = "pianoR_one_part" \pianoR_one_part

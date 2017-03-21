@@ -13,6 +13,12 @@ else
 	ARG2="0"
 fi
 cd $MAIN/scorefiles
-echo "compiling $ARG1-$ARG2 in <scorefiles>"
+echo "
+**********
+
+compiling $ARG1-$ARG2 in <scorefiles>
+
+**********
+"
 lilypond $ARG1-$ARG2.ly
 exit

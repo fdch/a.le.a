@@ -26,6 +26,7 @@
       >>
     }
   >>
+  \midi {}
   \layout {
     \mergeDifferentlyHeadedOn
     \mergeDifferentlyDottedOn
