@@ -1,0 +1,5 @@
+#!/bin/bash
+cd scorefiles
+open -a Frescobaldi.app $1
+cd ..
+exit

@@ -1,0 +1,2 @@
+Tempo is written quarter note = 166, which is rather fast. It is meant to be the upper limit.  If this tempo is impossible, I would suggest bringing it down until it is comfortable, but not so much so that the music looses its rather frantic impetus. I would suggest against a tempo lower than quarter note = 
+144. If this is still too fast, I would suggest to reduce stricture on 16th note gestures which last more than 10 16th notes.

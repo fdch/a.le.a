@@ -1,0 +1,3073 @@
+Fede:talea federicocamarahalac$ ./run
+rm: scorefiles: No such file or directory
+rm: fullparts: No such file or directory
+rm: stuff: No such file or directory
+rm: part/*/*: No such file or directory
+rm: score/*/*: No such file or directory
+Opening Pd in this location:
+/Applications/Pd-0.47-1.app/Contents/Resources/bin/
+If this is not where your Pd version is, please edit the <.run> file
+2017-03-06 20:42:05.534 pd[22510:426865] Error loading /Library/Audio/Plug-Ins/HAL/JackRouter.plugin/Contents/MacOS/JackRouter:  dlopen(/Library/Audio/Plug-Ins/HAL/JackRouter.plugin/Contents/MacOS/JackRouter, 262): Library not loaded: /System/Library/Frameworks/Jackmp.framework/Versions/A/Jackmp
+  Referenced from: /Library/Audio/Plug-Ins/HAL/JackRouter.plugin/Contents/MacOS/JackRouter
+  Reason: image not found
+2017-03-06 20:42:05.534 pd[22510:426865] Cannot find function pointer New_JackRouterPlugIn for factory 7CB18864-927D-48B5-904C-CCFBCFBC7ADD in CFBundle/CFPlugIn 0x2200ad0 </Library/Audio/Plug-Ins/HAL/JackRouter.plugin> (bundle, not loaded)
+GEM: Graphics Environment for Multimedia
+GEM: ver: 0.93.3 
+GEM: compiled: Nov 10 2011
+GEM: maintained by IOhannes m zmoelnig
+GEM: Authors :	Mark Danks (original version)
+GEM:		Chris Clepper
+GEM:		Cyrille Henry
+GEM:		IOhannes m zmoelnig
+GEM: with help by Guenter Geiger, Daniel Heckenberg, James Tittle, Hans-Christoph Steiner, et al.
+GEM: found a bug? miss a feature? please report it:
+GEM: 	homepage http://gem.iem.at/
+GEM: 	bug-tracker http://sourceforge.net/projects/pd-gem/
+GEM: 	mailing-list http://lists.puredata.info/listinfo/gem-dev/
+open: /Library/Pd/gem.conf: No such file or directory
+open: /Users/federicocamarahalac/Library/Pd/gem.conf: No such file or directory
+open: ./gem.conf: No such file or directory
+GEM: compiled for SIMD architecture: SSE2 MMX 
+GEM: using SSE2 optimization
+verbose(4): boids3d 2005-2006 a.sier / jasch   ? 1995-2003 eric l. singer   Jan 24 2013 03:21:53
+load plugins 'record' in './../extra/Gem/'
+pattern : ./../extra/Gem/gem_record*.so
+dylib loading file './../extra/Gem/gem_recordQT.so'!
+dylib loading file './../extra/Gem/gem_recordQT4L.so'!
+library loading returned: dlerror 'dlopen(././../extra/Gem/gem_recordQT4L.so, 2): Library not loaded: /sw/lib/libquicktime.1.dylib
+  Referenced from: /Applications/Pd-0.47-1.app/Contents/Resources/extra/Gem/gem_recordQT4L.so
+  Reason: image not found'
+[pix_record]: backend #0='QT'	
+error: GEM: Someone sent a bogus pointer to copy2Image
+1-score.pd: current-part-ID 0
+Pt_Start() called
+GemwinMac: width - 680 height - 680
+GemWindow Activate err = 0
+GEM: GLEW version 1.5.4
+GEM: Start rendering
+1-score.pd: click on the Gem window and hit the SPACEBAR
+1-score.pd: recording status 1
+recordQT: using BGRA
+recordQT: setup done
+1-score.pd: *************[KEY INPUT INFO**********
+1-score.pd: toggle graphs - press "G"
+1-score.pd: toggle light - press "L"
+1-score.pd: toggle boid-line - press "H"
+1-score.pd: toggle boids - press "B"
+1-score.pd: toggle lorenz - press "A"
+1-score.pd: toggle texts - press "T"
+1-score.pd: toggle pointer - press "P"
+1-score.pd: toggle thisINFO - press "I"
+1-score.pd: neighbors 4
+1-score.pd: minspeed 0.9
+1-score.pd: maxspeed 2
+1-score.pd: center 1
+1-score.pd: attract 1
+1-score.pd: match 0.2
+1-score.pd: avoid 2
+1-score.pd: repel 2
+1-score.pd: edgedist 3
+1-score.pd: speed 4
+1-score.pd: inertia 3
+1-score.pd: accel 2
+1-score.pd: prefdist 0.8
+1-score.pd: neighbors 4
+1-score.pd: minspeed 0.15
+1-score.pd: maxspeed 1
+1-score.pd: center 0.1
+1-score.pd: attract 0.1
+1-score.pd: match 2
+1-score.pd: avoid 2
+1-score.pd: repel 2
+1-score.pd: edgedist 1
+1-score.pd: speed 2
+1-score.pd: inertia 1
+1-score.pd: accel 1
+1-score.pd: prefdist 1
+1-score.pd: stop score by hitting the ESC key ONCE!
+1-score.pd: stop score by hitting the ESC key ONCE!
+1-score.pd: stop score by hitting the ESC key ONCE!
+1-score.pd: stop score by hitting the ESC key ONCE!
+1-score.pd: stop score by hitting the ESC key ONCE!
+1-score.pd: stop score by hitting the ESC key ONCE!
+1-score.pd: stop score by hitting the ESC key ONCE!
+1-score.pd: stop score by hitting the ESC key ONCE!
+1-score.pd: stop score by hitting the ESC key ONCE!
+1-score.pd: stop score by hitting the ESC key ONCE!
+1-score.pd: stop score by hitting the ESC key ONCE!
+1-score.pd: stop score by hitting the ESC key ONCE!
+1-score.pd: stop score by hitting the ESC key ONCE!
+1-score.pd: stop score by hitting the ESC key ONCE!
+1-score.pd: writing in 10
+1-score.pd: writing in 9
+1-score.pd: writing in 8
+1-score.pd: writing in 7
+1-score.pd: writing in 6
+1-score.pd: writing in 5
+1-score.pd: writing in 4
+1-score.pd: writing in 3
+1-score.pd: writing in 2
+recordQT: movie written to /Users/federicocamarahalac/Documents/fd_work/talea/record/1-score-0.mov
+1-score.pd: recording status 0
+1-score.pd: waiting 5 seconds for recording to write
+1-score.pd: writing in 1
+1-score.pd: file sco-0.txt written to disk
+1-score.pd: leaving in 3 - press any Key to cancel
+1-score.pd: writing all texts
+1-score.pd: write ../parts/0-part-0.txt
+1-score.pd: write ../parts/0-part-1.txt
+1-score.pd: write ../parts/0-part-2.txt
+1-score.pd: write ../parts/0-part-3.txt
+1-score.pd: write ../parts/0-part-4.txt
+1-score.pd: leaving in 2 - press any Key to cancel
+1-score.pd: leaving in 1 - press any Key to cancel
+recorded </Users/federicocamarahalac/Documents/fd_work/talea/record/1-score-0.mov> with 474M	/Users/federicocamarahalac/Documents/fd_work/talea/record/1-score-0.mov
+2017-03-06 20:52:00.851 pd[22584:428869] Error loading /Library/Audio/Plug-Ins/HAL/JackRouter.plugin/Contents/MacOS/JackRouter:  dlopen(/Library/Audio/Plug-Ins/HAL/JackRouter.plugin/Contents/MacOS/JackRouter, 262): Library not loaded: /System/Library/Frameworks/Jackmp.framework/Versions/A/Jackmp
+  Referenced from: /Library/Audio/Plug-Ins/HAL/JackRouter.plugin/Contents/MacOS/JackRouter
+  Reason: image not found
+2017-03-06 20:52:00.852 pd[22584:428869] Cannot find function pointer New_JackRouterPlugIn for factory 7CB18864-927D-48B5-904C-CCFBCFBC7ADD in CFBundle/CFPlugIn 0x306fb0 </Library/Audio/Plug-Ins/HAL/JackRouter.plugin> (bundle, not loaded)
+
+	♡♡♡
+	♡ the zexy external  2.2.6svn
+	♡ (c) 1999-2012 IOhannes m zmölnig
+	♡       forum::für::umläute
+	♡       iem   @  kug
+	♡  compiled:  May 29 2015
+	♡ send me a 'help' message
+	♡♡♡
+
+matchbox: OSC-pattern matching code (c) Matt Wright, CNMAT
+notes:		testing version: 2015-03-27
+mainscore:	testing version: 2015-03-26
+2-read.pd: waiting 10 seconds - press any key to cancel
+Pt_Start() called
+2-read.pd: waiting 9 seconds - press any key to cancel
+2-read.pd: waiting 8 seconds - press any key to cancel
+2-read.pd: waiting 7 seconds - press any key to cancel
+2-read.pd: waiting 6 seconds - press any key to cancel
+2-read.pd: waiting 5 seconds - press any key to cancel
+2-read.pd: waiting 4 seconds - press any key to cancel
+2-read.pd: waiting 3 seconds - press any key to cancel
+2-read.pd: waiting 2 seconds - press any key to cancel
+2-read.pd: waiting 1 seconds - press any key to cancel
+2-read.pd: current_part_ID 0
+2-read.pd: 0
+2-read.pd: .......
+2-read.pd: reading all texts
+2-read.pd: ..........
+2-read.pd: fingers crossed
+2-read.pd: .....
+2-read.pd: _readparts 0 read ../parts/0-part-0.txt
+2-read.pd: _readparts 1 read ../parts/0-part-1.txt
+2-read.pd: _readparts 2 read ../parts/0-part-2.txt
+2-read.pd: _readparts 3 read ../parts/0-part-3.txt
+2-read.pd: done reading all texts
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+mainscore: Cleared
+render set to = 1
+notes: instrument name = flute_one
+notes: score rendering off
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_one_barinfo.txt
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_one.ly
+notes: .ly score finished
+notes: instrument name = clarinet_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/clarinet_one.ly
+notes: .ly score finished
+notes: instrument name = violin_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/violin_one.ly
+notes: .ly score finished
+notes: instrument name = cello_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/cello_one.ly
+notes: .ly score finished
+notes: instrument name = perc_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/perc_one.ly
+notes: .ly score finished
+notes: instrument name = pianoR_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/pianoR_one.ly
+notes: .ly score finished
+notes: instrument name = pianoL_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/pianoL_one.ly
+notes: .ly score finished
+mainscore: Sorting Input ...
+mainscore: ... Formatting Score... 
+mainscore: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./score/0/talea_map_one.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/clarinet_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/violin_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/cello_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/perc_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/pianoL_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/pianoR_one_part.ly
+mainscore: .ly score finished
+render is 0
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+mainscore: Cleared
+render set to = 1
+notes: instrument name = flute_two
+notes: score rendering off
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_two_barinfo.txt
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_two.ly
+notes: .ly score finished
+notes: instrument name = clarinet_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/clarinet_two.ly
+notes: .ly score finished
+notes: instrument name = violin_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/violin_two.ly
+notes: .ly score finished
+notes: instrument name = cello_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/cello_two.ly
+notes: .ly score finished
+notes: instrument name = perc_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/perc_two.ly
+notes: .ly score finished
+notes: instrument name = pianoR_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/pianoR_two.ly
+notes: .ly score finished
+notes: instrument name = pianoL_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/pianoL_two.ly
+notes: .ly score finished
+mainscore: Sorting Input ...
+mainscore: ... Formatting Score... 
+mainscore: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./score/0/talea_map_two.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/clarinet_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/violin_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/cello_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/perc_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/pianoL_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/pianoR_two_part.ly
+mainscore: .ly score finished
+render is 0
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+mainscore: Cleared
+render set to = 1
+notes: instrument name = flute_three
+notes: score rendering off
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_three_barinfo.txt
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_three.ly
+notes: .ly score finished
+notes: instrument name = clarinet_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/clarinet_three.ly
+notes: .ly score finished
+notes: instrument name = violin_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/violin_three.ly
+notes: .ly score finished
+notes: instrument name = cello_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/cello_three.ly
+notes: .ly score finished
+notes: instrument name = perc_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/perc_three.ly
+notes: .ly score finished
+notes: instrument name = pianoR_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/pianoR_three.ly
+notes: .ly score finished
+notes: instrument name = pianoL_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/pianoL_three.ly
+notes: .ly score finished
+mainscore: Sorting Input ...
+mainscore: ... Formatting Score... 
+mainscore: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./score/0/talea_map_three.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/flute_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/clarinet_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/violin_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/cello_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/perc_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/pianoL_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/0/pianoR_three_part.ly
+mainscore: .ly score finished
+render is 0
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+mainscore: Cleared
+render set to = 1
+notes: instrument name = flute_one
+notes: score rendering off
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_one_barinfo.txt
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_one.ly
+notes: .ly score finished
+notes: instrument name = clarinet_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/clarinet_one.ly
+notes: .ly score finished
+notes: instrument name = violin_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/violin_one.ly
+notes: .ly score finished
+notes: instrument name = cello_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/cello_one.ly
+notes: .ly score finished
+notes: instrument name = perc_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/perc_one.ly
+notes: .ly score finished
+notes: instrument name = pianoR_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/pianoR_one.ly
+notes: .ly score finished
+notes: instrument name = pianoL_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/pianoL_one.ly
+notes: .ly score finished
+mainscore: Sorting Input ...
+mainscore: ... Formatting Score... 
+mainscore: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./score/1/talea_map_one.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/clarinet_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/violin_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/cello_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/perc_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/pianoL_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/pianoR_one_part.ly
+mainscore: .ly score finished
+render is 0
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+mainscore: Cleared
+render set to = 1
+notes: instrument name = flute_two
+notes: score rendering off
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_two_barinfo.txt
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_two.ly
+notes: .ly score finished
+notes: instrument name = clarinet_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/clarinet_two.ly
+notes: .ly score finished
+notes: instrument name = violin_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/violin_two.ly
+notes: .ly score finished
+notes: instrument name = cello_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/cello_two.ly
+notes: .ly score finished
+notes: instrument name = perc_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/perc_two.ly
+notes: .ly score finished
+notes: instrument name = pianoR_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/pianoR_two.ly
+notes: .ly score finished
+notes: instrument name = pianoL_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/pianoL_two.ly
+notes: .ly score finished
+mainscore: Sorting Input ...
+mainscore: ... Formatting Score... 
+mainscore: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./score/1/talea_map_two.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/clarinet_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/violin_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/cello_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/perc_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/pianoL_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/pianoR_two_part.ly
+mainscore: .ly score finished
+render is 0
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+mainscore: Cleared
+render set to = 1
+notes: instrument name = flute_three
+notes: score rendering off
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_three_barinfo.txt
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_three.ly
+notes: .ly score finished
+notes: instrument name = clarinet_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/clarinet_three.ly
+notes: .ly score finished
+notes: instrument name = violin_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/violin_three.ly
+notes: .ly score finished
+notes: instrument name = cello_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/cello_three.ly
+notes: .ly score finished
+notes: instrument name = perc_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/perc_three.ly
+notes: .ly score finished
+notes: instrument name = pianoR_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/pianoR_three.ly
+notes: .ly score finished
+notes: instrument name = pianoL_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/pianoL_three.ly
+notes: .ly score finished
+mainscore: Sorting Input ...
+mainscore: ... Formatting Score... 
+mainscore: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./score/1/talea_map_three.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/flute_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/clarinet_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/violin_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/cello_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/perc_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/pianoL_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/1/pianoR_three_part.ly
+mainscore: .ly score finished
+render is 0
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+mainscore: Cleared
+render set to = 1
+notes: instrument name = flute_one
+notes: score rendering off
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_one_barinfo.txt
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_one.ly
+notes: .ly score finished
+notes: instrument name = clarinet_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/clarinet_one.ly
+notes: .ly score finished
+notes: instrument name = violin_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/violin_one.ly
+notes: .ly score finished
+notes: instrument name = cello_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/cello_one.ly
+notes: .ly score finished
+notes: instrument name = perc_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/perc_one.ly
+notes: .ly score finished
+notes: instrument name = pianoR_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/pianoR_one.ly
+notes: .ly score finished
+notes: instrument name = pianoL_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/pianoL_one.ly
+notes: .ly score finished
+mainscore: Sorting Input ...
+mainscore: ... Formatting Score... 
+mainscore: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./score/2/talea_map_one.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/clarinet_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/violin_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/cello_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/perc_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/pianoL_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/pianoR_one_part.ly
+mainscore: .ly score finished
+render is 0
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+mainscore: Cleared
+render set to = 1
+notes: instrument name = flute_two
+notes: score rendering off
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_two_barinfo.txt
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_two.ly
+notes: .ly score finished
+notes: instrument name = clarinet_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/clarinet_two.ly
+notes: .ly score finished
+notes: instrument name = violin_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/violin_two.ly
+notes: .ly score finished
+notes: instrument name = cello_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/cello_two.ly
+notes: .ly score finished
+notes: instrument name = perc_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/perc_two.ly
+notes: .ly score finished
+notes: instrument name = pianoR_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/pianoR_two.ly
+notes: .ly score finished
+notes: instrument name = pianoL_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/pianoL_two.ly
+notes: .ly score finished
+mainscore: Sorting Input ...
+mainscore: ... Formatting Score... 
+mainscore: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./score/2/talea_map_two.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/clarinet_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/violin_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/cello_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/perc_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/pianoL_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/pianoR_two_part.ly
+mainscore: .ly score finished
+render is 0
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+mainscore: Cleared
+render set to = 1
+notes: instrument name = flute_three
+notes: score rendering off
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_three_barinfo.txt
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_three.ly
+notes: .ly score finished
+notes: instrument name = clarinet_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/clarinet_three.ly
+notes: .ly score finished
+notes: instrument name = violin_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/violin_three.ly
+notes: .ly score finished
+notes: instrument name = cello_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/cello_three.ly
+notes: .ly score finished
+notes: instrument name = perc_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/perc_three.ly
+notes: .ly score finished
+notes: instrument name = pianoR_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/pianoR_three.ly
+notes: .ly score finished
+notes: instrument name = pianoL_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/pianoL_three.ly
+notes: .ly score finished
+mainscore: Sorting Input ...
+mainscore: ... Formatting Score... 
+mainscore: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./score/2/talea_map_three.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/flute_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/clarinet_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/violin_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/cello_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/perc_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/pianoL_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/2/pianoR_three_part.ly
+mainscore: .ly score finished
+render is 0
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+mainscore: Cleared
+render set to = 1
+notes: instrument name = flute_one
+notes: score rendering off
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_one_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_one_barinfo.txt
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_one.ly
+notes: .ly score finished
+notes: instrument name = clarinet_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/clarinet_one.ly
+notes: .ly score finished
+notes: instrument name = violin_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/violin_one.ly
+notes: .ly score finished
+notes: instrument name = cello_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/cello_one.ly
+notes: .ly score finished
+notes: instrument name = perc_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/perc_one.ly
+notes: .ly score finished
+notes: instrument name = pianoR_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/pianoR_one.ly
+notes: .ly score finished
+notes: instrument name = pianoL_one
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/pianoL_one.ly
+notes: .ly score finished
+mainscore: Sorting Input ...
+mainscore: ... Formatting Score... 
+mainscore: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./score/3/talea_map_one.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/clarinet_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/violin_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/cello_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/perc_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/pianoL_one_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/pianoR_one_part.ly
+mainscore: .ly score finished
+render is 0
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+mainscore: Cleared
+render set to = 1
+notes: instrument name = flute_two
+notes: score rendering off
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_two_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_two_barinfo.txt
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_two.ly
+notes: .ly score finished
+notes: instrument name = clarinet_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/clarinet_two.ly
+notes: .ly score finished
+notes: instrument name = violin_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/violin_two.ly
+notes: .ly score finished
+notes: instrument name = cello_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/cello_two.ly
+notes: .ly score finished
+notes: instrument name = perc_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/perc_two.ly
+notes: .ly score finished
+notes: instrument name = pianoR_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/pianoR_two.ly
+notes: .ly score finished
+notes: instrument name = pianoL_two
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/pianoL_two.ly
+notes: .ly score finished
+mainscore: Sorting Input ...
+mainscore: ... Formatting Score... 
+mainscore: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./score/3/talea_map_two.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/clarinet_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/violin_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/cello_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/perc_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/pianoL_two_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/pianoR_two_part.ly
+mainscore: .ly score finished
+render is 0
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+notes: Cleared
+mainscore: Cleared
+render set to = 1
+notes: instrument name = flute_three
+notes: score rendering off
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_three_barinfo.txt
+notes: Master Bar File RECEIVED at /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_three_barinfo.txt
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_three.ly
+notes: .ly score finished
+notes: instrument name = clarinet_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/clarinet_three.ly
+notes: .ly score finished
+notes: instrument name = violin_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/violin_three.ly
+notes: .ly score finished
+notes: instrument name = cello_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/cello_three.ly
+notes: .ly score finished
+notes: instrument name = perc_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/perc_three.ly
+notes: .ly score finished
+notes: instrument name = pianoR_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/pianoR_three.ly
+notes: .ly score finished
+notes: instrument name = pianoL_three
+notes: Reference duration set to a 1/16 note
+notes: Generating Score ...
+notes: Sorting Input ...
+no tuplets!
+subbeat index = 0
+notes: ... Rhythmic computation done
+notes: ... Formatting Score... 
+notes: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/pianoL_three.ly
+notes: .ly score finished
+mainscore: Sorting Input ...
+mainscore: ... Formatting Score... 
+mainscore: writing into /Users/federicocamarahalac/Documents/fd_work/talea/./score/3/talea_map_three.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/flute_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/clarinet_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/violin_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/cello_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/perc_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/pianoL_three_part.ly
+mainscore: reading /Users/federicocamarahalac/Documents/fd_work/talea/./part/3/pianoR_three_part.ly
+mainscore: .ly score finished
+render is 0
+2-read.pd: done generating score
+
+*******
+converting files before anything else
+
+convert-ly (GNU LilyPond) 2.19.56
+
+convert-ly: Processing `part/0/cello_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/cello_one_part.ly'... 
+convert-ly: error: part/0/cello_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/cello_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/cello_three_part.ly'... 
+convert-ly: error: part/0/cello_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/cello_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/cello_two_part.ly'... 
+convert-ly: error: part/0/cello_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/clarinet_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/clarinet_one_part.ly'... 
+convert-ly: error: part/0/clarinet_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/clarinet_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/clarinet_three_part.ly'... 
+convert-ly: error: part/0/clarinet_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/clarinet_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/clarinet_two_part.ly'... 
+convert-ly: error: part/0/clarinet_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/flute_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/flute_one_barinfo.txt'... 
+convert-ly: error: part/0/flute_one_barinfo.txt: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/flute_one_part.ly'... 
+convert-ly: error: part/0/flute_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/flute_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/flute_three_barinfo.txt'... 
+convert-ly: error: part/0/flute_three_barinfo.txt: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/flute_three_part.ly'... 
+convert-ly: error: part/0/flute_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/flute_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/flute_two_barinfo.txt'... 
+convert-ly: error: part/0/flute_two_barinfo.txt: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/flute_two_part.ly'... 
+convert-ly: error: part/0/flute_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/perc_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/perc_one_part.ly'... 
+convert-ly: error: part/0/perc_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/perc_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/perc_three_part.ly'... 
+convert-ly: error: part/0/perc_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/perc_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/perc_two_part.ly'... 
+convert-ly: error: part/0/perc_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/pianoL_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/pianoL_one_part.ly'... 
+convert-ly: error: part/0/pianoL_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/pianoL_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/pianoL_three_part.ly'... 
+convert-ly: error: part/0/pianoL_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/pianoL_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/pianoL_two_part.ly'... 
+convert-ly: error: part/0/pianoL_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/pianoR_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/pianoR_one_part.ly'... 
+convert-ly: error: part/0/pianoR_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/pianoR_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/pianoR_three_part.ly'... 
+convert-ly: error: part/0/pianoR_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/pianoR_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/pianoR_two_part.ly'... 
+convert-ly: error: part/0/pianoR_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/violin_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/violin_one_part.ly'... 
+convert-ly: error: part/0/violin_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/violin_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/violin_three_part.ly'... 
+convert-ly: error: part/0/violin_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/0/violin_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/0/violin_two_part.ly'... 
+convert-ly: error: part/0/violin_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/cello_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/cello_one_part.ly'... 
+convert-ly: error: part/1/cello_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/cello_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/cello_three_part.ly'... 
+convert-ly: error: part/1/cello_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/cello_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/cello_two_part.ly'... 
+convert-ly: error: part/1/cello_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/clarinet_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/clarinet_one_part.ly'... 
+convert-ly: error: part/1/clarinet_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/clarinet_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/clarinet_three_part.ly'... 
+convert-ly: error: part/1/clarinet_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/clarinet_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/clarinet_two_part.ly'... 
+convert-ly: error: part/1/clarinet_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/flute_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/flute_one_barinfo.txt'... 
+convert-ly: error: part/1/flute_one_barinfo.txt: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/flute_one_part.ly'... 
+convert-ly: error: part/1/flute_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/flute_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/flute_three_barinfo.txt'... 
+convert-ly: error: part/1/flute_three_barinfo.txt: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/flute_three_part.ly'... 
+convert-ly: error: part/1/flute_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/flute_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/flute_two_barinfo.txt'... 
+convert-ly: error: part/1/flute_two_barinfo.txt: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/flute_two_part.ly'... 
+convert-ly: error: part/1/flute_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/perc_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/perc_one_part.ly'... 
+convert-ly: error: part/1/perc_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/perc_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/perc_three_part.ly'... 
+convert-ly: error: part/1/perc_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/perc_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/perc_two_part.ly'... 
+convert-ly: error: part/1/perc_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/pianoL_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/pianoL_one_part.ly'... 
+convert-ly: error: part/1/pianoL_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/pianoL_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/pianoL_three_part.ly'... 
+convert-ly: error: part/1/pianoL_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/pianoL_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/pianoL_two_part.ly'... 
+convert-ly: error: part/1/pianoL_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/pianoR_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/pianoR_one_part.ly'... 
+convert-ly: error: part/1/pianoR_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/pianoR_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/pianoR_three_part.ly'... 
+convert-ly: error: part/1/pianoR_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/pianoR_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/pianoR_two_part.ly'... 
+convert-ly: error: part/1/pianoR_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/violin_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/violin_one_part.ly'... 
+convert-ly: error: part/1/violin_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/violin_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/violin_three_part.ly'... 
+convert-ly: error: part/1/violin_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/1/violin_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/1/violin_two_part.ly'... 
+convert-ly: error: part/1/violin_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/cello_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/cello_one_part.ly'... 
+convert-ly: error: part/2/cello_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/cello_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/cello_three_part.ly'... 
+convert-ly: error: part/2/cello_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/cello_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/cello_two_part.ly'... 
+convert-ly: error: part/2/cello_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/clarinet_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/clarinet_one_part.ly'... 
+convert-ly: error: part/2/clarinet_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/clarinet_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/clarinet_three_part.ly'... 
+convert-ly: error: part/2/clarinet_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/clarinet_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/clarinet_two_part.ly'... 
+convert-ly: error: part/2/clarinet_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/flute_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/flute_one_barinfo.txt'... 
+convert-ly: error: part/2/flute_one_barinfo.txt: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/flute_one_part.ly'... 
+convert-ly: error: part/2/flute_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/flute_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/flute_three_barinfo.txt'... 
+convert-ly: error: part/2/flute_three_barinfo.txt: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/flute_three_part.ly'... 
+convert-ly: error: part/2/flute_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/flute_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/flute_two_barinfo.txt'... 
+convert-ly: error: part/2/flute_two_barinfo.txt: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/flute_two_part.ly'... 
+convert-ly: error: part/2/flute_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/perc_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/perc_one_part.ly'... 
+convert-ly: error: part/2/perc_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/perc_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/perc_three_part.ly'... 
+convert-ly: error: part/2/perc_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/perc_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/perc_two_part.ly'... 
+convert-ly: error: part/2/perc_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/pianoL_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/pianoL_one_part.ly'... 
+convert-ly: error: part/2/pianoL_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/pianoL_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/pianoL_three_part.ly'... 
+convert-ly: error: part/2/pianoL_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/pianoL_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/pianoL_two_part.ly'... 
+convert-ly: error: part/2/pianoL_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/pianoR_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/pianoR_one_part.ly'... 
+convert-ly: error: part/2/pianoR_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/pianoR_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/pianoR_three_part.ly'... 
+convert-ly: error: part/2/pianoR_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/pianoR_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/pianoR_two_part.ly'... 
+convert-ly: error: part/2/pianoR_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/violin_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/violin_one_part.ly'... 
+convert-ly: error: part/2/violin_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/violin_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/violin_three_part.ly'... 
+convert-ly: error: part/2/violin_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/2/violin_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/2/violin_two_part.ly'... 
+convert-ly: error: part/2/violin_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/cello_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/cello_one_part.ly'... 
+convert-ly: error: part/3/cello_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/cello_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/cello_three_part.ly'... 
+convert-ly: error: part/3/cello_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/cello_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/cello_two_part.ly'... 
+convert-ly: error: part/3/cello_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/clarinet_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/clarinet_one_part.ly'... 
+convert-ly: error: part/3/clarinet_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/clarinet_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/clarinet_three_part.ly'... 
+convert-ly: error: part/3/clarinet_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/clarinet_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/clarinet_two_part.ly'... 
+convert-ly: error: part/3/clarinet_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/flute_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/flute_one_barinfo.txt'... 
+convert-ly: error: part/3/flute_one_barinfo.txt: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/flute_one_part.ly'... 
+convert-ly: error: part/3/flute_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/flute_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/flute_three_barinfo.txt'... 
+convert-ly: error: part/3/flute_three_barinfo.txt: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/flute_three_part.ly'... 
+convert-ly: error: part/3/flute_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/flute_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/flute_two_barinfo.txt'... 
+convert-ly: error: part/3/flute_two_barinfo.txt: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/flute_two_part.ly'... 
+convert-ly: error: part/3/flute_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/perc_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/perc_one_part.ly'... 
+convert-ly: error: part/3/perc_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/perc_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/perc_three_part.ly'... 
+convert-ly: error: part/3/perc_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/perc_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/perc_two_part.ly'... 
+convert-ly: error: part/3/perc_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/pianoL_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/pianoL_one_part.ly'... 
+convert-ly: error: part/3/pianoL_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/pianoL_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/pianoL_three_part.ly'... 
+convert-ly: error: part/3/pianoL_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/pianoL_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/pianoL_two_part.ly'... 
+convert-ly: error: part/3/pianoL_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/pianoR_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/pianoR_one_part.ly'... 
+convert-ly: error: part/3/pianoR_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/pianoR_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/pianoR_three_part.ly'... 
+convert-ly: error: part/3/pianoR_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/pianoR_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/pianoR_two_part.ly'... 
+convert-ly: error: part/3/pianoR_two_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/violin_one.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/violin_one_part.ly'... 
+convert-ly: error: part/3/violin_one_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/violin_three.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/violin_three_part.ly'... 
+convert-ly: error: part/3/violin_three_part.ly: Unable to determine version.  Skipping
+convert-ly: Processing `part/3/violin_two.ly'... 
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22, 2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+
+
+convert-ly: Processing `part/3/violin_two_part.ly'... 
+convert-ly: error: part/3/violin_two_part.ly: Unable to determine version.  Skipping
+convert-ly: warning: There were 96 errors.
+
+*******
+indenting all files and converting relative to absolute notation to avoid errors in concatenations.... might take a while
+*****
+
+
+*******
+finished indenting all files... now concatenate the parts...
+*****
+
+
+*******
+finished concatenating parts into fullparts, now simplify the rhythms
+*******
+
+*******
+simplifying all rests in <fullparts/*.ly>, putting backups in <fullparts/original>...
+
+
+*******
+All rests were simplified!
+
+Now, re-indenting and converting back to relative notation might take a while. Please, be patient...
+
+
+*******
+Finished indenting and relative conversion.... Now, generate the scorefiles
+*******
+
+./5-score: line 4: [: missing `]'
+layout is 17x11, feed me an argument to set up a new one
+
+*******
+made all fullparts in <scorefiles>
+*******
+
+layout is letter, feed me an argument using single quotes to set up a new one, like 'a4 landscape'
+all parts are being written in <scorefiles> dir
+
+*******
+made all parts
+*******
+
+
+*******
+final indent
+
+compiling all in <scorefiles>, this will take time...
+GNU LilyPond 2.19.56
+Processing `cello-0.ly'
+Parsing...
+Interpreting music...[8][16][24][32][40][48][56][64][72][80][88][96][104][112][120][128][136][144][152]
+../fullparts/cello-part-0.ly:546:19: warning: unterminated tie
+  r8  r16  cis,,16
+                  ~  |
+[160][168][176][184][192][200][208][216][224]
+../fullparts/cello-part-0.ly:765:8: warning: unterminated tie
+  c2:32
+       ~  |
+[232]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 5 or 6 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-KbDyN3'...
+Converting to `cello-0.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-KbDyN3'...
+Processing `cello-1.ly'
+Parsing...
+Interpreting music...[8][16][24][32][40][48][56][64]
+../fullparts/cello-part-1.ly:300:8: warning: unterminated tie
+  c2:32
+       ~ 
+[72][80][88][96][104][112]
+../fullparts/cello-part-1.ly:498:36: warning: barcheck failed at: 3/4
+  r8  cis16^\markup {pizz. }  r16  
+                                   |
+[120][128][136][144][152][160][168][176]
+../fullparts/cello-part-1.ly:740:7: warning: barcheck failed at: 1/2
+  r2  
+      |
+[184]
+../fullparts/cello-part-1.ly:754:7: warning: unterminated tie
+  cis2
+      ~ 
+[192][200]
+../fullparts/cello-part-1.ly:866:5: warning: unterminated tie
+  a2
+    ~  |
+[208][216][224][232][240]
+../fullparts/cello-part-1.ly:1020:7: warning: unterminated tie
+  cis2
+      ~ 
+[248][256][264]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 8 or 9 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-p36CkV'...
+Converting to `cello-1.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-p36CkV'...
+Processing `cello-2.ly'
+Parsing...
+Interpreting music...[8][16]
+../fullparts/cello-part-2.ly:82:5: warning: unterminated tie
+  c2
+    ~ 
+[24][32][40][48][56][64][72][80][88][96][104][112][120][128][136][144][152][160][168]
+../fullparts/cello-part-2.ly:617:14: warning: unterminated tie
+  c16  ais'8.
+             ~  |
+../fullparts/cello-part-2.ly:620:28: warning: barcheck failed at: 3/4
+  cis,,2^\markup {pizz. }  
+                           |
+[176][184][192][200][208][216][224][232][240][248][256]
+../fullparts/cello-part-2.ly:1037:5: warning: unterminated tie
+  e2
+    ~  |
+Preprocessing graphical objects...
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+programming error: Object is not a markup.
+continuing, cross fingers
+This object should be a markup: ()
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+Finding the ideal number of pages...
+Fitting music on 7 or 8 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-6UYVnj'...
+Converting to `cello-2.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-6UYVnj'...
+Processing `cello-3.ly'
+Parsing...
+Interpreting music...[8][16][24][32][40][48][56][64][72][80][88][96][104][112][120]
+../fullparts/cello-part-3.ly:404:51: warning: unterminated tie
+  \once \override NoteHead.style = #'harmonic cis2
+                                                  ~ 
+[128][136]
+../fullparts/cello-part-3.ly:464:7: warning: barcheck failed at: 3/4
+  r4  
+      |
+[144][152][160][168][176][184][192][200][208]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 5 or 6 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-b9rwaZ'...
+Converting to `cello-3.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-b9rwaZ'...
+Processing `clarinet-0.ly'
+Parsing...
+Interpreting music...[8][16][24][32][40][48][56][64][72][80][88][96][104]
+../fullparts/clarinet-part-0.ly:383:5: warning: unterminated tie
+  c2
+    ~ 
+[112][120][128][136][144][152][160][168]
+../fullparts/clarinet-part-0.ly:588:46: warning: unterminated tie
+  \once \override NoteHead.style = #'slash g2
+                                             ~ 
+../fullparts/clarinet-part-0.ly:592:7: warning: unterminated tie
+  fis2
+      ~ 
+[176][184][192][200][208][216][224]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 5 or 6 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-qlZHHy'...
+Converting to `clarinet-0.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-qlZHHy'...
+Processing `clarinet-1.ly'
+Parsing...
+Interpreting music...[8][16][24]
+../fullparts/clarinet-part-1.ly:108:12: warning: unterminated tie
+  <fis g >2
+           ~  |
+../fullparts/clarinet-part-1.ly:108:12: warning: unterminated tie
+  <fis g >2
+           ~  |
+[32][40][48][56][64][72]
+../fullparts/clarinet-part-1.ly:312:12: warning: unterminated tie
+  <f gis >2
+           ~  |
+../fullparts/clarinet-part-1.ly:312:12: warning: unterminated tie
+  <f gis >2
+           ~  |
+[80][88][96]
+../fullparts/clarinet-part-1.ly:441:21: warning: barcheck failed at: 3/4
+  fis,,16  r16  r8  
+                    |
+[104][112][120][128][136][144][152][160]
+../fullparts/clarinet-part-1.ly:674:5: warning: unterminated tie
+  g2
+    ~  |
+[168][176][184][192][200][208][216][224][232]
+../fullparts/clarinet-part-1.ly:1005:5: warning: unterminated tie
+  d2
+    ~ 
+[240]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 7 or 8 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-PHptlI'...
+Converting to `clarinet-1.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-PHptlI'...
+Processing `clarinet-2.ly'
+Parsing...
+Interpreting music...[8][16][24][32][40]
+../fullparts/clarinet-part-2.ly:171:51: warning: unterminated tie
+  \once \override NoteHead.style = #'triangle fis2
+                                                  ~ 
+[48][56][64][72][80]
+../fullparts/clarinet-part-2.ly:310:52: warning: unterminated tie
+  r16  \once \override NoteHead.style = #'slash g8.
+                                                   ~^\markup {sim }  |
+[88][96][104][112][120][128][136][144][152][160]
+../fullparts/clarinet-part-2.ly:581:62: warning: barcheck failed at: 3/4
+  \once \override NoteHead.style = #'triangle fis16  fis8.~  
+                                                             |
+[168][176][184]
+../fullparts/clarinet-part-2.ly:686:7: warning: unterminated tie
+  fis2
+      ~ 
+[192][200][208][216][224][232][240]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 6 or 7 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-I3ggDU'...
+Converting to `clarinet-2.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-I3ggDU'...
+Processing `clarinet-3.ly'
+Parsing...
+Interpreting music...[8][16][24][32]
+../fullparts/clarinet-part-3.ly:137:7: warning: unterminated tie
+  gis2
+      ~ 
+[40][48][56][64][72]
+../fullparts/clarinet-part-3.ly:268:11: warning: unterminated tie
+  r8  f,,8
+          ~  |
+[80][88][96][104][112][120][128][136][144]
+../fullparts/clarinet-part-3.ly:503:7: warning: barcheck failed at: 3/4
+  r4  
+      |
+[152][160][168][176][184][192][200]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 5 or 6 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-HUWQi3'...
+Converting to `clarinet-3.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-HUWQi3'...
+Processing `flute-0.ly'
+Parsing...
+Interpreting music...[8][16][24][32][40][48][56][64][72][80]
+../fullparts/flute-part-0.ly:257:48: warning: unterminated tie
+  \once \override NoteHead.style = #'xcircle c2
+                                               ~  |
+[88][96][104]
+../fullparts/flute-part-0.ly:378:48: warning: unterminated tie
+  \once \override NoteHead.style = #'xcircle c2
+                                               ~ 
+[112][120][128][136][144][152]
+../fullparts/flute-part-0.ly:505:48: warning: unterminated tie
+  \once \override NoteHead.style = #'xcircle c2
+                                               ~ 
+[160][168][176][184][192][200][208][216]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 4 or 5 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-jY4SrC'...
+Converting to `flute-0.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-jY4SrC'...
+Processing `flute-1.ly'
+Parsing...
+Interpreting music...[8][16][24][32][40][48][56][64][72][80][88][96][104][112][120][128][136][144][152][160][168][176][184][192]
+../fullparts/flute-part-1.ly:718:5: warning: unterminated tie
+  c2
+    ~ 
+[200][208][216][224][232][240][248]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 6 or 7 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-5vJznw'...
+Converting to `flute-1.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-5vJznw'...
+Processing `flute-2.ly'
+Parsing...
+Interpreting music...[8]
+../fullparts/flute-part-2.ly:70:12: warning: unterminated tie
+  <g gis >2
+           ~  |
+../fullparts/flute-part-2.ly:70:12: warning: unterminated tie
+  <g gis >2
+           ~  |
+[16][24][32][40][48][56][64][72][80][88][96][104][112][120][128][136][144][152][160]
+../fullparts/flute-part-2.ly:534:5: warning: unterminated tie
+  d2
+    ~ 
+../fullparts/flute-part-2.ly:548:12: warning: unterminated tie
+  <c cis >4
+           ~  |
+../fullparts/flute-part-2.ly:548:12: warning: unterminated tie
+  <c cis >4
+           ~  |
+../fullparts/flute-part-2.ly:551:12: warning: barcheck failed at: 3/4
+  r8  c8~  
+           |
+[168][176][184][192][200][208][216][224]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 5 or 6 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-CdeGCw'...
+Converting to `flute-2.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-CdeGCw'...
+Processing `flute-3.ly'
+Parsing...
+Interpreting music...[8][16][24][32][40][48][56]
+../fullparts/flute-part-3.ly:199:5: warning: unterminated tie
+  c2
+    ~ 
+[64][72][80][88][96][104][112][120][128][136]
+../fullparts/flute-part-3.ly:471:17: warning: barcheck failed at: 3/4
+  r8  r16  c16  
+                |
+[144]
+../fullparts/flute-part-3.ly:527:48: warning: unterminated tie
+  \once \override NoteHead.style = #'xcircle c2
+                                               ~  |
+[152][160][168][176][184]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 4 or 5 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-aZcLsW'...
+Converting to `flute-3.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-aZcLsW'...
+Processing `fullscore-part-0.ly'
+Parsing...
+Interpreting music...[8]
+../fullparts/perc-part-0.ly:35:8: warning: unterminated tie
+  e2:32
+       ~ 
+[16][24]
+../fullparts/pianoR-part-0.ly:85:5: warning: unterminated tie
+  a2
+    ~ 
+[32][40]
+../fullparts/pianoR-part-0.ly:153:7: warning: unterminated tie
+  cis2
+      ~  |
+[48][56][64]
+../fullparts/violin-part-0.ly:239:7: warning: unterminated tie
+  ais2
+      ~ 
+[72][80]
+../fullparts/flute-part-0.ly:257:48: warning: unterminated tie
+  \once \override NoteHead.style = #'xcircle c2
+                                               ~  |
+[88][96]
+../fullparts/pianoR-part-0.ly:342:5: warning: unterminated tie
+  a2
+    ~  |
+[104]
+../fullparts/clarinet-part-0.ly:383:5: warning: unterminated tie
+  c2
+    ~ 
+../fullparts/flute-part-0.ly:378:48: warning: unterminated tie
+  \once \override NoteHead.style = #'xcircle c2
+                                               ~ 
+[112]
+../fullparts/pianoL-part-0.ly:388:5: warning: unterminated tie
+  b2
+    ~ 
+../fullparts/perc-part-0.ly:388:8: warning: unterminated tie
+  e2:32
+       ~  |
+[120][128][136]
+../fullparts/perc-part-0.ly:476:8: warning: unterminated tie
+  a2:32
+       ~ 
+[144]
+../fullparts/pianoR-part-0.ly:482:5: warning: unterminated tie
+  a2
+    ~  |
+[152]
+../fullparts/flute-part-0.ly:505:48: warning: unterminated tie
+  \once \override NoteHead.style = #'xcircle c2
+                                               ~ 
+../fullparts/cello-part-0.ly:546:19: warning: unterminated tie
+  r8  r16  cis,,16
+                  ~  |
+[160][168]
+../fullparts/clarinet-part-0.ly:588:46: warning: unterminated tie
+  \once \override NoteHead.style = #'slash g2
+                                             ~ 
+../fullparts/clarinet-part-0.ly:592:7: warning: unterminated tie
+  fis2
+      ~ 
+[176][184][192][200]
+../fullparts/violin-part-0.ly:694:5: warning: unterminated tie
+  b2
+    ~  |
+[208][216][224]
+../fullparts/cello-part-0.ly:765:8: warning: unterminated tie
+  c2:32
+       ~  |
+[232]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 36 or 37 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-d4hBK0'...
+Converting to `fullscore-part-0.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-d4hBK0'...
+Processing `fullscore-part-1.ly'
+Parsing...
+Interpreting music...[8][16][24]
+../fullparts/clarinet-part-1.ly:108:12: warning: unterminated tie
+  <fis g >2
+           ~  |
+../fullparts/clarinet-part-1.ly:108:12: warning: unterminated tie
+  <fis g >2
+           ~  |
+[32]
+../fullparts/perc-part-1.ly:151:5: warning: unterminated tie
+  f2
+    ~ 
+[40][48][56][64]
+../fullparts/violin-part-1.ly:275:8: warning: unterminated tie
+  g2:32
+       ~  |
+../fullparts/cello-part-1.ly:300:8: warning: unterminated tie
+  c2:32
+       ~ 
+[72]
+../fullparts/clarinet-part-1.ly:312:12: warning: unterminated tie
+  <f gis >2
+           ~  |
+../fullparts/clarinet-part-1.ly:312:12: warning: unterminated tie
+  <f gis >2
+           ~  |
+../fullparts/perc-part-1.ly:337:29: warning: barcheck failed at: 3/4
+  f16:32  a16:32  r16  r16  
+                            |
+[80]
+../fullparts/violin-part-1.ly:384:13: warning: barcheck failed at: 3/4
+  r8.  f16  
+            |
+[88][96]
+../fullparts/clarinet-part-1.ly:441:21: warning: barcheck failed at: 3/4
+  fis,,16  r16  r8  
+                    |
+../fullparts/cello-part-1.ly:498:36: warning: barcheck failed at: 3/4
+  r8  cis16^\markup {pizz. }  r16  
+                                   |
+../fullparts/pianoL-part-1.ly:521:7: warning: unterminated tie
+  dis2
+      ~  |
+[104]
+../fullparts/pianoR-part-1.ly:531:7: warning: unterminated tie
+  fis2
+      ~  |
+../fullparts/pianoR-part-1.ly:557:12: warning: barcheck failed at: 3/4
+  r8  a8~  
+           |
+[112]
+../fullparts/pianoL-part-1.ly:617:5: warning: unterminated tie
+  e2
+    ~  |
+../fullparts/pianoL-part-1.ly:652:10: warning: barcheck failed at: 3/4
+  cis4~  
+         |
+[120]
+../fullparts/perc-part-1.ly:562:11: warning: barcheck failed at: 1/2
+  f4:32~  
+          |
+../fullparts/pianoR-part-1.ly:660:5: warning: unterminated tie
+  c2
+    ~ 
+[128]
+../fullparts/clarinet-part-1.ly:674:5: warning: unterminated tie
+  g2
+    ~  |
+[136]
+../fullparts/cello-part-1.ly:740:7: warning: barcheck failed at: 1/2
+  r2  
+      |
+../fullparts/cello-part-1.ly:754:7: warning: unterminated tie
+  cis2
+      ~ 
+../fullparts/flute-part-1.ly:718:5: warning: unterminated tie
+  c2
+    ~ 
+[144]
+../fullparts/pianoR-part-1.ly:793:5: warning: unterminated tie
+  a4
+    ~  |
+../fullparts/pianoR-part-1.ly:795:7: warning: barcheck failed at: 1/4
+  r2  
+      |
+../fullparts/pianoL-part-1.ly:850:7: warning: unterminated tie
+  dis2
+      ~  |
+../fullparts/pianoR-part-1.ly:829:5: warning: unterminated tie
+  a2
+    ~ 
+../fullparts/perc-part-1.ly:795:5: warning: unterminated tie
+  f2
+    ~ 
+../fullparts/cello-part-1.ly:866:5: warning: unterminated tie
+  a2
+    ~  |
+[152]
+../fullparts/violin-part-1.ly:872:5: warning: unterminated tie
+  f2
+    ~ 
+../fullparts/pianoL-part-1.ly:951:15: warning: barcheck failed at: 3/8
+  r8.  cis16  
+              |
+../fullparts/pianoR-part-1.ly:952:5: warning: unterminated tie
+  a2
+    ~  |
+../fullparts/violin-part-1.ly:896:8: warning: unterminated tie
+  b2:32
+       ~ 
+../fullparts/violin-part-1.ly:916:5: warning: unterminated tie
+  a2
+    ~  |
+[160]
+../fullparts/clarinet-part-1.ly:1005:5: warning: unterminated tie
+  d2
+    ~ 
+../fullparts/cello-part-1.ly:1020:7: warning: unterminated tie
+  cis2
+      ~ 
+[168]
+../fullparts/pianoL-part-1.ly:1143:7: warning: unterminated tie
+  cis2
+      ~ 
+../fullparts/pianoR-part-1.ly:1191:5: warning: unterminated tie
+  b2
+    ~  |
+[176][184][192]
+Preprocessing graphical objects...
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+programming error: Object is not a markup.
+continuing, cross fingers
+This object should be a markup: ()
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+programming error: Object is not a markup.
+continuing, cross fingers
+This object should be a markup: ()
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+Finding the ideal number of pages...
+Fitting music on 59 or 60 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-xcq610'...
+Converting to `fullscore-part-1.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-xcq610'...
+Processing `fullscore-part-2.ly'
+Parsing...
+Interpreting music...[8]
+../fullparts/pianoR-part-2.ly:40:7: warning: unterminated tie
+  gis2
+      ~ 
+../fullparts/violin-part-2.ly:65:10: warning: unterminated tie
+  dis2:32
+         ~ 
+../fullparts/flute-part-2.ly:70:12: warning: unterminated tie
+  <g gis >2
+           ~  |
+../fullparts/flute-part-2.ly:70:12: warning: unterminated tie
+  <g gis >2
+           ~  |
+[16]
+../fullparts/cello-part-2.ly:82:5: warning: unterminated tie
+  c2
+    ~ 
+[24]
+../fullparts/pianoR-part-2.ly:132:7: warning: unterminated tie
+  gis2
+      ~ 
+[32][40]
+../fullparts/clarinet-part-2.ly:171:51: warning: unterminated tie
+  \once \override NoteHead.style = #'triangle fis2
+                                                  ~ 
+[48][56][64][72][80]
+../fullparts/clarinet-part-2.ly:310:52: warning: unterminated tie
+  r16  \once \override NoteHead.style = #'slash g8.
+                                                   ~^\markup {sim }  |
+[88]
+../fullparts/pianoL-part-2.ly:343:6: warning: unterminated tie
+  b'2
+     ~  |
+[96][104][112][120][128][136][144]
+../fullparts/perc-part-2.ly:491:8: warning: unterminated tie
+  e2:32
+       ~  |
+../fullparts/pianoL-part-2.ly:541:7: warning: unterminated tie
+  cis2
+      ~ 
+[152]
+../fullparts/perc-part-2.ly:525:8: warning: unterminated tie
+  g4:32
+       ~  |
+../fullparts/perc-part-2.ly:528:11: warning: barcheck failed at: 3/4
+  e2:32~  
+          |
+[160]
+../fullparts/flute-part-2.ly:534:5: warning: unterminated tie
+  d2
+    ~ 
+../fullparts/pianoL-part-2.ly:578:15: warning: unterminated tie
+  cis16  d''16
+              ~  |
+../fullparts/pianoL-part-2.ly:582:25: warning: barcheck failed at: 3/4
+  gis16  a16  g16  a16  
+                        |
+../fullparts/flute-part-2.ly:548:12: warning: unterminated tie
+  <c cis >4
+           ~  |
+../fullparts/flute-part-2.ly:548:12: warning: unterminated tie
+  <c cis >4
+           ~  |
+../fullparts/flute-part-2.ly:551:12: warning: barcheck failed at: 3/4
+  r8  c8~  
+           |
+../fullparts/clarinet-part-2.ly:581:62: warning: barcheck failed at: 3/4
+  \once \override NoteHead.style = #'triangle fis16  fis8.~  
+                                                             |
+../fullparts/pianoR-part-2.ly:583:7: warning: barcheck failed at: 3/4
+  r4  
+      |
+[168]
+../fullparts/cello-part-2.ly:617:14: warning: unterminated tie
+  c16  ais'8.
+             ~  |
+../fullparts/cello-part-2.ly:620:28: warning: barcheck failed at: 3/4
+  cis,,2^\markup {pizz. }  
+                           |
+../fullparts/pianoL-part-2.ly:644:7: warning: unterminated tie
+  fis2
+      ~ 
+[176]
+../fullparts/violin-part-2.ly:674:67: warning: barcheck failed at: 3/4
+  gis8  r16  \once \override NoteHead.style = #'harmonic gis,,16  
+                                                                  |
+../fullparts/clarinet-part-2.ly:686:7: warning: unterminated tie
+  fis2
+      ~ 
+../fullparts/pianoR-part-2.ly:771:5: warning: unterminated tie
+  c2
+    ~  |
+[184]
+../fullparts/violin-part-2.ly:836:7: warning: unterminated tie
+  gis2
+      ~  |
+../fullparts/violin-part-2.ly:873:5: warning: unterminated tie
+  d2
+    ~  |
+[192]
+../fullparts/violin-part-2.ly:991:7: warning: unterminated tie
+  dis2
+      ~ 
+../fullparts/violin-part-2.ly:1023:7: warning: unterminated tie
+  gis2
+      ~ 
+[200]
+../fullparts/cello-part-2.ly:1037:5: warning: unterminated tie
+  e2
+    ~  |
+[208][216][224]
+Preprocessing graphical objects...
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+programming error: Object is not a markup.
+continuing, cross fingers
+This object should be a markup: ()
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+programming error: Object is not a markup.
+continuing, cross fingers
+This object should be a markup: ()
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+programming error: Object is not a markup.
+continuing, cross fingers
+This object should be a markup: ()
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+programming error: Object is not a markup.
+continuing, cross fingers
+This object should be a markup: ()
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+Finding the ideal number of pages...
+Fitting music on 48 or 49 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-DxQg8D'...
+Converting to `fullscore-part-2.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-DxQg8D'...
+Processing `fullscore-part-3.ly'
+Parsing...
+Interpreting music...[8]
+../fullparts/perc-part-3.ly:46:8: warning: unterminated tie
+  e2:32
+       ~  |
+[16][24][32]
+../fullparts/clarinet-part-3.ly:137:7: warning: unterminated tie
+  gis2
+      ~ 
+[40][48][56]
+../fullparts/flute-part-3.ly:199:5: warning: unterminated tie
+  c2
+    ~ 
+../fullparts/violin-part-3.ly:202:5: warning: unterminated tie
+  f2
+    ~ 
+[64][72]
+../fullparts/clarinet-part-3.ly:268:11: warning: unterminated tie
+  r8  f,,8
+          ~  |
+../fullparts/perc-part-3.ly:253:8: warning: unterminated tie
+  e2:32
+       ~ 
+[80][88][96][104][112][120]
+../fullparts/cello-part-3.ly:404:51: warning: unterminated tie
+  \once \override NoteHead.style = #'harmonic cis2
+                                                  ~ 
+[128]
+../fullparts/violin-part-3.ly:444:5: warning: unterminated tie
+  c2
+    ~  |
+../fullparts/perc-part-3.ly:450:7: warning: barcheck failed at: 3/4
+  r2  
+      |
+[136]
+../fullparts/flute-part-3.ly:471:17: warning: barcheck failed at: 3/4
+  r8  r16  c16  
+                |
+../fullparts/pianoR-part-3.ly:461:7: warning: barcheck failed at: 3/4
+  r2  
+      |
+../fullparts/cello-part-3.ly:464:7: warning: barcheck failed at: 3/4
+  r4  
+      |
+../fullparts/pianoL-part-3.ly:483:22: warning: barcheck failed at: 3/4
+  r8  g,16  cis,16~  
+                     |
+../fullparts/clarinet-part-3.ly:503:7: warning: barcheck failed at: 3/4
+  r4  
+      |
+[144]
+../fullparts/flute-part-3.ly:527:48: warning: unterminated tie
+  \once \override NoteHead.style = #'xcircle c2
+                                               ~  |
+../fullparts/perc-part-3.ly:571:8: warning: unterminated tie
+  e2:32
+       ~ 
+[152][160][168]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 34 or 35 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-jr5V6k'...
+Converting to `fullscore-part-3.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-jr5V6k'...
+Processing `perc-0.ly'
+Parsing...
+Interpreting music...[8]
+../fullparts/perc-part-0.ly:35:8: warning: unterminated tie
+  e2:32
+       ~ 
+[16][24][32][40][48][56][64][72][80][88][96][104][112]
+../fullparts/perc-part-0.ly:388:8: warning: unterminated tie
+  e2:32
+       ~  |
+[120][128][136]
+../fullparts/perc-part-0.ly:476:8: warning: unterminated tie
+  a2:32
+       ~ 
+[144][152][160][168][176][184][192][200][208][216][224]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 5 or 6 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-Zsp4JB'...
+Converting to `perc-0.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-Zsp4JB'...
+Processing `perc-1.ly'
+Parsing...
+Interpreting music...[8][16][24][32]
+../fullparts/perc-part-1.ly:151:5: warning: unterminated tie
+  f2
+    ~ 
+[40][48][56][64][72]
+../fullparts/perc-part-1.ly:337:29: warning: barcheck failed at: 3/4
+  f16:32  a16:32  r16  r16  
+                            |
+[80][88][96][104][112][120][128][136][144]
+../fullparts/perc-part-1.ly:562:11: warning: barcheck failed at: 1/2
+  f4:32~  
+          |
+[152][160][168][176][184][192][200]
+../fullparts/perc-part-1.ly:795:5: warning: unterminated tie
+  f2
+    ~ 
+[208][216]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 5 or 6 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-xVXsZ8'...
+Converting to `perc-1.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-xVXsZ8'...
+Processing `perc-2.ly'
+Parsing...
+Interpreting music...[8][16][24][32][40][48][56][64][72][80][88][96][104][112][120][128][136][144]
+../fullparts/perc-part-2.ly:491:8: warning: unterminated tie
+  e2:32
+       ~  |
+[152]
+../fullparts/perc-part-2.ly:525:8: warning: unterminated tie
+  g4:32
+       ~  |
+../fullparts/perc-part-2.ly:528:11: warning: barcheck failed at: 3/4
+  e2:32~  
+          |
+[160][168][176][184][192][200][208]
+Preprocessing graphical objects...
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+programming error: Object is not a markup.
+continuing, cross fingers
+This object should be a markup: ()
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+Finding the ideal number of pages...
+Fitting music on 4 or 5 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-x331Bz'...
+Converting to `perc-2.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-x331Bz'...
+Processing `perc-3.ly'
+Parsing...
+Interpreting music...[8]
+../fullparts/perc-part-3.ly:46:8: warning: unterminated tie
+  e2:32
+       ~  |
+[16][24][32][40][48][56][64][72]
+../fullparts/perc-part-3.ly:253:8: warning: unterminated tie
+  e2:32
+       ~ 
+[80][88][96][104][112][120][128]
+../fullparts/perc-part-3.ly:450:7: warning: barcheck failed at: 3/4
+  r2  
+      |
+[136][144][152][160]
+../fullparts/perc-part-3.ly:571:8: warning: unterminated tie
+  e2:32
+       ~ 
+[168][176][184]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 4 or 5 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-8oF645'...
+Converting to `perc-3.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-8oF645'...
+Processing `piano-0.ly'
+Parsing...
+Interpreting music...[8][16][24]
+../fullparts/pianoR-part-0.ly:85:5: warning: unterminated tie
+  a2
+    ~ 
+[32][40]
+../fullparts/pianoR-part-0.ly:153:7: warning: unterminated tie
+  cis2
+      ~  |
+[48][56][64][72][80][88][96]
+../fullparts/pianoR-part-0.ly:342:5: warning: unterminated tie
+  a2
+    ~  |
+[104][112]
+../fullparts/pianoL-part-0.ly:388:5: warning: unterminated tie
+  b2
+    ~ 
+[120][128][136][144]
+../fullparts/pianoR-part-0.ly:482:5: warning: unterminated tie
+  a2
+    ~  |
+[152][160][168][176][184][192][200][208][216][224][232]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 13 or 14 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-AFA3hm'...
+Converting to `piano-0.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-AFA3hm'...
+Processing `piano-1.ly'
+Parsing...
+Interpreting music...[8][16][24][32][40][48][56][64][72][80][88][96][104][112]
+../fullparts/pianoL-part-1.ly:521:7: warning: unterminated tie
+  dis2
+      ~  |
+../fullparts/pianoR-part-1.ly:531:7: warning: unterminated tie
+  fis2
+      ~  |
+[120]
+../fullparts/pianoR-part-1.ly:557:12: warning: barcheck failed at: 3/4
+  r8  a8~  
+           |
+[128]
+../fullparts/pianoL-part-1.ly:617:5: warning: unterminated tie
+  e2
+    ~  |
+[136]
+../fullparts/pianoL-part-1.ly:652:10: warning: barcheck failed at: 3/4
+  cis4~  
+         |
+[144]
+../fullparts/pianoR-part-1.ly:660:5: warning: unterminated tie
+  c2
+    ~ 
+[152][160][168][176]
+../fullparts/pianoR-part-1.ly:793:5: warning: unterminated tie
+  a4
+    ~  |
+../fullparts/pianoR-part-1.ly:795:7: warning: barcheck failed at: 1/4
+  r2  
+      |
+[184]
+../fullparts/pianoL-part-1.ly:850:7: warning: unterminated tie
+  dis2
+      ~  |
+../fullparts/pianoR-part-1.ly:829:5: warning: unterminated tie
+  a2
+    ~ 
+[192][200]
+../fullparts/pianoL-part-1.ly:951:15: warning: barcheck failed at: 3/8
+  r8.  cis16  
+              |
+../fullparts/pianoR-part-1.ly:952:5: warning: unterminated tie
+  a2
+    ~  |
+[208][216][224][232]
+../fullparts/pianoL-part-1.ly:1143:7: warning: unterminated tie
+  cis2
+      ~ 
+../fullparts/pianoR-part-1.ly:1191:5: warning: unterminated tie
+  b2
+    ~  |
+[240][248][256]
+Preprocessing graphical objects...
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+programming error: Object is not a markup.
+continuing, cross fingers
+This object should be a markup: ()
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+Finding the ideal number of pages...
+Fitting music on 19 or 20 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-K5NHOc'...
+Converting to `piano-1.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-K5NHOc'...
+Processing `piano-2.ly'
+Parsing...
+Interpreting music...[8]
+../fullparts/pianoR-part-2.ly:40:7: warning: unterminated tie
+  gis2
+      ~ 
+[16][24]
+../fullparts/pianoR-part-2.ly:132:7: warning: unterminated tie
+  gis2
+      ~ 
+[32][40][48][56][64][72][80][88]
+../fullparts/pianoL-part-2.ly:343:6: warning: unterminated tie
+  b'2
+     ~  |
+[96][104][112][120][128][136][144]
+../fullparts/pianoL-part-2.ly:541:7: warning: unterminated tie
+  cis2
+      ~ 
+[152][160]
+../fullparts/pianoL-part-2.ly:578:15: warning: unterminated tie
+  cis16  d''16
+              ~  |
+../fullparts/pianoL-part-2.ly:582:25: warning: barcheck failed at: 3/4
+  gis16  a16  g16  a16  
+                        |
+[168]
+../fullparts/pianoR-part-2.ly:583:7: warning: barcheck failed at: 3/4
+  r4  
+      |
+[176]
+../fullparts/pianoL-part-2.ly:644:7: warning: unterminated tie
+  fis2
+      ~ 
+[184][192][200]
+../fullparts/pianoR-part-2.ly:771:5: warning: unterminated tie
+  c2
+    ~  |
+[208][216][224][232][240]
+Preprocessing graphical objects...
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+programming error: Object is not a markup.
+continuing, cross fingers
+This object should be a markup: ()
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+Finding the ideal number of pages...
+Fitting music on 18 or 19 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-NBczdL'...
+Converting to `piano-2.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-NBczdL'...
+Processing `piano-3.ly'
+Parsing...
+Interpreting music...[8][16][24][32][40][48][56][64][72][80][88][96][104][112][120][128][136]
+../fullparts/pianoR-part-3.ly:461:7: warning: barcheck failed at: 3/4
+  r2  
+      |
+../fullparts/pianoL-part-3.ly:483:22: warning: barcheck failed at: 3/4
+  r8  g,16  cis,16~  
+                     |
+[144][152][160][168][176][184][192]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 14 or 15 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-Kxi6lp'...
+Converting to `piano-3.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-Kxi6lp'...
+Processing `violin-0.ly'
+Parsing...
+Interpreting music...[8][16][24][32][40][48][56][64]
+../fullparts/violin-part-0.ly:239:7: warning: unterminated tie
+  ais2
+      ~ 
+[72][80][88][96][104][112][120][128][136][144][152][160][168][176][184][192][200]
+../fullparts/violin-part-0.ly:694:5: warning: unterminated tie
+  b2
+    ~  |
+[208][216][224][232]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 5 or 6 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-hAMMIB'...
+Converting to `violin-0.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-hAMMIB'...
+Processing `violin-1.ly'
+Parsing...
+Interpreting music...[8][16][24][32][40][48][56][64]
+../fullparts/violin-part-1.ly:275:8: warning: unterminated tie
+  g2:32
+       ~  |
+[72][80][88]
+../fullparts/violin-part-1.ly:384:13: warning: barcheck failed at: 3/4
+  r8.  f16  
+            |
+[96][104][112][120][128][136][144][152][160][168][176][184][192][200][208][216]
+../fullparts/violin-part-1.ly:872:5: warning: unterminated tie
+  f2
+    ~ 
+[224]
+../fullparts/violin-part-1.ly:896:8: warning: unterminated tie
+  b2:32
+       ~ 
+../fullparts/violin-part-1.ly:916:5: warning: unterminated tie
+  a2
+    ~  |
+[232][240][248][256][264]
+Preprocessing graphical objects...
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+programming error: Object is not a markup.
+continuing, cross fingers
+This object should be a markup: ()
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+Finding the ideal number of pages...
+Fitting music on 7 or 8 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-PMpaV8'...
+Converting to `violin-1.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-PMpaV8'...
+Processing `violin-2.ly'
+Parsing...
+Interpreting music...[8]
+../fullparts/violin-part-2.ly:65:10: warning: unterminated tie
+  dis2:32
+         ~ 
+[16][24][32][40][48][56][64][72][80][88][96][104][112][120][128][136][144][152][160][168][176][184]
+../fullparts/violin-part-2.ly:674:67: warning: barcheck failed at: 3/4
+  gis8  r16  \once \override NoteHead.style = #'harmonic gis,,16  
+                                                                  |
+[192][200][208][216][224]
+../fullparts/violin-part-2.ly:836:7: warning: unterminated tie
+  gis2
+      ~  |
+[232]
+../fullparts/violin-part-2.ly:873:5: warning: unterminated tie
+  d2
+    ~  |
+[240][248]
+../fullparts/violin-part-2.ly:991:7: warning: unterminated tie
+  dis2
+      ~ 
+[256]
+../fullparts/violin-part-2.ly:1023:7: warning: unterminated tie
+  gis2
+      ~ 
+[264][272][280][288]
+Preprocessing graphical objects...
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+programming error: Object is not a markup.
+continuing, cross fingers
+This object should be a markup: ()
+programming error: Multi_measure_rest::get_rods (): I am not spanned!
+continuing, cross fingers
+Finding the ideal number of pages...
+Fitting music on 8 or 9 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-vx8obH'...
+Converting to `violin-2.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-vx8obH'...
+Processing `violin-3.ly'
+Parsing...
+Interpreting music...[8][16][24][32][40][48][56]
+../fullparts/violin-part-3.ly:202:5: warning: unterminated tie
+  f2
+    ~ 
+[64][72][80][88][96][104][112][120][128]
+../fullparts/violin-part-3.ly:444:5: warning: unterminated tie
+  c2
+    ~  |
+[136][144][152][160][168][176][184][192][200][208][216][224][224]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 5 or 6 pages...
+Drawing systems...
+Layout output to `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-VlARGX'...
+Converting to `violin-3.pdf'...
+Deleting `/var/folders/j7/xt3j201n7s37cq0c_hf6r_vc0000gn/T//lilypond-VlARGX'...
+Success: compilation successfully completed
+-rw-r--r--  1 federicocamarahalac  staff   399297 Mar  6 20:53 scorefiles/cello-0.pdf
+-rw-r--r--  1 federicocamarahalac  staff   708021 Mar  6 20:53 scorefiles/cello-1.pdf
+-rw-r--r--  1 federicocamarahalac  staff   610159 Mar  6 20:53 scorefiles/cello-2.pdf
+-rw-r--r--  1 federicocamarahalac  staff   429157 Mar  6 20:53 scorefiles/cello-3.pdf
+-rw-r--r--  1 federicocamarahalac  staff   421507 Mar  6 20:53 scorefiles/clarinet-0.pdf
+-rw-r--r--  1 federicocamarahalac  staff   698633 Mar  6 20:53 scorefiles/clarinet-1.pdf
+-rw-r--r--  1 federicocamarahalac  staff   580050 Mar  6 20:53 scorefiles/clarinet-2.pdf
+-rw-r--r--  1 federicocamarahalac  staff   430196 Mar  6 20:53 scorefiles/clarinet-3.pdf
+-rw-r--r--  1 federicocamarahalac  staff   381937 Mar  6 20:53 scorefiles/flute-0.pdf
+-rw-r--r--  1 federicocamarahalac  staff   564112 Mar  6 20:54 scorefiles/flute-1.pdf
+-rw-r--r--  1 federicocamarahalac  staff   470419 Mar  6 20:54 scorefiles/flute-2.pdf
+-rw-r--r--  1 federicocamarahalac  staff   392019 Mar  6 20:54 scorefiles/flute-3.pdf
+-rw-r--r--  1 federicocamarahalac  staff  2587382 Mar  6 20:54 scorefiles/fullscore-part-0.pdf
+-rw-r--r--  1 federicocamarahalac  staff  4648570 Mar  6 20:54 scorefiles/fullscore-part-1.pdf
+-rw-r--r--  1 federicocamarahalac  staff  3758584 Mar  6 20:55 scorefiles/fullscore-part-2.pdf
+-rw-r--r--  1 federicocamarahalac  staff  2631729 Mar  6 20:55 scorefiles/fullscore-part-3.pdf
+-rw-r--r--  1 federicocamarahalac  staff   406015 Mar  6 20:55 scorefiles/perc-0.pdf
+-rw-r--r--  1 federicocamarahalac  staff   511614 Mar  6 20:55 scorefiles/perc-1.pdf
+-rw-r--r--  1 federicocamarahalac  staff   421553 Mar  6 20:55 scorefiles/perc-2.pdf
+-rw-r--r--  1 federicocamarahalac  staff   372958 Mar  6 20:55 scorefiles/perc-3.pdf
+-rw-r--r--  1 federicocamarahalac  staff   761018 Mar  6 20:55 scorefiles/piano-0.pdf
+-rw-r--r--  1 federicocamarahalac  staff  1633200 Mar  6 20:56 scorefiles/piano-1.pdf
+-rw-r--r--  1 federicocamarahalac  staff  1158005 Mar  6 20:56 scorefiles/piano-2.pdf
+-rw-r--r--  1 federicocamarahalac  staff   779060 Mar  6 20:56 scorefiles/piano-3.pdf
+-rw-r--r--  1 federicocamarahalac  staff   412707 Mar  6 20:56 scorefiles/violin-0.pdf
+-rw-r--r--  1 federicocamarahalac  staff   690686 Mar  6 20:56 scorefiles/violin-1.pdf
+-rw-r--r--  1 federicocamarahalac  staff   718401 Mar  6 20:56 scorefiles/violin-2.pdf
+-rw-r--r--  1 federicocamarahalac  staff   434740 Mar  6 20:56 scorefiles/violin-3.pdf
+

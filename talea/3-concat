@@ -1,0 +1,65 @@
+#!/bin/bash
+mkdir fullparts
+mkdir stuff
+echo "
+*******
+converting files before anything else
+"
+convert-ly -e part/*/*
+echo "
+*******
+indenting all files and converting relative to absolute notation to avoid errors in concatenations.... might take a while
+*****
+"
+ly -i "indent; rel2abs" part/*/*
+rm part/*/*.ly~
+wait
+echo "
+*******
+finished indenting all files... now concatenate the parts...
+*****
+"
+#for every instrument
+for i in 0 1 2 3 4 5 6
+do
+	case	$i in
+		"0") INSTRUMENT=flute;;
+		"1") INSTRUMENT=clarinet;;
+		"2") INSTRUMENT=violin;;
+		"3") INSTRUMENT=cello;;
+		"4") INSTRUMENT=perc;;
+		"5") INSTRUMENT=pianoL;;
+		"6") INSTRUMENT=pianoR;;
+	esac
+	#for every meta-part
+	for j in 0 1 2 3
+	do
+		#remove next-to-next-to-last bar of first text
+		BAR_TOTAL=$(grep -c "bar" part/"$j"/"$INSTRUMENT"_one_part.ly)
+		grep -n "bar $((BAR_TOTAL-3))" part/"$j"/"$INSTRUMENT"_one_part.ly > stuff/lines.txt
+		LINE_NUMBER=$(cut -f 1 -d : stuff/lines.txt)
+		split -l "$LINE_NUMBER" part/"$j"/"$INSTRUMENT"_one_part.ly stuff/"$INSTRUMENT"_one
+		rm stuff/"$INSTRUMENT"_oneab
+		#remove next-to-next-to-last bar of second text
+		BAR_TOTAL=$(grep -c "bar" part/"$j"/"$INSTRUMENT"_two_part.ly)
+		grep -n "bar $((BAR_TOTAL-3))" part/"$j"/"$INSTRUMENT"_two_part.ly > stuff/lines.txt
+		LINE_NUMBER=$(cut -f 1 -d : stuff/lines.txt)
+		split -l "$LINE_NUMBER" part/"$j"/"$INSTRUMENT"_two_part.ly stuff/"$INSTRUMENT"_two
+		rm stuff/"$INSTRUMENT"_twoab
+		#remove first lines of second and third texts
+		sed -e '1,7d;' stuff/"$INSTRUMENT"_twoaa > stuff/"$INSTRUMENT"_twoaa2
+		sed -e '1,7d;' part/"$j"/"$INSTRUMENT"_three_part.ly > part/"$j"/"$INSTRUMENT"_three_part2.ly
+		# put all files of same instrument in the same file
+		cat stuff/"$INSTRUMENT"_oneaa stuff/"$INSTRUMENT"_twoaa2 part/"$j"/"$INSTRUMENT"_three_part2.ly > fullparts/"$INSTRUMENT"-part-"$j".ly
+	done
+done
+sed -i .bak 's/treble/bass/g' fullparts/cello*
+sed -i .bak 's/treble/bass/g' fullparts/pianoR*
+sed -i .bak 's/treble/percussion/g' fullparts/perc*
+wait
+rm fullparts/*.bak
+echo "
+*******
+finished concatenating parts into fullparts, now simplify the rhythms
+*******"
+exit

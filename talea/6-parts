@@ -1,0 +1,120 @@
+#!/bin/bash
+LILYPOND_VERSION=$(lilypond -v | head -n 1 | cut -d ' ' -f3-)
+DIMENSION="$1"
+if [ $DIMENSION ]; then
+DIMENSION="$1"
+else
+DIMENSION="letter"
+fi
+echo "layout is $DIMENSION, feed me an argument using single quotes to set up a new one, like 'a4 landscape'"
+echo "all parts are being written in <scorefiles> dir"
+PARTID=$(<lib/part-id.txt)
+for j in 0 1 2 3 4;
+do
+case $j in
+"0") 
+INSTRUMENT=flute
+SHORT=fl.;;
+"1") 
+INSTRUMENT=clarinet
+SHORT=cl.;;
+"2") 
+INSTRUMENT=violin
+SHORT=vn.;;
+"3") 
+INSTRUMENT=cello
+SHORT=vc.;;
+"4") 
+INSTRUMENT=perc
+SHORT=perc.;;
+esac
+for i in 0 1 2 3;
+do
+echo "\\version \"$LILYPOND_VERSION\" " > scorefiles/"$INSTRUMENT"-"$i".ly
+echo "
+\\include \"../fullparts/$INSTRUMENT-part-$i.ly\"
+" >> scorefiles/"$INSTRUMENT"-"$i".ly
+echo "
+\\header {
+title = \"a.le.a\"
+subtitle = \"$INSTRUMENT from meta-part $i - sco-$PARTID\"
+composer = \"fdch\"
+tagline = ##f
+}
+\\paper {
+max-systems-per-page = #8
+}
+\\score {
+<<
+\set Score.skipBars = ##t
+\\new Staff \\with { 
+instrumentName = \"$INSTRUMENT\" 
+shortInstrumentName = \"$SHORT\"} 
+{
+<<
+\\new Voice {
+\\"$INSTRUMENT"_one_part
+}
+>>
+}
+>>
+\\layout {
+\\mergeDifferentlyHeadedOn
+\\mergeDifferentlyDottedOn
+#(set-default-paper-size \"$DIMENSION\")
+}
+}" >> scorefiles/"$INSTRUMENT"-"$i".ly
+done
+done
+wait
+INSTRUMENT=piano
+SHORT=pno.
+#FORTHE PIANO PART
+for i in 0 1 2 3;
+do
+echo "\\version \"$LILYPOND_VERSION\" " > scorefiles/"$INSTRUMENT"-"$i".ly
+echo "
+\\include \"../lib/ottavate.ly\"
+\\include \"../fullparts/pianoL-part-$i.ly\"
+\\include \"../fullparts/pianoR-part-$i.ly\"
+" >> scorefiles/"$INSTRUMENT"-"$i".ly
+echo "
+\\header {
+title = \"a.le.a\"
+subtitle = \"$INSTRUMENT from meta-part $i - sco-$PARTID\"
+composer = \"fdch\"
+tagline = ##f
+}
+\\paper {
+max-systems-per-page = #4
+}
+\\score {
+<<
+\set Score.skipBars = ##t
+\\ottavate #'(2 . 7) #'(-5 . -6) ##t
+\\new PianoStaff <<
+\\set PianoStaff.instrumentName = #\"piano \"
+\\set PianoStaff.shortInstrumentName = #\"pno.\"
+\\new Staff = \"pianoL_one_part\" \\pianoL_one_part
+\\new Staff = \"pianoR_one_part\" \\pianoR_one_part
+>>
+>>
+\\layout {
+\\mergeDifferentlyHeadedOn
+\\mergeDifferentlyDottedOn
+#(set-default-paper-size \"$DIMENSION\")
+}
+}" >> scorefiles/"$INSTRUMENT"-"$i".ly
+done
+echo "
+*******
+made all parts
+*******
+"
+echo "
+*******
+final indent
+"
+ly -i "indent" scorefiles/*.ly
+rm scorefiles/*.ly~
+exit

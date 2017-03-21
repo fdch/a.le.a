@@ -1,0 +1,58 @@
+#!/bin/bash
+PARTID="$(cat lib/part-id.txt)"
+MAIN=$(pwd)
+ARG1="$1"
+ARG2="$2"
+ARG3="$3"
+if [ $ARG1 ]; then
+	ARG1="$1"
+else
+	ARG1="11x17"
+fi
+if [ $ARG2 ]; then
+	ARG2="$2"
+else
+	ARG2="letter"
+fi
+./0-clean
+PDPATH=/Applications/Pd-0.47-1.app/Contents/Resources/bin/
+echo "Opening Pd in this location:
+$PDPATH
+If this is not where your Pd version is, edit the <.run> file"
+cd $PDPATH 
+if [ $ARG3 ]; then
+	./pd -nogui -noaudio $MAIN/1-score.pd -send "; reset_part_ID bang"
+else
+	./pd -nogui -noaudio $MAIN/1-score.pd
+fi
+wait
+SIZE=$(du -hs $MAIN/record/1-score-$PARTID.mov)
+echo "
+*******
+
+
+
+video succesfully recorded:
+
+$SIZE
+
+
+
+*******
+"
+sleep 1
+./pd -nogui -noaudio $MAIN/2-read.pd
+wait
+cd $MAIN
+./3-concat
+wait
+./4-simplify
+wait
+./5-score $ARG1
+./6-parts $ARG2
+wait
+./7-compile
+wait
+ls -l scorefiles/*.pdf
+open record/1-score-$PARTID.mov
+exit

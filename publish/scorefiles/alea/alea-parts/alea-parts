@@ -1,0 +1,70 @@
+#!/bin/bash
+#scale=0.7, clip, trim=0.5cm 23cm 1cm 1.3cm
+REFERENCE="../../../../../reference"
+INSTRUMENT=""
+NOTATION=""
+FLUTE="\\section{notation}\\subsection{flute} \\includegraphics[]{$REFERENCE/flute-notation.png}"
+CLARINET="\\section{notation} \\subsection{clarinet} \\includegraphics[]{$REFERENCE/clarinet-notation.png}"
+PERC="\\section{notation} \\subsection{percussion} \\includegraphics[]{$REFERENCE/perc-setup.png}"
+rm alea-parts-tex
+mkdir alea-parts-tex
+cd ../alea-head
+pdflatex alea-head.tex
+cd ../alea-parts
+for i in 0 1 2 3 4 5
+do
+	case	$i in
+		"0") INSTRUMENT=flute
+		NOTATION=$FLUTE;;
+		"1") INSTRUMENT=clarinet
+		NOTATION=$CLARINET;;
+		"2") INSTRUMENT=violin
+		NOTATION="";;
+		"3") INSTRUMENT=cello
+		NOTATION="";;
+		"4") INSTRUMENT=perc
+		NOTATION=$PERC;;
+		"5") INSTRUMENT=piano
+		NOTATION="";
+	esac
+echo "
+% !TEX encoding = UTF-8 Unicode
+
+\\documentclass[12pt, lettersize]{book}
+\\usepackage{pdfpages}
+\\usepackage{graphicx}
+\\usepackage{scrlayer}
+\\title{a.le.a parts}
+\\author{$INSTRUMENT}
+\\date{fdch}
+\\setcounter{secnumdepth}{-1}
+\\DeclareNewLayer[
+    foreground,
+    %textarea,% use only the textarea
+    contents={%
+      \\parbox[b][\\layerheight][c]{\\layerwidth}
+        {\\centering this page is intentionally left blank}%
+    }
+  ]{blankpage.fg}
+\\DeclarePageStyleByLayers{blank}{blankpage.fg}
+\\begin{document}
+\\maketitle
+\\includepdf[pages =-]{../../alea-head/alea-head.pdf}
+
+$NOTATION
+
+\\newpage
+\\null
+\\thispagestyle{blank}
+\\newpage
+
+\\includepdf[pages =-]{../$INSTRUMENT-0.pdf}
+
+
+\\end{document}  
+" > alea-parts-tex/$INSTRUMENT.tex
+cd alea-parts-tex
+pdflatex $INSTRUMENT.tex
+cd ../
+done
+exit

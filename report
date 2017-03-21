@@ -1,0 +1,6 @@
+#!/bin/bash
+REPORT="$1"
+echo "
+## Problem: $1
+" >> issues/ISSUES.md
+exit

@@ -1,0 +1,4 @@
+#!/bin/bash
+ID="$1"
+cp -R publish publish-back-$ID; rm publish-back-$ID/*/*.pdf; ls publish-back-$ID/*
+exit

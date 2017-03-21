@@ -1,0 +1,14 @@
+#!/bin/bash
+rm -R scorefiles
+rm -R scores
+rm -R parts
+rm -R record
+rm -R fullparts
+rm -R stuff
+rm part/*/*
+rm score/*/*
+mkdir scores
+mkdir parts
+mkdir record
+echo "0" > lib/part-id.txt
+exit
