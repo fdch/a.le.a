@@ -1,6 +1,7 @@
 \version "2.19.56" 
 
 \include "../fullparts/video-part-1.ly"
+\include "../lib/videoLyric.txt"
 
 
 \header {
@@ -23,9 +24,13 @@
         \new Voice {
           \video_one_part
         }
+        \new Lyrics {
+          \videoLyric
+        }
       >>
     }
   >>
+  \midi {}
   \layout {
     \mergeDifferentlyHeadedOn
     \mergeDifferentlyDottedOn

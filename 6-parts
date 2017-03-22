@@ -9,7 +9,7 @@ fi
 echo "layout is $DIMENSION, feed me an argument using single quotes to set up a new one, like 'a4 landscape'"
 echo "all parts are being written in <scorefiles> dir"
 PARTID=$(<lib/part-id.txt)
-for j in 0 1 2 3 4 5 6;
+for j in 0 1 2 3 4;
 do
 case $j in
 "0") 
@@ -27,12 +27,6 @@ SHORT=vc.;;
 "4") 
 INSTRUMENT=perc
 SHORT=perc.;;
-"5")
-INSTRUMENT=elec
-SHORT=el.;;
-"6")
-INSTRUMENT=video
-SHORT=vi.;;
 esac
 for i in 0 1 2 3;
 do
@@ -112,6 +106,61 @@ max-systems-per-page = #4
 #(set-default-paper-size \"$DIMENSION\")
 }
 }" >> scorefiles/"$INSTRUMENT"-"$i".ly
+done
+wait
+#FOR ELECTRONIC AND VIDEO LYRICS
+for j in 0 1;
+do
+case $j in
+"0")
+INSTRUMENT=elec
+SHORT=el.;;
+"1")
+INSTRUMENT=video
+SHORT=vi.;;
+esac
+for i in 0 1 2 3;
+do
+echo "\\version \"$LILYPOND_VERSION\" " > scorefiles/"$INSTRUMENT"-"$i".ly
+echo "
+\\include \"../fullparts/"$INSTRUMENT"-part-$i.ly\"
+\\include \"../lib/"$INSTRUMENT"Lyric.txt\"
+" >> scorefiles/"$INSTRUMENT"-"$i".ly
+echo "
+\\header {
+title = \"a.le.a\"
+subtitle = \"$INSTRUMENT from meta-part $i - sco-$PARTID\"
+composer = \"fdch\"
+tagline = ##f
+}
+\\paper {
+max-systems-per-page = #8
+}
+\\score {
+<<
+\set Score.skipBars = ##t
+\\new Staff \\with { 
+instrumentName = \"$INSTRUMENT\" 
+shortInstrumentName = \"$SHORT\"} 
+{
+<<
+\\new Voice {
+\\"$INSTRUMENT"_one_part
+}
+\\new Lyrics {
+\\"$INSTRUMENT"Lyric
+}
+>>
+}
+>>
+\\midi {}
+\\layout {
+\\mergeDifferentlyHeadedOn
+\\mergeDifferentlyDottedOn
+#(set-default-paper-size \"$DIMENSION\")
+}
+}" >> scorefiles/"$INSTRUMENT"-"$i".ly
+done
 done
 echo "
 *******

@@ -4,391 +4,88 @@ clarinet_one_part = {
 
   \clef treble 
   % ________________________________________bar 1 :
+  \once \override NoteHead.style = #'triangle fis4\f^\markup {slap } 
+  fis16  r8. 
   r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
+  r4  |
   % ________________________________________bar 2 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 3 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 4 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 5 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 6 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 7 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 8 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 9 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 10 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 11 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 12 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 13 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 14 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 15 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 16 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 17 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 18 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 19 :
-  r16  r16  r16  r16 
-  r16  \once \override NoteHead.style = #'triangle fis16\f^\markup {slap }  r16  r16 
-  r2  |
-  % ________________________________________bar 20 :
-  r8  fis16  r16 
-  fis2~ 
-  fis8  r8  |
-  % ________________________________________bar 21 :
-  r4. 
-  r16  \once \override NoteHead.style = #'triangle fis16 
-  fis16  r16  fis16  r16 
-  r4  |
-  % ________________________________________bar 22 :
-  fis4.~ 
-  fis16  r16 
-  r16  \once \override NoteHead.style = #'triangle fis8  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 23 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r4  |
-  % ________________________________________bar 24 :
-  r4 
-  f16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 25 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 26 :
-  fis2 
-  r4. 
-  g'16  dis''16\p  |
-  % ________________________________________bar 27 :
-  d''16  dis''16  d''16  dis''16 
-  d''16  dis''16  d''16  r16 
-  c'''8.  r16 
-  fis4~  |
-  % ________________________________________bar 28 :
-  fis4. 
-  r8 
-  r2  |
-  % ________________________________________bar 29 :
-  \once \override NoteHead.style = #'slash g''16^\markup {teeth }  fis16  r16  a'16:32~^\markup {frull. } 
-  a'2:32~ 
-  a'16:32  r8.  |
-  % ________________________________________bar 30 :
-  r4. 
-  r16  \once \override NoteHead.style = #'slash g''16^\markup {teeth } 
-  r16  r8. 
-  r4  |
-  % ________________________________________bar 31 :
-  r8  <fis g >8~^\markup {sing } 
-  <fis g >4~ 
-  <fis g >8  r8 
-  r4  |
-  % ________________________________________bar 32 :
-  r16  r16  r16  r16 
-  \once \override NoteHead.style = #'triangle fis16^\markup {slap }  r16  r8 
-  r4 
-  r8  r16  r16  |
-  % ________________________________________bar 33 :
-  r4. 
-  r16  r16 
   r8.  r16 
+  fis16  \once \override NoteHead.style = #'triangle fis16  fis16  fis16~ 
+  fis4 
+  r16  r8.  |
+  % ________________________________________bar 3 :
+  r4. 
+  fis16  r16 
+  r16  r16  r8 
   r4  |
-  % ________________________________________bar 34 :
+  % ________________________________________bar 4 :
   r4 
-  r16  <fis g >16\mf^\markup {sing }  r16  r16 
-  r4 
-  r16  fis8.  |
-  % ________________________________________bar 35 :
-  r4 
-  r16  fis16  r16  fis16~ 
-  fis8.  r16 
+  <f gis >8.^\markup {sing }  f16:32^\markup {frull. } 
+  r16  r16  r8 
   r4  |
-  % ________________________________________bar 36 :
-  r8  r8 
+  % ________________________________________bar 5 :
+  r8  r16  e''16~ 
+  e''2~ 
+  fis16  r8.  |
+  % ________________________________________bar 6 :
+  r8  f16:32^\markup {frull. }  f16:32^\markup {frull. } 
+  ais4.~ 
+  ais16  r16 
+  r16  f8:32^\markup {frull. }  f16^\markup {legato }  |
+  % ________________________________________bar 7 :
+  a16  cis'16  f16  a16 
+  cis'16  f16  a16  c'16 
+  dis'16  fis16  a16  c'16 
+  dis'16  fis16  a16  ais16\mf  |
+  % ________________________________________bar 8 :
+  b16  cis'16  dis'16  f16 
+  g16  a16  b16  cis'16 
+  dis'16  f16  g16  a16 
+  b16  cis'16  dis'16  r16  |
+  % ________________________________________bar 9 :
   r4 
+  r16  r16  r8 
+  r4 
+  r8  r8  |
+  % ________________________________________bar 10 :
+  r4 
+  r16  r16  r16  r16 
+  r2  |
+  % ________________________________________bar 11 :
+  r16  <fis g >16^\markup {sing }  r16  r16 
+  r16  r16  r16  r16 
   r8  r16  r16 
   r4  |
-  % ________________________________________bar 37 :
-  \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16  \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16 
-  \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16  \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16 
-  fis16  r16  r8 
-  r8.  dis''16  |
-  % ________________________________________bar 38 :
-  d''16  dis''16  d''16  dis''16 
-  d''16  dis''16  d''16  \once \override NoteHead.style = #'xcircle dis''16 
-  \once \override NoteHead.style = #'xcircle d''16  \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16  \once \override NoteHead.style = #'xcircle dis''16 
-  \once \override NoteHead.style = #'xcircle d''16  \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16  r16  |
-  % ________________________________________bar 39 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 40 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 41 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 42 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 43 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  \once \override NoteHead.style = #'triangle fis16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 44 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 45 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  \once \override NoteHead.style = #'triangle fis16  r8  |
-  % ________________________________________bar 46 :
-  fis16  fis8.~ 
-  fis16  \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16  \once \override NoteHead.style = #'xcircle dis''16 
-  \once \override NoteHead.style = #'xcircle d''16  \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16  \once \override NoteHead.style = #'xcircle dis''16 
-  \once \override NoteHead.style = #'xcircle d''16  r16  r8  |
-  % ________________________________________bar 47 :
-  r4 
-  a''16  r16  \once \override NoteHead.style = #'slash g''16^\markup {teeth }  \once \override NoteHead.style = #'xcircle dis''16 
-  \once \override NoteHead.style = #'xcircle d''16  \once \override NoteHead.style = #'xcircle dis''16\f  \once \override NoteHead.style = #'xcircle d''16  \once \override NoteHead.style = #'xcircle dis''16 
-  \once \override NoteHead.style = #'xcircle d''16  \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16  r16  |
-  % ________________________________________bar 48 :
-  r16  fis16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 49 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 50 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 51 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 52 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 53 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 54 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 55 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 56 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 57 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 58 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 59 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 60 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 61 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r8. 
-  r4  |
-  % ________________________________________bar 62 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 63 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 64 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 65 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 66 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 67 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 68 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 69 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 70 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 71 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 72 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 73 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 74 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  \once \override NoteHead.style = #'triangle a8~^\markup {slap }  |
-  % ________________________________________bar 75 :
-  \once \override NoteHead.style = #'triangle a4 
-  fis16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 76 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
-  r16  r16  r16  r16  |
-  % ________________________________________bar 77 :
-  r16  r16  r16  r16 
-  r16  r16  r16  r16 
+  % ________________________________________bar 12 :
+  r8.  r16 
   r4. 
-  f16:32^\markup {frull. }  r16  |
-  % ________________________________________bar 78 :
-  r2 
-  r16  r16  r16  r16 
-  r16  f16:32^\markup {frull. }  r16  \once \override NoteHead.style = #'slash g''16~^\markup {teeth }  |
-  % ________________________________________bar 79 :
-  \once \override NoteHead.style = #'slash g''4. 
   r16  r16 
-  r16 
+  r16  \once \override NoteHead.style = #'slash g''16\f^\markup {teeth }  r16  r16  |
+  % ________________________________________bar 13 :
+  fis16  r8. 
+  r4 
+  r16  fis16  r16  r16 
+  g'4~  |
+  % ________________________________________bar 14 :
+  g'16  r16  r16  r16 
+  r4 
+  r16  r8  r16 
+  r8.  r16  |
+  % ________________________________________bar 15 :
+  fis16  r8. 
+  r16  r16  cis'''8~ 
+  cis'''4~ 
+  cis'''16  dis'16  \once \override NoteHead.style = #'slash g''8~^\markup {teeth }  |
+  % ________________________________________bar 16 :
+  \once \override NoteHead.style = #'slash g''4.~ 
+  \once \override NoteHead.style = #'slash g''16  r16 
+  r16  r8. 
+  r16  r8.  |
+  % ________________________________________bar 17 :
+  r4. 
+  r16  \once \override NoteHead.style = #'triangle a16^\markup {slap } 
+  r4. 
+  dis'16  r16  |
+  % ________________________________________bar 18 :
+  cis'''16  r16  r16 
 }

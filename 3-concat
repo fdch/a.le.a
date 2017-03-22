@@ -12,7 +12,7 @@ indenting all files and converting relative to absolute notation to avoid errors
 *****
 "
 ly -i "indent; rel2abs" part/*/*
-rm part/*/*.ly~
+rm part/*/*.ly~*
 wait
 echo "
 *******
@@ -60,6 +60,16 @@ sed -i .bak 's/treble/bass/g' fullparts/pianoR*
 sed -i .bak 's/treble/percussion/g' fullparts/perc*
 wait
 rm fullparts/*.bak
+cd lib
+echo "videoLyric = \\lyricmode {
+" | cat - videoLyric.txt > tmp && mv tmp videoLyric.txt
+echo "
+}">>videoLyric.txt
+echo "elecLyric = \\lyricmode {
+" | cat - elecLyric.txt > tmp && mv tmp elecLyric.txt
+echo "
+}">>elecLyric.txt
+cd ../
 echo "
 *******
 finished concatenating parts into fullparts, now simplify the rhythms

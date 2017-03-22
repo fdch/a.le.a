@@ -1,6 +1,7 @@
 \version "2.19.56" 
 
 \include "../fullparts/video-part-0.ly"
+\include "../../lib/videoLyric.txt"
 
 
 \header {
@@ -22,6 +23,9 @@
       <<
         \new Voice {
           \video_one_part
+        }
+        \new Lyrics {
+          \videoLyric
         }
       >>
     }

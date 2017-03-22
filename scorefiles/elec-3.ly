@@ -1,6 +1,7 @@
 \version "2.19.56" 
 
 \include "../fullparts/elec-part-3.ly"
+\include "../lib/elecLyric.txt"
 
 
 \header {
@@ -23,9 +24,13 @@
         \new Voice {
           \elec_one_part
         }
+        \new Lyrics {
+          \elecLyric
+        }
       >>
     }
   >>
+  \midi {}
   \layout {
     \mergeDifferentlyHeadedOn
     \mergeDifferentlyDottedOn

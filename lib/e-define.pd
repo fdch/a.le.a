@@ -1,4 +1,4 @@
-#N canvas 248 71 445 565 10;
+#N canvas 248 71 700 614 10;
 #N canvas 688 461 450 300 gestures 0;
 #X obj 21 22 inlet;
 #X obj 48 198 + 1;
@@ -23,7 +23,7 @@
 #X connect 8 0 9 0;
 #X connect 8 1 9 1;
 #X connect 9 0 4 2;
-#X restore 44 166 pd gestures;
+#X restore 41 212 pd gestures;
 #N canvas 561 266 594 449 sounds 0;
 #X obj 28 11 inlet;
 #X obj 46 386 outlet;
@@ -48,15 +48,15 @@
 #X connect 8 0 9 1;
 #X connect 8 1 5 0;
 #X connect 9 0 8 0;
-#X restore 49 231 pd sounds;
-#X obj 43 137 t b a, f 25;
-#X obj 203 391 list prepend;
-#X obj 125 298 list prepend;
-#X obj 45 196 t a a, f 19;
+#X restore 46 277 pd sounds;
+#X obj 40 183 t b a, f 25;
+#X obj 200 437 list prepend;
+#X obj 122 344 list prepend;
+#X obj 42 242 t a a, f 19;
 #X obj 39 14 inlet;
-#X obj 199 470 outlet;
-#X obj 167 10 inlet;
-#X text 205 11 en values for new probs;
+#X obj 196 516 outlet;
+#X obj 337 12 inlet;
+#X text 282 33 en values for new probs;
 #X connect 0 0 5 0;
 #X connect 1 0 4 0;
 #X connect 2 0 0 0;
