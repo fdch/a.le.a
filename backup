@@ -1,4 +1,23 @@
 #!/bin/bash
-ID="$1"
-cp -R publish publish-back-$ID; rm publish-back-$ID/*/*.pdf; ls publish-back-$ID/*
+FILE=$1
+ID=$2
+
+if [$ID] ; then
+echo "id is $ID"
+else
+echo "provide an ID in arg 2"
+fi
+     
+if [$FILE] ; then
+echo "writing $FILE in backups/"
+else
+echo "provide a filename in arg 1"
+fi
+
+if [$FILE && $ID] ; then     
+cp  -R $FILE backups/$FILE-$ID; ls backups
+else
+echo "no arguments provided"
+fi
+
 exit

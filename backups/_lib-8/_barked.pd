@@ -1,0 +1,10 @@
+#N canvas 104 463 267 157 12;
+#X obj 25 12 inlet;
+#X obj 207 14 inlet;
+#X obj 39 38 r \$1-barked;
+#X obj 25 97 clone _harm \$2 \$3 \$1;
+#X msg 39 63 next bang;
+#X connect 0 0 3 0;
+#X connect 1 0 3 1;
+#X connect 2 0 4 0;
+#X connect 4 0 3 0;
