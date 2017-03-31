@@ -33,11 +33,11 @@
   % ________________________________________bar 8 :
   r16  r8. 
   r4 
-  r8  f''8~^\markup {pizz. } 
-  f''4~  |
+  r8  gis8~^\markup {pizz. } 
+  gis4~  |
   % ________________________________________bar 9 :
-  f''4 
-  gis'16  r16  r8 
+  gis4 
+  gis16  r16  r8 
   r16  r16  gis8~^\markup {arco } 
   gis8.  gis16^\markup {pizz. }  |
   % ________________________________________bar 10 :
@@ -59,8 +59,8 @@
   gis16^\markup {pizz. }  r8. 
   r4  |
   % ________________________________________bar 14 :
-  d''4.~ 
-  d''16  r16 
+  gis4.~ 
+  gis16  r16 
   gis16  r16  r16  \once \override NoteHead.style = #'harmonic f''16 
   \once \override NoteHead.style = #'harmonic e''16  \once \override NoteHead.style = #'harmonic f''16  \once \override NoteHead.style = #'harmonic e''16  \once \override NoteHead.style = #'harmonic f''16  |
   % ________________________________________bar 15 :
@@ -96,9 +96,9 @@
   r4 
   r16  f''16  e''16  f''16 
   e''16  f''16  e''16  f''16 
-  e''16  r16  a'''16^\markup {arco }  r16  |
+  e''16  r16  gis16^\markup {arco }  r16  |
   % ________________________________________bar 22 :
-  \once \override NoteHead.style = #'harmonic b16  gis8.~^\markup {pizz. } 
+  \once \override NoteHead.style = #'harmonic gis16  gis8.~^\markup {pizz. } 
   gis4~ 
   gis16  r8. 
   r4  |
@@ -122,7 +122,7 @@
   gisih4~  |
   % ________________________________________bar 27 :
   gisih8  r16  r16 
-  bih16^\markup {pizz. }  r16  r8 
+  gisih16^\markup {pizz. }  r16  r8 
   r4 
   r8  gisih16  gisih16~  |
   % ________________________________________bar 28 :

@@ -18,16 +18,16 @@ clarinet_one_part = \relative c {
   r2  |
   % ________________________________________bar 4 :
   r4 
-  <f gis >8.^\markup {sing }  f16:32^\markup {frull. } 
+  <f fis >8.^\markup {sing }  f16:32^\markup {frull. } 
   r2  |
   % ________________________________________bar 5 :
-  r8  r16  e''16~ 
-  e2~ 
-  fis,,16  r8.  |
+  r8  r16  fis16~ 
+  fis2~ 
+  fis16  r8.  |
   % ________________________________________bar 6 :
   r8  f16:32^\markup {frull. }  f16:32^\markup {frull. } 
-  ais4.~ 
-  ais16  r16 
+  fis4.~ 
+  fis16  r16 
   r16  f8:32^\markup {frull. }  f16^\markup {legato }  |
   % ________________________________________bar 7 :
   a16  cis16  f,16  a16 
@@ -55,14 +55,14 @@ clarinet_one_part = \relative c {
   fis,,16  r8. 
   r4 
   r16  fis16  r8 
-  g'4~  |
+  fis4~  |
   % ________________________________________bar 14 :
-  g16  r16  r8 
+  fis16  r16  r8 
   r4 
   r16  r8  r16 
   r4  |
   % ________________________________________bar 15 :
-  f,16  \once \override NoteHead.style = #'triangle f16  r8 
+  f16  \once \override NoteHead.style = #'triangle f16  r8 
   \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d16  \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle d16 
   \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle d16  \once \override NoteHead.style = #'xcircle dis16\p  \once \override NoteHead.style = #'xcircle d16  |
   % ________________________________________bar 2 :
@@ -84,9 +84,9 @@ clarinet_one_part = \relative c {
   f16  dis''16  d16  dis16 
   d16  dis16  d16  dis16  |
   % ________________________________________bar 6 :
-  d16  g,,8.:32~^\markup {frull. } 
-  g4:32~ 
-  g16:32  r16  r8 
+  d16  f,,8.:32~^\markup {frull. } 
+  f4:32~ 
+  f16:32  r16  r8 
   r8  <f fis >16^\markup {sing }  r16  |
   % ________________________________________bar 7 :
   r2 
@@ -109,9 +109,9 @@ clarinet_one_part = \relative c {
   \once \override NoteHead.style = #'slash g''4~^\markup {teeth }  |
   % ________________________________________bar 11 :
   \once \override NoteHead.style = #'slash g4. 
-  ais,,16  <cis d >16~^\markup {sing } 
-  <cis d >4 
-  f,16  r16  r8  |
+  f,,16  <f fis >16~^\markup {sing } 
+  <f fis >4 
+  f16  r16  r8  |
   % ________________________________________bar 12 :
   r8.  fis16 
   fis16  r8. 
@@ -149,15 +149,15 @@ clarinet_one_part = \relative c {
   % ________________________________________bar 19 :
   fis8  r8 
   r4 
-  fis'2:32^\markup {frull. }  |
+  f2:32^\markup {frull. }  |
   % ________________________________________bar 20 :
-  f,16:32^\markup {frull. }  r16  fis16  r16 
+  f16:32^\markup {frull. }  r16  fis16  r16 
   r2 
   r4  |
   % ________________________________________bar 21 :
   r4 
-  f'''4 
-  fis,,,16  r8. 
+  fis4 
+  fis16  r8. 
   r4  |
   % ________________________________________bar 22 :
   fis16  r8. 
@@ -182,30 +182,30 @@ clarinet_one_part = \relative c {
   R1  |
   % ________________________________________bar 28 :
   r2 
-  r8.  cis'''16 
+  r8.  fis16 
   r4  |
   % ________________________________________bar 29 :
   r2 
-  \once \override NoteHead.style = #'triangle fis,,,2~^\markup {slap }  |
+  \once \override NoteHead.style = #'triangle fis2~^\markup {slap }  |
   % ________________________________________bar 30 :
   \once \override NoteHead.style = #'triangle fis16  r16  r8 
-  r8  r16  dis'16 
+  r8  r16  fis16 
   r2  |
   % ________________________________________bar 31 :
   r2 
-  fis,4.~ 
+  fis4.~ 
   fis16  \once \override NoteHead.style = #'triangle fis16  |
   % ________________________________________bar 32 :
   fis16  r8. 
   r4 
-  <fis cis' >8.^\markup {sing }  r16 
+  <fis g >8.^\markup {sing }  r16 
   r4  |
   % ________________________________________bar 33 :
   r2 
-  \once \override NoteHead.style = #'slash g''16^\markup {teeth }  r16  r16  ais,,16~ 
-  ais4~  |
+  \once \override NoteHead.style = #'slash g''16^\markup {teeth }  r16  r16  fis,,16~ 
+  fis4~  |
   % ________________________________________bar 34 :
-  ais8.  fis16 
+  fis8.  fis16 
   r2 
   r4  |
   % ________________________________________bar 35 :
@@ -224,8 +224,8 @@ clarinet_one_part = \relative c {
   % ________________________________________bar 4 :
   fis8.  f16:32^\markup {frull. } 
   r4 
-  r16  \once \override NoteHead.style = #'triangle b8.~^\markup {slap } 
-  \once \override NoteHead.style = #'triangle b16  fis16  \once \override NoteHead.style = #'slash g''16^\markup {teeth }  r16  |
+  r16  \once \override NoteHead.style = #'triangle fis8.~^\markup {slap } 
+  \once \override NoteHead.style = #'triangle fis16  fis16  \once \override NoteHead.style = #'slash g''16^\markup {teeth }  r16  |
   % ________________________________________bar 5 :
   r2 
   r8  r16  g,,16 
@@ -257,7 +257,7 @@ clarinet_one_part = \relative c {
   % ________________________________________bar 11 :
   r8  fis16  \once \override NoteHead.style = #'slash g''16~^\markup {teeth } 
   \once \override NoteHead.style = #'slash g4~ 
-  \once \override NoteHead.style = #'slash g8  r16  <fis,, ais >16^\markup {sing } 
+  \once \override NoteHead.style = #'slash g8  r16  <fis,, g >16^\markup {sing } 
   \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d16\p  \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle d16  |
   % ________________________________________bar 12 :
   \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle d16  \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle d16 
@@ -270,8 +270,8 @@ clarinet_one_part = \relative c {
   r8  fis,,8~  |
   % ________________________________________bar 14 :
   fis4~ 
-  fis16  a8.:32~^\markup {frull. } 
-  a8:32  r8 
+  fis16  f8.:32~^\markup {frull. } 
+  f8:32  r8 
   r4  |
   % ________________________________________bar 15 :
   r8.  f16 
@@ -315,17 +315,17 @@ clarinet_one_part = \relative c {
   % ________________________________________bar 23 :
   fis4. 
   r16  fis16 
-  b16:32^\markup {frull. }  r16  fis8~ 
+  f16:32^\markup {frull. }  r16  fis8~ 
   fis4~  |
   % ________________________________________bar 24 :
   fis8  r8 
   r8.  fis16 
-  r16  cis'''8.~ 
-  cis4  |
+  r16  fis8.~ 
+  fis4  |
   % ________________________________________bar 25 :
   r2 
-  r16  \once \override NoteHead.style = #'slash g16\mf^\markup {teeth }  g,8~ 
-  g8  r16  fis,16  |
+  r16  \once \override NoteHead.style = #'slash g''16\mf^\markup {teeth }  fis,,8~ 
+  fis8  r16  fis16  |
   % ________________________________________bar 26 :
   r4. 
   fis16  r16 
@@ -359,7 +359,7 @@ clarinet_one_part = \relative c {
   r16  fis8.~ 
   fis4~  |
   % ________________________________________bar 33 :
-  fis8  gis''16  fis,,16~ 
+  fis8  fis16  fis16~ 
   fis4~ 
   fis16  r16  r8 
   r4  |
@@ -387,7 +387,6 @@ clarinet_one_part = \relative c {
   r8  fis8~ 
   fis4  |
   % ________________________________________bar 39 :
-  r16  b8  r16 
-  r16  fis16  r8 
-  r8. 
+  r16  fis8  r16 
+  r16  fis16 
 }

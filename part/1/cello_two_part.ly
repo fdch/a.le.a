@@ -5,7 +5,7 @@ cello_two_part = {
   \clef treble 
   % ________________________________________bar 1 :
   r16  r8. 
-  r16  r16  \once \override NoteHead.style = #'harmonic cis,16  f,16^\markup {arco } 
+  r16  r16  \once \override NoteHead.style = #'harmonic cis,16  cis,16^\markup {arco } 
   r16  ais,8.~ 
   ais,16  b,16  c,8~  |
   % ________________________________________bar 2 :
@@ -63,22 +63,22 @@ cello_two_part = {
   r4 
   r16  r16  r16  r16  |
   % ________________________________________bar 13 :
-  \once \override NoteHead.style = #'harmonic cis,16  r16  g,16^\markup {pizz. }  r16 
+  \once \override NoteHead.style = #'harmonic cis,16  r16  cis,16^\markup {pizz. }  r16 
   r2 
-  r16  ais8.~  |
+  r16  cis,8.~  |
   % ________________________________________bar 14 :
-  ais4~ 
-  ais16  r16  r8 
+  cis,4~ 
+  cis,16  r16  r8 
   r4 
   r16  r16  cis,16  cis,16  |
   % ________________________________________bar 15 :
   r16  r16  r8 
   r2 
-  r16  f,8.~^\markup {arco }  |
+  r16  cis,8.~^\markup {arco }  |
   % ________________________________________bar 16 :
-  f,4~ 
-  f,16  cis,16^\markup {pizz. }  cis'8~^\markup {arco } 
-  cis'16  r8. 
+  cis,4~ 
+  cis,16  cis,16^\markup {pizz. }  cis,8~^\markup {arco } 
+  cis,16  r8. 
   r8  r16  r16  |
   % ________________________________________bar 17 :
   r16  cis,16^\markup {pizz. }  cis,8~ 
@@ -92,11 +92,11 @@ cello_two_part = {
   % ________________________________________bar 19 :
   r4. 
   cis,16  r16 
-  r16  \once \override NoteHead.style = #'harmonic e,16  r8 
+  r16  \once \override NoteHead.style = #'harmonic cis,16  r8 
   r16  r16  cis,8~^\markup {pizz. }  |
   % ________________________________________bar 20 :
   cis,4 
-  g,16  r16  \once \override NoteHead.style = #'harmonic cis,8~ 
+  cis,16  r16  \once \override NoteHead.style = #'harmonic cis,8~ 
   \once \override NoteHead.style = #'harmonic cis,8.  r16 
   r4  |
   % ________________________________________bar 21 :
@@ -124,7 +124,7 @@ cello_two_part = {
   r4  |
   % ________________________________________bar 26 :
   r4 
-  r16  cis'16^\markup {arco }  r16  r16 
+  r16  cis,16^\markup {arco }  r16  r16 
   cis,2^\markup {pizz. }  |
   % ________________________________________bar 27 :
   cis,16  r8. 
@@ -157,15 +157,15 @@ cello_two_part = {
   cis,16  r8. 
   r4  |
   % ________________________________________bar 33 :
-  r16  g,8.~ 
-  g,16  cis,16  r16  r16 
+  r16  cis,8.~ 
+  cis,16  cis,16  r16  r16 
   r4 
   r16  r8.  |
   % ________________________________________bar 34 :
   r4. 
-  r16  e,16~ 
-  e,4~ 
-  e,16  gis,16^\markup {legato }  b,16  d,16  |
+  r16  cis,16~ 
+  cis,4~ 
+  cis,16  gis,16^\markup {legato }  b,16  d,16  |
   % ________________________________________bar 35 :
   f,16  gis,16  d,16  gis,16 
   a,16  ais,16  b,16  c,16 
@@ -189,8 +189,8 @@ cello_two_part = {
   % ________________________________________bar 39 :
   r4 
   cisih,16  r16  r8 
-  r16  g8.~ 
-  g4  |
+  r16  cis,8.~ 
+  cis,4  |
   % ________________________________________bar 40 :
   r16  c,16:32  e'16  dis'16 
   e'16  dis'16  e'16  dis'16 
@@ -199,8 +199,8 @@ cello_two_part = {
   % ________________________________________bar 41 :
   dis'16  e'16  dis'16  e'16 
   dis'16  e'16  dis'16  cis,16 
-  r16  ais8.~ 
-  ais4  |
+  r16  cis,8.~ 
+  cis,4  |
   % ________________________________________bar 42 :
   r16 
 }

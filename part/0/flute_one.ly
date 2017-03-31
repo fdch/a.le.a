@@ -34,8 +34,8 @@ flute_one_part = {
   c'16\mf  r16  r8 
   r4  |
   % ________________________________________bar 2 :
-  r8  \once \override NoteHead.style = #'xcircle ais'8~^\markup {B.P. } 
-  \once \override NoteHead.style = #'xcircle ais'8  c'16  r16 
+  r8  \once \override NoteHead.style = #'xcircle c'8~^\markup {B.P. } 
+  \once \override NoteHead.style = #'xcircle c'8  c'16  r16 
   r2  |
   % ________________________________________bar 3 :
   <c' cis' >2~^\markup {sing } 
@@ -43,10 +43,10 @@ flute_one_part = {
   r16  r16  r8  |
   % ________________________________________bar 4 :
   r8  r16  \once \override NoteHead.style = #'xcircle c'16^\markup {B.P. } 
-  \once \override NoteHead.style = #'triangle e'2^\markup {slap } 
-  r16  \once \override NoteHead.style = #'triangle e'8.~^\markup {slap }  |
+  \once \override NoteHead.style = #'triangle c'2^\markup {slap } 
+  r16  \once \override NoteHead.style = #'triangle c'8.~^\markup {slap }  |
   % ________________________________________bar 5 :
-  \once \override NoteHead.style = #'triangle e'16  r16  <c' cis' >16^\markup {sing }  r16 
+  \once \override NoteHead.style = #'triangle c'16  r16  <c' cis' >16^\markup {sing }  r16 
   r4 
   r8.  b16~ 
   b4~  |
@@ -113,7 +113,7 @@ flute_one_part = {
   r4  |
   % ________________________________________bar 19 :
   r8  r16  r16 
-  r16  r16  g'16 
+  r16  r16  c'16 
 }
 
 \score {

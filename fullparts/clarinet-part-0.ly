@@ -34,11 +34,11 @@ clarinet_one_part = \relative c {
   \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle d16  fis,,16  fis16 
   r16  \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d16  \once \override NoteHead.style = #'xcircle dis16 
   \once \override NoteHead.style = #'xcircle d16  \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle d16  \once \override NoteHead.style = #'xcircle dis16 
-  \once \override NoteHead.style = #'xcircle d16  <cis' e >16^\markup {sing }  r8  |
+  \once \override NoteHead.style = #'xcircle d16  <fis,, g >16^\markup {sing }  r8  |
   % ________________________________________bar 8 :
   R1  |
   % ________________________________________bar 9 :
-  fis,,,16  r16  dis''16  d16 
+  fis16  r16  dis''16  d16 
   dis16  d16  dis16  d16 
   dis16  d16  r8 
   r4  |
@@ -61,7 +61,7 @@ clarinet_one_part = \relative c {
   dis16  r8. 
   r8.  fis,16  |
   % ________________________________________bar 2 :
-  e''16  r16  \once \override NoteHead.style = #'slash g16^\markup {teeth }  \once \override NoteHead.style = #'xcircle dis16 
+  fis16  r16  \once \override NoteHead.style = #'slash g''16^\markup {teeth }  \once \override NoteHead.style = #'xcircle dis16 
   \once \override NoteHead.style = #'xcircle d16  \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle d16  \once \override NoteHead.style = #'xcircle dis16 
   \once \override NoteHead.style = #'xcircle d16  \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle d16  r16 
   r4  |
@@ -70,11 +70,11 @@ clarinet_one_part = \relative c {
   % ________________________________________bar 4 :
   fis,,4 
   \once \override NoteHead.style = #'slash g''16^\markup {teeth }  r8  r16 
-  r8  g,,8:32~^\markup {frull. } 
-  g16:32  fis16  dis''16  d16\p  |
+  r8  f,,8:32~^\markup {frull. } 
+  f16:32  fis16  dis''16  d16\p  |
   % ________________________________________bar 5 :
   dis16  d16  dis16  d16 
-  dis16  d16  b16  f,16:32~^\markup {frull. } 
+  dis16  d16  fis,,16  f16:32~^\markup {frull. } 
   f8:32  r8 
   r4  |
   % ________________________________________bar 6 :
@@ -92,7 +92,7 @@ clarinet_one_part = \relative c {
   r4  |
   % ________________________________________bar 9 :
   r4. 
-  r16  <fis,, c' >16^\markup {sing } 
+  r16  <fis,, g >16^\markup {sing } 
   r2  |
   % ________________________________________bar 10 :
   r16  f8.:32~^\markup {frull. } 
@@ -115,14 +115,14 @@ clarinet_one_part = \relative c {
   % ________________________________________bar 3 :
   r2 
   r4 
-  r8  cis8~  |
+  r8  fis,,8~  |
   % ________________________________________bar 4 :
-  cis4~ 
-  cis16  r16  r16  fis,,,16~ 
+  fis4~ 
+  fis16  r16  r16  fis16~ 
   fis16  r8. 
-  r16  c''16  r8  |
+  r16  fis16  r8  |
   % ________________________________________bar 5 :
-  r16  r16  r16  fis,,16 
+  r16  r16  r16  fis16 
   r2 
   r4  |
   % ________________________________________bar 6 :
@@ -143,13 +143,13 @@ clarinet_one_part = \relative c {
   r4 
   r8.  fis,,16  |
   % ________________________________________bar 10 :
-  <fis a >16^\markup {sing }  r8. 
+  <fis g >16^\markup {sing }  r8. 
   r4 
   f16:32^\markup {frull. }  fis8.~ 
   fis4~  |
   % ________________________________________bar 11 :
   fis8  r8 
-  <fis ais >16^\markup {sing }  f16^\markup {legato }  g16  a16 
+  <fis g >16^\markup {sing }  f16^\markup {legato }  g16  a16 
   b16\p  cis16  dis16  f,16 
   fis16  g16  gis16  a16  |
   % ________________________________________bar 12 :
@@ -165,11 +165,11 @@ clarinet_one_part = \relative c {
   r8  fis16  r16 
   r16  <fis g >8.~^\markup {sing }  |
   % ________________________________________bar 15 :
-  <fis g >16  r16  fis16  c'''16~ 
-  c2~ 
-  c16  r8.  |
+  <fis g >16  r16  fis16  fis16~ 
+  fis2~ 
+  fis16  r8.  |
   % ________________________________________bar 16 :
-  r8  r16  fis,,,16 
+  r8  r16  fis16 
   r2 
   r8  a16  cis16  |
   % ________________________________________bar 17 :
@@ -224,9 +224,9 @@ clarinet_one_part = \relative c {
   r4  |
   % ________________________________________bar 28 :
   r4 
-  r8  <fis gis >8~^\markup {sing } 
-  <fis gis >4~ 
-  <fis gis >8.  r16  |
+  r8  <fis g >8~^\markup {sing } 
+  <fis g >4~ 
+  <fis g >8.  r16  |
   % ________________________________________bar 29 :
   \once \override NoteHead.style = #'triangle fis16  r16 
 }

@@ -14,12 +14,12 @@ flute_three_part = {
   r16  r8. 
   r4  |
   % ________________________________________bar 3 :
-  r8.  <c' d' >16~^\markup {sing } 
-  <c' d' >4 
+  r8.  <c' cis' >16~^\markup {sing } 
+  <c' cis' >4 
   r16  r8. 
   r4  |
   % ________________________________________bar 4 :
-  <c' dis' >16^\markup {sing }  r16  \once \override NoteHead.style = #'xcircle c'8~^\markup {B.P. } 
+  <c' cis' >16^\markup {sing }  r16  \once \override NoteHead.style = #'xcircle c'8~^\markup {B.P. } 
   \once \override NoteHead.style = #'xcircle c'4~ 
   \once \override NoteHead.style = #'xcircle c'8  r16  \xNote c'16~^\markup {a } 
   \xNote c'16  r16  r8  |
@@ -37,14 +37,14 @@ flute_three_part = {
   r8  r16  r16 
   r4 
   \once \override NoteHead.style = #'harmonic c'4.^\markup {T.R. } 
-  r16  ais'16  |
+  r16  cih'16  |
   % ________________________________________bar 8 :
   cih'2~\mf 
   cih'16  r16  r8 
   r4  |
   % ________________________________________bar 9 :
   r8  \xNote c'16^\markup {e }  r16 
-  \once \override NoteHead.style = #'harmonic cis'16^\markup {T.R. }  r16  \once \override NoteHead.style = #'triangle c'8~^\markup {slap } 
+  \once \override NoteHead.style = #'harmonic c'16^\markup {T.R. }  r16  \once \override NoteHead.style = #'triangle c'8~^\markup {slap } 
   \once \override NoteHead.style = #'triangle c'8  r16  r16 
   r4  |
   % ________________________________________bar 10 :
@@ -58,11 +58,11 @@ flute_three_part = {
   r8  c'8~  |
   % ________________________________________bar 12 :
   c'4. 
-  <c' d' >8^\markup {sing } 
+  <c' cis' >8^\markup {sing } 
   \xNote c'16^\markup {i }  r16  r8 
-  r16  <c' fis' >8.~^\markup {sing }  |
+  r16  <c' cis' >8.~^\markup {sing }  |
   % ________________________________________bar 13 :
-  <c' fis' >8.  r16 
+  <c' cis' >8.  r16 
   r16  r8. 
   r8  r16  r16 
   r8.  r16  |
@@ -70,7 +70,7 @@ flute_three_part = {
   \once \override NoteHead.style = #'harmonic c'4.^\markup {i } 
   b16:32^\markup {frull. }  r16 
   r4 
-  <c' e' >16^\markup {sing }  c'8.~  |
+  <c' cis' >16^\markup {sing }  c'8.~  |
   % ________________________________________bar 15 :
   c'4~ 
   c'16  e'16  dis'16  e'16 
@@ -91,7 +91,7 @@ flute_three_part = {
   r8.  r16 
   r4  |
   % ________________________________________bar 19 :
-  <cih' gis' >16^\markup {sing }  r16  r8 
+  <cih' cisih' >16^\markup {sing }  r16  r8 
   r4 
   r16  r16  r16  r16 
   r16  r8.  |

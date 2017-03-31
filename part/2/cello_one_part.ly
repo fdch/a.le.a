@@ -22,7 +22,7 @@ cello_one_part = {
   \once \override NoteHead.style = #'harmonic cis,4 
   r4. 
   r16  r16 
-  f16^\markup {arco }  r16  r16  r16  |
+  cis,16^\markup {arco }  r16  r16  r16  |
   % ________________________________________bar 5 :
   r8.  cis,16~^\markup {pizz. } 
   cis,4 
@@ -32,12 +32,12 @@ cello_one_part = {
   cis,16^\markup {pizz. }  r8. 
   r4 
   r8  r8 
-  r16  e8.~  |
+  r16  cis,8.~  |
   % ________________________________________bar 7 :
-  e4.~ 
-  e16  cis,16 
+  cis,4.~ 
+  cis,16  cis,16 
   r16  r16  r8 
-  r16  g,16  r16  r16  |
+  r16  cis,16  r16  r16  |
   % ________________________________________bar 8 :
   cis,2~ 
   cis,8  r16  f,16 
@@ -129,14 +129,14 @@ cello_one_part = {
   r16  r16  dis,16  dis,16 
   c,16:32  r16  e'16\ff  dis'16 
   e'16  dis'16  e'16  dis'16 
-  e'16  dis'16  r16  f,16^\markup {pizz. }  |
+  e'16  dis'16  r16  d,16^\markup {pizz. }  |
   % ________________________________________bar 27 :
   c,8.:32  r16 
   r2 
   d,16  e'16  dis'16  e'16  |
   % ________________________________________bar 28 :
   dis'16  e'16  dis'16  e'16 
-  dis'16  d,16  d,16  \once \override NoteHead.style = #'harmonic d16 
+  dis'16  d,16  d,16  \once \override NoteHead.style = #'harmonic d,16 
   d,16^\markup {arco }  e'16  dis'16  e'16 
   dis'16  e'16  dis'16  e'16  |
   % ________________________________________bar 29 :
@@ -160,7 +160,7 @@ cello_one_part = {
   r16  r8.  |
   % ________________________________________bar 33 :
   r4 
-  r16  ais16\mf  r16  r16 
+  r16  cis,16\mf  r16  r16 
   cis,16  r16  r8 
   r4  |
   % ________________________________________bar 34 :

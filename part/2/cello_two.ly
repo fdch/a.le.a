@@ -31,8 +31,8 @@ cello_two_part = {
   \clef treble 
   % ________________________________________bar 1 :
   r4 
-  r16  r16  gis'16^\markup {arco }  bih,16:32~ 
-  bih,4:32 
+  r16  r16  c,16^\markup {arco }  c,16:32~ 
+  c,4:32 
   r4  |
   % ________________________________________bar 2 :
   r4 
@@ -62,7 +62,7 @@ cello_two_part = {
   r16  cisih,16^\markup {arco }  r16  r16 
   r2  |
   % ________________________________________bar 8 :
-  eih,4.^\markup {pizz. } 
+  cisih,4.^\markup {pizz. } 
   r16  r16 
   r8.  r16 
   r16  r8.  |
@@ -80,8 +80,8 @@ cello_two_part = {
   r16  cis,8.^\markup {pizz. } 
   r16  cis,8^\markup {arco }  r16  |
   % ________________________________________bar 12 :
-  \once \override NoteHead.style = #'harmonic cis'2~ 
-  \once \override NoteHead.style = #'harmonic cis'16  r8. 
+  \once \override NoteHead.style = #'harmonic cis,2~ 
+  \once \override NoteHead.style = #'harmonic cis,16  r8. 
   r4  |
   % ________________________________________bar 13 :
   r8.  r16 
@@ -105,15 +105,15 @@ cello_two_part = {
   % ________________________________________bar 17 :
   r16  cis,16  c,16:32  r16 
   r16  \once \override NoteHead.style = #'harmonic cis,8. 
-  r16  fis,16:32  r8 
+  r16  c,16:32  r8 
   r4  |
   % ________________________________________bar 18 :
   r16  e'16\mf  dis'16  e'16 
   dis'16  e'16  dis'16  e'16 
   dis'16  r8. 
-  r16  ais16^\markup {pizz. }  r8  |
+  r16  cis,16^\markup {pizz. }  r8  |
   % ________________________________________bar 19 :
-  ais,16  r16  r16  r16 
+  cis,16  r16  r16  r16 
   r8  r16  cis,16~ 
   cis,4~ 
   cis,16  \once \override NoteHead.style = #'harmonic cis,16  r8  |
@@ -125,8 +125,8 @@ cello_two_part = {
   % ________________________________________bar 21 :
   cis,4. 
   r16  r16 
-  r16  e,16  fis,8:32~ 
-  fis,16:32  cis16^\markup {arco }  r8  |
+  r16  cis,16  c,8:32~ 
+  c,16:32  cis,16^\markup {arco }  r8  |
   % ________________________________________bar 22 :
   r8  r16  cis,16^\markup {pizz. } 
   r2 
@@ -134,10 +134,10 @@ cello_two_part = {
   % ________________________________________bar 23 :
   cis,16  r16  r8 
   r8  r16  r16 
-  r8  g,8~ 
-  g,4~  |
+  r8  cis,8~ 
+  cis,4~  |
   % ________________________________________bar 24 :
-  g,4 
+  cis,4 
   r16  c,16:32  cis,8~^\markup {arco } 
   cis,8.  r16 
   r16  r16  e'16  dis'16  |

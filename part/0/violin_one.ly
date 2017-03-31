@@ -62,7 +62,7 @@ violin_one_part = {
   % ________________________________________bar 7 :
   gis16  g16  g16  gis16 
   gis16  gis16  g16  g16 
-  f'16  g8.~ 
+  gis16  g8.~ 
   g4~  |
   % ________________________________________bar 8 :
   g8.  g16:32\ppp 
@@ -81,9 +81,9 @@ violin_one_part = {
   \once \override NoteHead.style = #'harmonic f''16  \once \override NoteHead.style = #'harmonic e''16  \once \override NoteHead.style = #'harmonic f''16  \once \override NoteHead.style = #'harmonic e''16  |
   % ________________________________________bar 11 :
   \once \override NoteHead.style = #'harmonic f''16  \once \override NoteHead.style = #'harmonic e''16  \once \override NoteHead.style = #'harmonic gis8~ 
-  \once \override NoteHead.style = #'harmonic gis16  r16  r16  d''16~^\markup {pizz. } 
-  d''4~ 
-  d''8  r8  |
+  \once \override NoteHead.style = #'harmonic gis16  r16  r16  gis16~^\markup {pizz. } 
+  gis4~ 
+  gis8  r8  |
   % ________________________________________bar 12 :
   r16  r16  gis16^\markup {arco }  gis16~\f^\markup {pizz. } 
   gis8.  r16 
@@ -91,10 +91,10 @@ violin_one_part = {
   % ________________________________________bar 13 :
   r16  f''16  e''16  f''16 
   e''16  f''16  e''16  f''16 
-  e''16  b16  d'''8~ 
-  d'''4~  |
+  e''16  gis16  gis8~ 
+  gis4~  |
   % ________________________________________bar 14 :
-  d'''8  gis16  r16 
+  gis8  gis16  r16 
   r2 
   gis4~  |
   % ________________________________________bar 15 :
@@ -119,18 +119,18 @@ violin_one_part = {
   % ________________________________________bar 19 :
   r2 
   r16  r8  r16 
-  r16  r16  ais'16  r16  |
+  r16  r16  gis16  r16  |
   % ________________________________________bar 20 :
   \once \override NoteHead.style = #'harmonic gis4. 
   r8 
   r8  r8 
-  r16  r16  r16  gis'16^\markup {pizz. }  |
+  r16  r16  r16  gis16^\markup {pizz. }  |
   % ________________________________________bar 21 :
-  gis16  b8.~ 
-  b16  r16  r8 
+  gis16  gis8.~ 
+  gis16  r16  r8 
   r2  |
   % ________________________________________bar 22 :
-  f''16  e''16 
+  f''16  e''16  f''16 
 }
 
 \score {

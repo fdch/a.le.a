@@ -2,7 +2,7 @@
   r4 
   r8  r16  r16  |
   % ________________________________________bar 2 :
-  \once \override NoteHead.style = #'xcircle b''16^\markup {B.P. }  r8. 
+  \once \override NoteHead.style = #'xcircle c'16^\markup {B.P. }  r8. 
   r8.  c'16 
   r16  \once \override NoteHead.style = #'triangle c'16  r8 
   r8.  r16  |
@@ -11,8 +11,8 @@
   r16  r16  r8 
   r2  |
   % ________________________________________bar 4 :
-  \once \override NoteHead.style = #'harmonic fis'16^\markup {T.R. }  r16  \once \override NoteHead.style = #'triangle fis'8~^\markup {T.R. } 
-  \once \override NoteHead.style = #'triangle fis'4 
+  \once \override NoteHead.style = #'harmonic cis'16^\markup {T.R. }  r16  \once \override NoteHead.style = #'triangle cis'8~^\markup {T.R. } 
+  \once \override NoteHead.style = #'triangle cis'4 
   b16\p  \once \override NoteHead.style = #'xcircle b8.^\markup {B.P. } 
   r4  |
   % ________________________________________bar 5 :
@@ -29,7 +29,7 @@
   c'2~ 
   c'16  r16  r8  |
   % ________________________________________bar 8 :
-  r16  r16  \once \override NoteHead.style = #'triangle d'16^\markup {slap }  r16 
+  r16  r16  \once \override NoteHead.style = #'triangle c'16^\markup {slap }  r16 
   r8.  r16 
   r16  r8. 
   r4  |
@@ -60,12 +60,12 @@
   % ________________________________________bar 14 :
   r8  \xNote c'16^\markup {sh }  r16 
   r16  r16  r16  r16 
-  f''4.~ 
-  f''16  r16  |
+  c'4.~ 
+  c'16  r16  |
   % ________________________________________bar 15 :
   r2 
   r16  r16  r8 
-  r8  <c' e' >16^\markup {sing }  r16  |
+  r8  <c' cis' >16^\markup {sing }  r16  |
   % ________________________________________bar 16 :
   r16  r8. 
   r4 
@@ -77,13 +77,13 @@
   r4 
   r8  r16  r16  |
   % ________________________________________bar 18 :
-  r16  \xNote c'16^\markup {e }  <fis' g' >8~^\markup {sing } 
-  <fis' g' >8  \once \override NoteHead.style = #'xcircle e'16  \once \override NoteHead.style = #'xcircle dis'16 
+  r16  \xNote c'16^\markup {e }  <cis' d' >8~^\markup {sing } 
+  <cis' d' >8  \once \override NoteHead.style = #'xcircle e'16  \once \override NoteHead.style = #'xcircle dis'16 
   \once \override NoteHead.style = #'xcircle e'16  \once \override NoteHead.style = #'xcircle dis'16  \once \override NoteHead.style = #'xcircle e'16  \once \override NoteHead.style = #'xcircle dis'16 
   \once \override NoteHead.style = #'xcircle e'4~  |
   % ________________________________________bar 19 :
   \once \override NoteHead.style = #'xcircle e'4~ 
-  \once \override NoteHead.style = #'xcircle e'16  \once \override NoteHead.style = #'xcircle dis'16  r16  \once \override NoteHead.style = #'xcircle b'16^\markup {B.P. } 
+  \once \override NoteHead.style = #'xcircle e'16  \once \override NoteHead.style = #'xcircle dis'16  r16  \once \override NoteHead.style = #'xcircle cis'16^\markup {B.P. } 
   r16  r8. 
   r16  \once \override NoteHead.style = #'harmonic cis'8.~^\markup {T.R. }  |
   % ________________________________________bar 20 :
@@ -99,12 +99,12 @@
   % ________________________________________bar 22 :
   r8.  r16 
   r16  \xNote c'16^\markup {e }  r16  r16 
-  r16  <d' dis' >16^\markup {sing }  r16  \once \override NoteHead.style = #'triangle cis'16^\markup {slap } 
+  r16  <cis' d' >16^\markup {sing }  r16  \once \override NoteHead.style = #'triangle cis'16^\markup {slap } 
   \once \override NoteHead.style = #'harmonic cis'16^\markup {slap }  r16  r16  cis'16  |
   % ________________________________________bar 23 :
   r16  r16  b16:32^\markup {frull. }  r16 
-  r16  <ais' b' >16^\markup {sing }  r8 
-  r8  d''16  r16 
+  r16  <cis' d' >16^\markup {sing }  r8 
+  r8  cis'16  r16 
   r4  |
   % ________________________________________bar 24 :
   r8  r16  r16 
@@ -112,8 +112,8 @@
   r16  r16  r16  r16  |
   % ________________________________________bar 25 :
   r16  r16  b16:32^\markup {frull. }  \once \override NoteHead.style = #'harmonic cis'16^\markup {T.R. } 
-  r16  r16  c'8:32~^\markup {frull. } 
-  c'2:32~  |
+  r16  r16  b8:32~^\markup {frull. } 
+  b2:32~  |
   % ________________________________________bar 26 :
   e'16  dis'16  e'16  dis'16 
   e'16  dis'16  e'16  dis'16 
@@ -139,7 +139,7 @@
   % ________________________________________bar 31 :
   r4. 
   r16  r16 
-  g'8.  \once \override NoteHead.style = #'triangle g'16 
+  cih'8.  \once \override NoteHead.style = #'triangle cih'16 
   \once \override NoteHead.style = #'xcircle cih'16^\markup {B.P. }  r16  r16  r16  |
   % ________________________________________bar 32 :
   r4. 
@@ -158,7 +158,7 @@
   % ________________________________________bar 35 :
   r16  r16  r8 
   r4 
-  r16  gis''8  r16 
+  r16  c'8  r16 
   \once \override NoteHead.style = #'harmonic c'16^\markup {T.R. }  r16  r8  |
   % ________________________________________bar 36 :
   r4. 
@@ -182,7 +182,7 @@
   r8  \once \override NoteHead.style = #'triangle c'16  r16 
   r16  r16  r8 
   r8.  c'16 
-  b''8.  r16  |
+  c'8.  r16  |
   % ________________________________________bar 41 :
   r16  r8. 
   r4 

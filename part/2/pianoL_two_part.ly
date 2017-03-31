@@ -27,7 +27,7 @@ pianoL_two_part = {
   cis'4 
   r16  cis'8  r16 
   r16  cis'16  r8 
-  r8  r16  g'''16  |
+  r8  r16  cis'16  |
   % ________________________________________bar 6 :
   g'''16  fis'''16\mf  g'''16  fis'''16 
   g'''16  fis'''16  g'''16  fis'''16 
@@ -42,7 +42,7 @@ pianoL_two_part = {
   <e'''' f'''' fis'''' >16  r16  <e'''' gis'''' e''''' gis''''' >16  r16 
   cisih'4 
   r8.  r16 
-  gih'''16  cisih'16  g'''16  fis'''16  |
+  cisih'16  cisih'16  g'''16  fis'''16  |
   % ________________________________________bar 9 :
   g'''16  fis'''16  g'''16  fis'''16 
   g'''16  fis'''16  r8 
@@ -110,7 +110,7 @@ pianoL_two_part = {
   dis'16  cis'16  a'16  fis'16 
   cis'16  cis'16  r16  cis'16~ 
   cis'8  r8 
-  r16  a''16  cis'8~  |
+  r16  cis'16  cis'8~  |
   % ________________________________________bar 23 :
   cis'4~ 
   cis'16  cis'16  cis'8~ 

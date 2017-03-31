@@ -3,8 +3,8 @@
   r16  r8.  |
   % ________________________________________bar 2 :
   r4 
-  cis,16  e8.~ 
-  e8.  e'16 
+  cis,16  cis,8.~ 
+  cis,8.  e'16 
   e'16  e'16  e'16  e'16  |
   % ________________________________________bar 3 :
   e'16  e'16  dis'16  r16 
@@ -25,10 +25,10 @@
   cis,4~ 
   cis,16  e'16  dis'16  e'16 
   dis'16  e'16  dis'16  e'16 
-  dis'16  r16  \once \override NoteHead.style = #'harmonic cis,16  fis16:32~  |
+  dis'16  r16  \once \override NoteHead.style = #'harmonic cis,16  c,16:32~  |
   % ________________________________________bar 7 :
-  fis4:32~ 
-  fis16:32  c,16:32  r8 
+  c,4:32~ 
+  c,16:32  c,16:32  r8 
   r4 
   cis,8.^\markup {pizz. }  r16  |
   % ________________________________________bar 8 :
@@ -78,11 +78,11 @@
   dis'16  e'16  dis'16  e'16 
   dis'16  e'16  dis'8~  |
   % ________________________________________bar 18 :
-  dis'8  c,16^\markup {pizz. }  gis'16:32~ 
-  gis'2:32~ 
+  dis'8  c,16^\markup {pizz. }  c,16:32~ 
+  c,2:32~ 
   r4  |
   % ________________________________________bar 19 :
-  r16  e,16:32  c,8~^\markup {arco } 
+  r16  c,16:32  c,8~^\markup {arco } 
   c,4~ 
   c,8  r8 
   r8.  c,16^\markup {pizz. }  |
@@ -157,19 +157,19 @@
   r16  cisih,8.~^\markup {arco }  |
   % ________________________________________bar 34 :
   cisih,4. 
-  \once \override NoteHead.style = #'harmonic aisih8~ 
-  \once \override NoteHead.style = #'harmonic aisih8.  r16 
+  \once \override NoteHead.style = #'harmonic cisih,8~ 
+  \once \override NoteHead.style = #'harmonic cisih,8.  r16 
   r4  |
   % ________________________________________bar 35 :
   r8  r16  r16 
-  \once \override NoteHead.style = #'harmonic cisih,16  aisih8.~^\markup {pizz. } 
-  aisih4 
+  \once \override NoteHead.style = #'harmonic cisih,16  cisih,8.~^\markup {pizz. } 
+  cisih,4 
   cisih,16  cisih,8.~  |
   % ________________________________________bar 36 :
   cisih,8.  r16 
   r4 
   r8.  r16 
-  r16  \once \override NoteHead.style = #'harmonic cis16\mf  r8  |
+  r16  \once \override NoteHead.style = #'harmonic cis,16\mf  r8  |
   % ________________________________________bar 37 :
   r4 
   r16  r8. 

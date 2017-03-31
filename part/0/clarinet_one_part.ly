@@ -35,7 +35,7 @@ clarinet_one_part = {
   \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16  fis16  fis16 
   r16  \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16  \once \override NoteHead.style = #'xcircle dis''16 
   \once \override NoteHead.style = #'xcircle d''16  \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16  \once \override NoteHead.style = #'xcircle dis''16 
-  \once \override NoteHead.style = #'xcircle d''16  <cis''' e''' >16^\markup {sing }  r8  |
+  \once \override NoteHead.style = #'xcircle d''16  <fis g >16^\markup {sing }  r8  |
   % ________________________________________bar 8 :
   r4. 
   r16  r16 
@@ -69,7 +69,7 @@ clarinet_one_part = {
   % ________________________________________bar 14 :
   dis''16  d''16  dis''16  d''16 
   dis''16  d''16  r16  fis16 
-  ais16  r16  r8 
+  fis16  r16  r8 
   r16  r16  r8  |
   % ________________________________________bar 15 :
   r8  r16  r16 

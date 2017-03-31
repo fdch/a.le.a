@@ -34,7 +34,7 @@ violin_three_part = {
   r4  |
   % ________________________________________bar 7 :
   r8.  r16 
-  r16  r16  r16  gis'16\mf^\markup {pizz. } 
+  r16  r16  r16  gis16\mf^\markup {pizz. } 
   f''16  e''16  f''16  e''16 
   f''16  e''16  f''16  e''16  |
   % ________________________________________bar 8 :
@@ -54,7 +54,7 @@ violin_three_part = {
   % ________________________________________bar 11 :
   r8.  r16 
   r4 
-  b''16^\markup {pizz. }  r16  r16  r16 
+  gis16^\markup {pizz. }  r16  r16  r16 
   r4  |
   % ________________________________________bar 12 :
   r16  r16  g16:32\p  gis16 
@@ -62,7 +62,7 @@ violin_three_part = {
   \once \override NoteHead.style = #'harmonic gis16  f''16  e''16  f''16 
   e''16  f''16  e''16  f''16  |
   % ________________________________________bar 13 :
-  e''16  e'8.:32 
+  e''16  g8.:32 
   r2 
   r16  r16  g8:32  |
   % ________________________________________bar 14 :
@@ -77,13 +77,13 @@ violin_three_part = {
   r4  |
   % ________________________________________bar 16 :
   r4 
-  b16  r16  r8 
+  gis16  r16  r8 
   r4 
   r8  r16  r16  |
   % ________________________________________bar 17 :
   r4 
-  r16  d'8.~ 
-  d'16  gis16  r16  gis16~ 
+  r16  gis8.~ 
+  gis16  gis16  r16  gis16~ 
   gis4~  |
   % ________________________________________bar 18 :
   gis8.  \once \override NoteHead.style = #'harmonic gis16 
@@ -134,7 +134,7 @@ violin_three_part = {
   \once \override NoteHead.style = #'harmonic g16  f''16  e''16  f''16  |
   % ________________________________________bar 28 :
   e''16  f''16  e''16  f''16 
-  e''16  b16:32  g8~^\markup {pizz. } 
+  e''16  g16:32  g8~^\markup {pizz. } 
   g4~ 
   g8  r16  f''16  |
   % ________________________________________bar 29 :
@@ -167,7 +167,7 @@ violin_three_part = {
   r2  |
   % ________________________________________bar 35 :
   g4.~ 
-  g16  cis''''16^\markup {arco } 
+  g16  g16^\markup {arco } 
   r16  r16  gis8~^\markup {pizz. } 
   gis8  gis16  r16  |
   % ________________________________________bar 36 :
@@ -181,5 +181,5 @@ violin_three_part = {
   r8.  r16 
   r4  |
   % ________________________________________bar 38 :
-  r16  cis'16:32  r16 
+  r16  g16:32  r16  \once \override NoteHead.style = #'harmonic gis16 
 }

@@ -32,8 +32,8 @@ cello_two_part = {
   r2  |
   % ________________________________________bar 7 :
   \once \override NoteHead.style = #'harmonic cis,16  r16  r16  r16 
-  cis4~^\markup {pizz. } 
-  cis16  r8. 
+  cis,4~^\markup {pizz. } 
+  cis,16  r8. 
   fis,16  a,16  c,16\p  d,16  |
   % ________________________________________bar 8 :
   fis,16  ais,16  d,16  dis,16 
@@ -72,7 +72,7 @@ cello_two_part = {
   r8  r8  |
   % ________________________________________bar 15 :
   r4 
-  r16  g,16  r16  r16 
+  r16  cis,16  r16  r16 
   r2  |
   % ________________________________________bar 16 :
   r16  r16  r8 

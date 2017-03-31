@@ -44,7 +44,7 @@ flute_one_part = {
   r16  r16  r16  b16:32~^\markup {frull. } 
   b2:32~  |
   % ________________________________________bar 4 :
-  b16:32^\markup {frull. }  b16:32^\markup {frull. }  <c' e' >16^\markup {sing }  r16 
+  b16:32^\markup {frull. }  b16:32^\markup {frull. }  <c' cis' >16^\markup {sing }  r16 
   r16  r16  e'16  dis'16 
   e'16  dis'16  e'16  dis'16 
   e'16  dis'16  r8  |
@@ -77,7 +77,7 @@ flute_one_part = {
   r16  r16  r8 
   r4  |
   % ________________________________________bar 11 :
-  f''16  \once \override NoteHead.style = #'xcircle cis'16^\markup {B.P. }  r16  r16 
+  c'16  \once \override NoteHead.style = #'xcircle cis'16^\markup {B.P. }  r16  r16 
   r4 
   r8  r16  r16 
   r16  r16  \xNote c'16^\markup {i }  r16  |
@@ -109,7 +109,7 @@ flute_one_part = {
   r16  r8.  |
   % ________________________________________bar 18 :
   r8.  \once \override NoteHead.style = #'triangle c'16^\markup {slap } 
-  \once \override NoteHead.style = #'xcircle b''16^\markup {B.P. }  r16  r8 
+  \once \override NoteHead.style = #'xcircle c'16^\markup {B.P. }  r16  r8 
   r2  |
   % ________________________________________bar 19 :
   r8  r8 
@@ -131,7 +131,7 @@ flute_one_part = {
   c'16  r8. 
   r4  |
   % ________________________________________bar 23 :
-  r8.  d'16:32^\markup {frull. } 
+  r8.  b16:32^\markup {frull. } 
 }
 
 \score {

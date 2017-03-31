@@ -11,7 +11,7 @@ violin_one_part = {
   r8  r16  g16\f^\markup {non-legato } 
   ais16^\markup {non-legato }  r16  r16  r16 
   gis16^\markup {arco }  \once \override NoteHead.style = #'harmonic gis8. 
-  gis16^\markup {pizz. }  c'''16^\markup {arco }  r16  r16  |
+  gis16^\markup {pizz. }  gis16^\markup {arco }  r16  r16  |
   % ________________________________________bar 3 :
   r2 
   r8  r16  r16 

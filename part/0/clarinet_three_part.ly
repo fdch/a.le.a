@@ -17,12 +17,12 @@ clarinet_three_part = {
   r4 
   r16  r16  r8 
   r4 
-  r16  r16  cis'''8~  |
+  r16  r16  fis8~  |
   % ________________________________________bar 4 :
-  cis'''4~ 
-  cis'''16  r16  r16  fis16~ 
+  fis4~ 
+  fis16  r16  r16  fis16~ 
   fis16  r8. 
-  r16  c''16  r8  |
+  r16  fis16  r8  |
   % ________________________________________bar 5 :
   r16  r16  r16  fis16 
   r16  r8. 
@@ -49,13 +49,13 @@ clarinet_three_part = {
   r4 
   r8.  fis16  |
   % ________________________________________bar 10 :
-  <fis a >16^\markup {sing }  r8. 
+  <fis g >16^\markup {sing }  r8. 
   r4 
   f16:32^\markup {frull. }  fis8.~ 
   fis4~  |
   % ________________________________________bar 11 :
   fis8  r16  r16 
-  <fis ais >16^\markup {sing }  f16^\markup {legato }  g16  a16 
+  <fis g >16^\markup {sing }  f16^\markup {legato }  g16  a16 
   b16\p  cis'16  dis'16  f16 
   fis16  g16  gis16  a16  |
   % ________________________________________bar 12 :
@@ -74,9 +74,9 @@ clarinet_three_part = {
   r8  fis16  r16 
   r16  <fis g >8.~^\markup {sing }  |
   % ________________________________________bar 15 :
-  <fis g >16  r16  fis16  c'''16~ 
-  c'''2~ 
-  c'''16  r8.  |
+  <fis g >16  r16  fis16  fis16~ 
+  fis2~ 
+  fis16  r8.  |
   % ________________________________________bar 16 :
   r8  r16  fis16 
   r16  r8. 
@@ -138,9 +138,9 @@ clarinet_three_part = {
   r4  |
   % ________________________________________bar 28 :
   r8  r16  r16 
-  r16  r16  <fis gis >8~^\markup {sing } 
-  <fis gis >4~ 
-  <fis gis >8.  r16  |
+  r16  r16  <fis g >8~^\markup {sing } 
+  <fis g >4~ 
+  <fis g >8.  r16  |
   % ________________________________________bar 29 :
   \once \override NoteHead.style = #'triangle fis16  r16 
 }

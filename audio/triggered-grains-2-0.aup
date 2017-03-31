@@ -1,0 +1,189 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="triggered-grains-2-0_data" version="1.3.0" audacityversion="2.1.3" sel0="0.0000000000" sel1="350.0306575964" vpos="0" h="0.0000000000" zoom="2.2140917751" rate="44100.0" snapto="on" selectionformat="seconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="triggered-grains-2-0" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262145" numsamples="15436352">
+				<waveblock start="0">
+					<pcmaliasblockfile summaryfile="e000019d.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="0" aliaslen="262144" aliaschannel="0" min="-0.28653" max="0.279541" rms="0.022881"/>
+				</waveblock>
+				<waveblock start="262144">
+					<pcmaliasblockfile summaryfile="e0000aaa.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="262144" aliaslen="262144" aliaschannel="0" min="-0.552338" max="0.539001" rms="0.046343"/>
+				</waveblock>
+				<waveblock start="524288">
+					<pcmaliasblockfile summaryfile="e0000ac1.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="524288" aliaslen="262144" aliaschannel="0" min="-0.384796" max="0.381775" rms="0.025925"/>
+				</waveblock>
+				<waveblock start="786432">
+					<pcmaliasblockfile summaryfile="e000056a.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="786432" aliaslen="262144" aliaschannel="0" min="-0.448456" max="0.42865" rms="0.043284"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<pcmaliasblockfile summaryfile="e0000e90.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="1048576" aliaslen="262144" aliaschannel="0" min="-0.596497" max="0.605865" rms="0.05464"/>
+				</waveblock>
+				<waveblock start="1310720">
+					<pcmaliasblockfile summaryfile="e0000ecc.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="1310720" aliaslen="262144" aliaschannel="0" min="-0.315582" max="0.297272" rms="0.028064"/>
+				</waveblock>
+				<waveblock start="1572864">
+					<pcmaliasblockfile summaryfile="e00002a8.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="1572864" aliaslen="262144" aliaschannel="0" min="-0.317139" max="0.373474" rms="0.02098"/>
+				</waveblock>
+				<waveblock start="1835008">
+					<pcmaliasblockfile summaryfile="e000096f.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="1835008" aliaslen="262144" aliaschannel="0" min="-0.269806" max="0.297363" rms="0.023586"/>
+				</waveblock>
+				<waveblock start="2097152">
+					<pcmaliasblockfile summaryfile="e0000379.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="2097152" aliaslen="262144" aliaschannel="0" min="-0.369659" max="0.353027" rms="0.030268"/>
+				</waveblock>
+				<waveblock start="2359296">
+					<pcmaliasblockfile summaryfile="e0000182.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="2359296" aliaslen="262144" aliaschannel="0" min="-0.472198" max="0.496613" rms="0.033167"/>
+				</waveblock>
+				<waveblock start="2621440">
+					<pcmaliasblockfile summaryfile="e0000688.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="2621440" aliaslen="262144" aliaschannel="0" min="-0.472626" max="0.412567" rms="0.036381"/>
+				</waveblock>
+				<waveblock start="2883584">
+					<pcmaliasblockfile summaryfile="e00007ff.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="2883584" aliaslen="262144" aliaschannel="0" min="-0.421753" max="0.414734" rms="0.034696"/>
+				</waveblock>
+				<waveblock start="3145728">
+					<pcmaliasblockfile summaryfile="e0000ef1.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="3145728" aliaslen="262144" aliaschannel="0" min="-0.277954" max="0.241364" rms="0.023227"/>
+				</waveblock>
+				<waveblock start="3407872">
+					<pcmaliasblockfile summaryfile="e00001f4.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="3407872" aliaslen="262144" aliaschannel="0" min="-0.299133" max="0.288666" rms="0.020917"/>
+				</waveblock>
+				<waveblock start="3670016">
+					<pcmaliasblockfile summaryfile="e0000638.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="3670016" aliaslen="262144" aliaschannel="0" min="-0.193359" max="0.179047" rms="0.019166"/>
+				</waveblock>
+				<waveblock start="3932160">
+					<pcmaliasblockfile summaryfile="e00007a9.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="3932160" aliaslen="262144" aliaschannel="0" min="-0.300598" max="0.286743" rms="0.035815"/>
+				</waveblock>
+				<waveblock start="4194304">
+					<pcmaliasblockfile summaryfile="e0000e26.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="4194304" aliaslen="262144" aliaschannel="0" min="-0.358185" max="0.289062" rms="0.027532"/>
+				</waveblock>
+				<waveblock start="4456448">
+					<pcmaliasblockfile summaryfile="e00009a1.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="4456448" aliaslen="262144" aliaschannel="0" min="-0.319" max="0.328979" rms="0.025815"/>
+				</waveblock>
+				<waveblock start="4718592">
+					<pcmaliasblockfile summaryfile="e0000d0e.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="4718592" aliaslen="262144" aliaschannel="0" min="-0.492371" max="0.468964" rms="0.064871"/>
+				</waveblock>
+				<waveblock start="4980736">
+					<pcmaliasblockfile summaryfile="e0000440.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="4980736" aliaslen="262144" aliaschannel="0" min="-0.272125" max="0.33197" rms="0.022924"/>
+				</waveblock>
+				<waveblock start="5242880">
+					<pcmaliasblockfile summaryfile="e000089a.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="5242880" aliaslen="262144" aliaschannel="0" min="-0.274445" max="0.37381" rms="0.026859"/>
+				</waveblock>
+				<waveblock start="5505024">
+					<pcmaliasblockfile summaryfile="e0000488.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="5505024" aliaslen="262144" aliaschannel="0" min="-0.262268" max="0.280121" rms="0.029738"/>
+				</waveblock>
+				<waveblock start="5767168">
+					<pcmaliasblockfile summaryfile="e0000a6c.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="5767168" aliaslen="262144" aliaschannel="0" min="-0.381378" max="0.352478" rms="0.035342"/>
+				</waveblock>
+				<waveblock start="6029312">
+					<pcmaliasblockfile summaryfile="e00002de.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="6029312" aliaslen="262144" aliaschannel="0" min="-0.212769" max="0.21936" rms="0.023876"/>
+				</waveblock>
+				<waveblock start="6291456">
+					<pcmaliasblockfile summaryfile="e000061e.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="6291456" aliaslen="262144" aliaschannel="0" min="-0.266968" max="0.188812" rms="0.020976"/>
+				</waveblock>
+				<waveblock start="6553600">
+					<pcmaliasblockfile summaryfile="e0000122.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="6553600" aliaslen="262144" aliaschannel="0" min="-0.379425" max="0.291412" rms="0.017443"/>
+				</waveblock>
+				<waveblock start="6815744">
+					<pcmaliasblockfile summaryfile="e00001ca.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="6815744" aliaslen="262144" aliaschannel="0" min="-0.595062" max="0.602661" rms="0.029444"/>
+				</waveblock>
+				<waveblock start="7077888">
+					<pcmaliasblockfile summaryfile="e000040b.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="7077888" aliaslen="262144" aliaschannel="0" min="-0.393463" max="0.392639" rms="0.033206"/>
+				</waveblock>
+				<waveblock start="7340032">
+					<pcmaliasblockfile summaryfile="e0000e39.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="7340032" aliaslen="262144" aliaschannel="0" min="-0.462036" max="0.452454" rms="0.037157"/>
+				</waveblock>
+				<waveblock start="7602176">
+					<pcmaliasblockfile summaryfile="e00009df.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="7602176" aliaslen="262144" aliaschannel="0" min="-0.568024" max="0.529449" rms="0.062508"/>
+				</waveblock>
+				<waveblock start="7864320">
+					<pcmaliasblockfile summaryfile="e0000e74.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="7864320" aliaslen="262144" aliaschannel="0" min="-0.638062" max="0.650238" rms="0.109967"/>
+				</waveblock>
+				<waveblock start="8126464">
+					<pcmaliasblockfile summaryfile="e0000aa7.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="8126464" aliaslen="262144" aliaschannel="0" min="-0.637207" max="0.581329" rms="0.064833"/>
+				</waveblock>
+				<waveblock start="8388608">
+					<pcmaliasblockfile summaryfile="e0000c5f.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="8388608" aliaslen="262144" aliaschannel="0" min="-0.450043" max="0.546967" rms="0.043918"/>
+				</waveblock>
+				<waveblock start="8650752">
+					<pcmaliasblockfile summaryfile="e0000b49.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="8650752" aliaslen="262144" aliaschannel="0" min="-0.961395" max="0.999969" rms="0.184648"/>
+				</waveblock>
+				<waveblock start="8912896">
+					<pcmaliasblockfile summaryfile="e0000396.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="8912896" aliaslen="262144" aliaschannel="0" min="-0.728119" max="0.944672" rms="0.130036"/>
+				</waveblock>
+				<waveblock start="9175040">
+					<pcmaliasblockfile summaryfile="e0000306.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="9175040" aliaslen="262144" aliaschannel="0" min="-0.575958" max="0.56662" rms="0.038761"/>
+				</waveblock>
+				<waveblock start="9437184">
+					<pcmaliasblockfile summaryfile="e0000b5d.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="9437184" aliaslen="262144" aliaschannel="0" min="-0.676605" max="0.691345" rms="0.075445"/>
+				</waveblock>
+				<waveblock start="9699328">
+					<pcmaliasblockfile summaryfile="e0000bc5.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="9699328" aliaslen="262144" aliaschannel="0" min="-0.569489" max="0.585266" rms="0.052338"/>
+				</waveblock>
+				<waveblock start="9961472">
+					<pcmaliasblockfile summaryfile="e0000ce4.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="9961472" aliaslen="262144" aliaschannel="0" min="-0.324066" max="0.353729" rms="0.04318"/>
+				</waveblock>
+				<waveblock start="10223616">
+					<pcmaliasblockfile summaryfile="e0000d44.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="10223616" aliaslen="262144" aliaschannel="0" min="-0.711273" max="0.717163" rms="0.12084"/>
+				</waveblock>
+				<waveblock start="10485760">
+					<pcmaliasblockfile summaryfile="e0000d08.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="10485760" aliaslen="262144" aliaschannel="0" min="-0.655151" max="0.641785" rms="0.151022"/>
+				</waveblock>
+				<waveblock start="10747904">
+					<pcmaliasblockfile summaryfile="e0000b91.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="10747904" aliaslen="262144" aliaschannel="0" min="-0.999969" max="0.999969" rms="0.290751"/>
+				</waveblock>
+				<waveblock start="11010048">
+					<pcmaliasblockfile summaryfile="e000058a.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="11010048" aliaslen="262144" aliaschannel="0" min="-0.999969" max="0.999969" rms="0.231911"/>
+				</waveblock>
+				<waveblock start="11272192">
+					<pcmaliasblockfile summaryfile="e0000f99.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="11272192" aliaslen="262144" aliaschannel="0" min="-0.999969" max="0.999969" rms="0.244204"/>
+				</waveblock>
+				<waveblock start="11534336">
+					<pcmaliasblockfile summaryfile="e0000481.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="11534336" aliaslen="262144" aliaschannel="0" min="-0.925262" max="0.999969" rms="0.245622"/>
+				</waveblock>
+				<waveblock start="11796480">
+					<pcmaliasblockfile summaryfile="e0000f0d.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="11796480" aliaslen="262144" aliaschannel="0" min="-0.400024" max="0.999969" rms="0.215012"/>
+				</waveblock>
+				<waveblock start="12058624">
+					<pcmaliasblockfile summaryfile="e0000345.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="12058624" aliaslen="262144" aliaschannel="0" min="-0.194" max="0.68045" rms="0.110455"/>
+				</waveblock>
+				<waveblock start="12320768">
+					<pcmaliasblockfile summaryfile="e0000334.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="12320768" aliaslen="262144" aliaschannel="0" min="-0.355988" max="0.909851" rms="0.161638"/>
+				</waveblock>
+				<waveblock start="12582912">
+					<pcmaliasblockfile summaryfile="e0000be0.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="12582912" aliaslen="262144" aliaschannel="0" min="-0.211578" max="0.999969" rms="0.166809"/>
+				</waveblock>
+				<waveblock start="12845056">
+					<pcmaliasblockfile summaryfile="e000024c.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="12845056" aliaslen="262144" aliaschannel="0" min="-0.394073" max="0.789734" rms="0.126391"/>
+				</waveblock>
+				<waveblock start="13107200">
+					<pcmaliasblockfile summaryfile="e000059d.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="13107200" aliaslen="262144" aliaschannel="0" min="-0.520599" max="0.545868" rms="0.064028"/>
+				</waveblock>
+				<waveblock start="13369344">
+					<pcmaliasblockfile summaryfile="e0000154.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="13369344" aliaslen="262144" aliaschannel="0" min="-0.410675" max="0.329956" rms="0.060292"/>
+				</waveblock>
+				<waveblock start="13631488">
+					<pcmaliasblockfile summaryfile="e0000d49.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="13631488" aliaslen="262144" aliaschannel="0" min="-0.327393" max="0.33017" rms="0.047861"/>
+				</waveblock>
+				<waveblock start="13893632">
+					<pcmaliasblockfile summaryfile="e0000cdb.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="13893632" aliaslen="262144" aliaschannel="0" min="-0.280182" max="0.277039" rms="0.04443"/>
+				</waveblock>
+				<waveblock start="14155776">
+					<pcmaliasblockfile summaryfile="e00009ba.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="14155776" aliaslen="262144" aliaschannel="0" min="-0.117798" max="0.117126" rms="0.012388"/>
+				</waveblock>
+				<waveblock start="14417920">
+					<pcmaliasblockfile summaryfile="e00009d9.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="14417920" aliaslen="262144" aliaschannel="0" min="-0.216309" max="0.227875" rms="0.025521"/>
+				</waveblock>
+				<waveblock start="14680064">
+					<pcmaliasblockfile summaryfile="e0000f8d.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="14680064" aliaslen="262144" aliaschannel="0" min="-0.091553" max="0.096954" rms="0.008441"/>
+				</waveblock>
+				<waveblock start="14942208">
+					<pcmaliasblockfile summaryfile="e0000708.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="14942208" aliaslen="262144" aliaschannel="0" min="-0.010651" max="0.012207" rms="0.001671"/>
+				</waveblock>
+				<waveblock start="15204352">
+					<pcmaliasblockfile summaryfile="e0000dc3.auf" aliasfile="/Users/federicocamarahalac/Documents/fd_work/a.le.a/audio/triggered-grains-2-0.wav" aliasstart="15204352" aliaslen="232000" aliaschannel="0" min="-0.002319" max="0.002167" rms="0.000207"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

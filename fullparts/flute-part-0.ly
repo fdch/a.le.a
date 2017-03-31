@@ -8,8 +8,8 @@ flute_one_part = \relative c' {
   c16\mf  r16  r8 
   r4  |
   % ________________________________________bar 2 :
-  r8  \once \override NoteHead.style = #'xcircle ais'8~^\markup {B.P. } 
-  \once \override NoteHead.style = #'xcircle ais8  c,16  r16 
+  r8  \once \override NoteHead.style = #'xcircle c8~^\markup {B.P. } 
+  \once \override NoteHead.style = #'xcircle c8  c16  r16 
   r2  |
   % ________________________________________bar 3 :
   <c cis >2~^\markup {sing } 
@@ -17,10 +17,10 @@ flute_one_part = \relative c' {
   r4  |
   % ________________________________________bar 4 :
   r8  r16  \once \override NoteHead.style = #'xcircle c16^\markup {B.P. } 
-  \once \override NoteHead.style = #'triangle e2^\markup {slap } 
-  r16  \once \override NoteHead.style = #'triangle e8.~^\markup {slap }  |
+  \once \override NoteHead.style = #'triangle c2^\markup {slap } 
+  r16  \once \override NoteHead.style = #'triangle c8.~^\markup {slap }  |
   % ________________________________________bar 5 :
-  \once \override NoteHead.style = #'triangle e16  r16  <c cis >16^\markup {sing }  r16 
+  \once \override NoteHead.style = #'triangle c16  r16  <c cis >16^\markup {sing }  r16 
   r4 
   r8.  b16~ 
   b4~  |
@@ -83,9 +83,9 @@ flute_one_part = \relative c' {
   r8  <c cis >8~^\markup {sing } 
   <c cis >4~  |
   % ________________________________________bar 4 :
-  <c cis >8  r16  b''16 
+  <c cis >8  r16  c16 
   r4 
-  r8  \xNote c,,8~^\markup {e } 
+  r8  \xNote c8~^\markup {e } 
   \xNote c4  |
   % ________________________________________bar 5 :
   r2 
@@ -107,7 +107,7 @@ flute_one_part = \relative c' {
   % ________________________________________bar 9 :
   r4 
   b2:32~\p^\markup {frull. } 
-  b8:32  dis16  e16  |
+  b8:32  c16  e16  |
   % ________________________________________bar 10 :
   dis16  e16  dis16  e16 
   dis16  e16  dis16  c16~ 
@@ -162,9 +162,9 @@ flute_one_part = \relative c' {
   r4  |
   % ________________________________________bar 5 :
   r2 
-  fis2:32~^\markup {frull. }  |
+  b2:32~^\markup {frull. }  |
   % ________________________________________bar 6 :
-  fis16:32  r16  \xNote c16^\markup {sh }  r16 
+  b16:32  r16  \xNote c16^\markup {sh }  r16 
   r4 
   r8  r16  \once \override NoteHead.style = #'triangle c16^\markup {slap } 
   e16  dis16  e16  dis16  |
@@ -194,7 +194,7 @@ flute_one_part = \relative c' {
   r4 
   r16  \once \override NoteHead.style = #'triangle c8.~^\markup {a }  |
   % ________________________________________bar 13 :
-  \once \override NoteHead.style = #'triangle c8.  <c e >16^\markup {sing } 
+  \once \override NoteHead.style = #'triangle c8.  <c cis >16^\markup {sing } 
   r4 
   r16  e16  dis16  e16 
   dis16  e16  dis16  e16  |
@@ -218,9 +218,9 @@ flute_one_part = \relative c' {
   % ________________________________________bar 18 :
   e16  dis16  e16  dis16 
   \once \override NoteHead.style = #'triangle c16  r8. 
-  \once \override NoteHead.style = #'xcircle dis2~^\markup {B.P. }  |
+  \once \override NoteHead.style = #'xcircle c2~^\markup {B.P. }  |
   % ________________________________________bar 19 :
-  \once \override NoteHead.style = #'xcircle dis8  r8 
+  \once \override NoteHead.style = #'xcircle c8  r8 
   r2 
   r4  |
   % ________________________________________bar 20 :
@@ -254,7 +254,7 @@ flute_one_part = \relative c' {
   r16  \once \override NoteHead.style = #'xcircle c16^\markup {sim }  r8  |
   % ________________________________________bar 26 :
   r2 
-  <cis dis >16^\markup {sing }  <c cis >16^\markup {sing }  b16:32^\markup {frull. }  r16 
+  <c cis >16^\markup {sing }  <c cis >16^\markup {sing }  b16:32^\markup {frull. }  r16 
   r4  |
   % ________________________________________bar 27 :
   r4 

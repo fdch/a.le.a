@@ -32,9 +32,9 @@ violin_two_part = {
   a16  c'16  dis'16  fis'16 
   a16  c'16  d'16  gis16 
   r16  r8. 
-  r8  g''16  ais'''16~  |
+  r8  g16  g16~  |
   % ________________________________________bar 7 :
-  ais'''4 
+  g4 
   d'16^\markup {legato }  gis16  d'16  gis16 
   d'16  gis16  gis16  gis16 
   gis16  gis16  gis16  gis16  |
@@ -76,8 +76,8 @@ violin_two_part = {
   % ________________________________________bar 15 :
   g16  g16  gis16  a16 
   ais16  b16  c'16  r16 
-  ais4~ 
-  ais16  g16:32  r8  |
+  g4~ 
+  g16  g16:32  r8  |
   % ________________________________________bar 16 :
   r4. 
   r16  cis'16 
@@ -89,7 +89,7 @@ violin_two_part = {
   dis'16  f'16  g16  a16 
   b16  cis'16  g16  r16  |
   % ________________________________________bar 18 :
-  g''16  r8. 
+  g16  r8. 
   r8  g8~ 
   g4~ 
   g16  g16:32  r16  g16~^\markup {arco }  |
@@ -106,9 +106,9 @@ violin_two_part = {
   % ________________________________________bar 21 :
   g16  gis16  g8~ 
   g2~ 
-  g8:32  d'16  r16  |
+  g8:32  gis16  r16  |
   % ________________________________________bar 22 :
-  d''8.  r16 
+  gis8.  r16 
   r2 
   r16  f''16\mf  e''16  f''16  |
   % ________________________________________bar 23 :
@@ -129,7 +129,7 @@ violin_two_part = {
   r16  r16  g16:32  r16 
   f''16  e''16  f''16  e''16 
   f''16  e''16  f''16  e''16 
-  r16  gis16  cis'16^\markup {arco }  r16  |
+  r16  gis16  gis16^\markup {arco }  r16  |
   % ________________________________________bar 27 :
   r8  r16  r16 
   r8.  r16 
@@ -146,15 +146,15 @@ violin_two_part = {
   e''16  r16  r16  r16  |
   % ________________________________________bar 30 :
   r4. 
-  r16  a16:32~ 
-  a2:32~  |
+  r16  g16:32~ 
+  g2:32~  |
   % ________________________________________bar 31 :
   r16  gis16^\markup {arco }  gis16  gis16 
   gis16  gis16  gis16  gis16 
   gis16  gis16  gis16  r16 
   g8.:32  gis16^\markup {pizz. }  |
   % ________________________________________bar 32 :
-  r16  gis16  d''16  g16:32~ 
+  r16  gis16  gis16  g16:32~ 
   g4:32~ 
   g8:32  r16  f''16 
   e''16  f''16  e''16  f''16  |
@@ -163,25 +163,25 @@ violin_two_part = {
   r2 
   r16  r16  r16  r16  |
   % ________________________________________bar 34 :
-  r8  r16  gis'16 
-  gis16  \once \override NoteHead.style = #'harmonic f'16  r8 
+  r8  r16  gis16 
+  gis16  \once \override NoteHead.style = #'harmonic gis16  r8 
   r16  gis16^\markup {pizz. }  r16  r16 
   r4  |
   % ________________________________________bar 35 :
   r16  r16  gis8~^\markup {arco } 
   gis16  r16  r8 
-  r8  r16  gis''16^\markup {pizz. } 
+  r8  r16  gis16^\markup {pizz. } 
   r16  gis16^\markup {arco }  a8~^\markup {pizz. }  |
   % ________________________________________bar 36 :
   a4~ 
   a16  f''16  e''16  f''16 
   e''16  f''16\f  e''16  f''16 
-  e''16  r16  a16  ais'16^\markup {arco }  |
+  e''16  r16  a16  a16^\markup {arco }  |
   % ________________________________________bar 37 :
   a16^\markup {pizz. }  a16  a8~ 
   a16  r16  r8 
   r8.  gis16~ 
-  gis16  gis16  d''16  gis16~^\markup {arco }  |
+  gis16  gis16  gis16  gis16~^\markup {arco }  |
   % ________________________________________bar 38 :
   gis4.~ 
   gis16  g16:32~ 
@@ -193,7 +193,7 @@ violin_two_part = {
   r2  |
   % ________________________________________bar 40 :
   gisih8  r16  r16 
-  e'''16^\markup {arco }  r8. 
+  gisih16^\markup {arco }  r8. 
   r4 
   r8.  r16  |
   % ________________________________________bar 41 :
@@ -211,7 +211,7 @@ violin_two_part = {
   f''16  e''16\mf  f''16  e''16 
   r4  |
   % ________________________________________bar 44 :
-  r8.  d'16 
+  r8.  gis16 
   gis16  r16  f''16  e''16 
   f''16  e''16  f''16  e''16 
   f''16  e''16  r16  g16:32~  |
@@ -237,7 +237,4 @@ violin_two_part = {
   g8.:32  r16 
   r4 
   r16  \once \override NoteHead.style = #'harmonic gis16  r16  r16 
-  r4  |
-  % ________________________________________bar 50 :
-  r8.  r16 
 }

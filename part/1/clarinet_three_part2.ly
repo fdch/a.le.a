@@ -41,12 +41,12 @@
   r4. 
   r16  r16  |
   % ________________________________________bar 10 :
-  fis16  r16  dis'16  ais16 
+  fis16  r16  fis16  fis16 
   fis16  r8. 
   r8.  fis16~ 
   fis4~  |
   % ________________________________________bar 11 :
-  fis8  d'16:32^\markup {frull. }  r16 
+  fis8  f16:32^\markup {frull. }  r16 
   r16  r8. 
   r4 
   r8.  r16  |
@@ -120,9 +120,9 @@
   f16:32^\markup {frull. }  fis16  r8 
   r4  |
   % ________________________________________bar 26 :
-  r8  dis'8~ 
-  dis'4 
-  g'8  \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16 
+  r8  fis8~ 
+  fis4 
+  fis8  \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16 
   \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16  \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16  |
   % ________________________________________bar 27 :
   \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16  r16  r16 
@@ -147,12 +147,12 @@
   fis16  f16  gis16  g16 
   fis16  f16  gis16  g16 
   fis16  f16  gis16  g16 
-  fis16  f16  fis16  <gisih aih >16^\markup {sing }  |
+  fis16  f16  fis16  <f fis >16^\markup {sing }  |
   % ________________________________________bar 32 :
   \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16  \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16 
   \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16  \once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d''16 
-  f16  r16  <f a >8~^\markup {sing } 
-  <f a >8  f8~  |
+  f16  r16  <f fis >8~^\markup {sing } 
+  <f fis >8  f8~  |
   % ________________________________________bar 33 :
   f16  r8. 
   r4 

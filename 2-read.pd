@@ -20,7 +20,7 @@
 #X obj 123 109 hradio 15 1 0 4 empty empty empty 0 -8 0 10 -262144
 -1 -1 0;
 #X msg 123 127 \; grid-\$1 click;
-#N canvas 642 22 528 721 parts 0;
+#N canvas 642 22 528 721 parts 1;
 #X msg 113 394 all bang;
 #X msg 93 450 all bang;
 #X msg 28 62 ....... \, reading all texts \, .......... \, fingers

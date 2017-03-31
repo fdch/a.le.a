@@ -17,7 +17,7 @@ flute_one_part = \relative c' {
   r8  r16  b16:32~^\markup {frull. } 
   b2:32~  |
   % ________________________________________bar 4 :
-  b16:32^\markup {frull. }  b16:32^\markup {frull. }  <c e >16^\markup {sing }  r16 
+  b16:32^\markup {frull. }  b16:32^\markup {frull. }  <c cis >16^\markup {sing }  r16 
   r8  e16  dis16 
   e16  dis16  e16  dis16 
   e16  dis16  r8  |
@@ -45,7 +45,7 @@ flute_one_part = \relative c' {
   % ________________________________________bar 10 :
   R1  |
   % ________________________________________bar 11 :
-  f'16  \once \override NoteHead.style = #'xcircle cis,16^\markup {B.P. }  r8 
+  c16  \once \override NoteHead.style = #'xcircle cis16^\markup {B.P. }  r8 
   r2 
   r8  \xNote c16^\markup {i }  r16  |
   % ________________________________________bar 12 :
@@ -73,12 +73,12 @@ flute_one_part = \relative c' {
   r4  |
   % ________________________________________bar 18 :
   r8.  \once \override NoteHead.style = #'triangle c16^\markup {slap } 
-  \once \override NoteHead.style = #'xcircle b''16^\markup {B.P. }  r16  r8 
+  \once \override NoteHead.style = #'xcircle c16^\markup {B.P. }  r16  r8 
   r2  |
   % ________________________________________bar 19 :
   R1  |
   % ________________________________________bar 20 :
-  r8.  \once \override NoteHead.style = #'triangle c,,16~ 
+  r8.  \once \override NoteHead.style = #'triangle c16~ 
   \once \override NoteHead.style = #'triangle c4~ 
   \once \override NoteHead.style = #'triangle c16  r16  <b c >8^\markup {sing }  |
   % ________________________________________bar 2 :
@@ -92,14 +92,14 @@ flute_one_part = \relative c' {
   % ________________________________________bar 4 :
   \once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16 
   \once \override NoteHead.style = #'harmonic c2~ 
-  \once \override NoteHead.style = #'harmonic c16  \xNote c16^\markup {u }  <b e >8~^\markup {sing }  |
+  \once \override NoteHead.style = #'harmonic c16  \xNote c16^\markup {u }  <b c >8~^\markup {sing }  |
   % ________________________________________bar 5 :
-  <b e >16  r16  r8 
+  <b c >16  r16  r8 
   r2 
   b4~  |
   % ________________________________________bar 6 :
   b4 
-  <b dis >16\p^\markup {sing }  <b c >8.~^\markup {sing } 
+  <b c >16\p^\markup {sing }  <b c >8.~^\markup {sing } 
   <b c >16  r16  r8 
   r4  |
   % ________________________________________bar 7 :
@@ -132,11 +132,11 @@ flute_one_part = \relative c' {
   r8  \xNote c8~^\markup {u } 
   \xNote c4  |
   % ________________________________________bar 14 :
-  r16  r16  r16  fis16:32~\mf^\markup {frull. } 
-  fis16:32  r16  r8 
+  r16  r16  r16  b16:32~\mf^\markup {frull. } 
+  b16:32  r16  r8 
   r2  |
   % ________________________________________bar 15 :
-  r16  b,16:32^\markup {frull. }  r16  \xNote c16^\markup {sh } 
+  r16  b16:32^\markup {frull. }  r16  \xNote c16^\markup {sh } 
   r4. 
   r16  c16 
   e16  dis16  e16  dis16  |
@@ -148,8 +148,8 @@ flute_one_part = \relative c' {
   R1  |
   % ________________________________________bar 18 :
   r4 
-  g'2~ 
-  g8  <c, cis >16^\markup {sing }  \once \override NoteHead.style = #'xcircle c16^\markup {B.P. }  |
+  c2~ 
+  c8  <c cis >16^\markup {sing }  \once \override NoteHead.style = #'xcircle c16^\markup {B.P. }  |
   % ________________________________________bar 19 :
   r16  r16  <c cis >16^\markup {sing }  r16 
   r4 
@@ -162,12 +162,12 @@ flute_one_part = \relative c' {
   b4:32~  |
   % ________________________________________bar 21 :
   b8:32  r16  \once \override NoteHead.style = #'harmonic c16^\markup {T.R. } 
-  \once \override NoteHead.style = #'xcircle dis16^\markup {B.P. }  \once \override NoteHead.style = #'harmonic dis16^\markup {B.P. }  b16:32^\markup {frull. }  r16 
+  \once \override NoteHead.style = #'xcircle c16^\markup {B.P. }  \once \override NoteHead.style = #'harmonic c16^\markup {B.P. }  b16:32^\markup {frull. }  r16 
   \xNote c4.~^\markup {e } 
   \xNote c16  r16  |
   % ________________________________________bar 22 :
-  r8  <c cis >16^\markup {sing }  \once \override NoteHead.style = #'harmonic gis'16^\markup {T.R. } 
-  \once \override NoteHead.style = #'xcircle c,16^\markup {B.P. }  \once \override NoteHead.style = #'harmonic c16^\markup {B.P. }  c16  r16 
+  r8  <c cis >16^\markup {sing }  \once \override NoteHead.style = #'harmonic c16^\markup {T.R. } 
+  \once \override NoteHead.style = #'xcircle c16^\markup {B.P. }  \once \override NoteHead.style = #'harmonic c16^\markup {B.P. }  c16  r16 
   r8  \once \override NoteHead.style = #'xcircle c16^\markup {B.P. }  \xNote c16~^\markup {i } 
   \xNote c4~  |
   % ________________________________________bar 23 :
@@ -177,7 +177,7 @@ flute_one_part = \relative c' {
   <c cis >8.  r16  |
   % ________________________________________bar 24 :
   r4. 
-  r16  \once \override NoteHead.style = #'xcircle dis16^\markup {B.P. } 
+  r16  \once \override NoteHead.style = #'xcircle c16^\markup {B.P. } 
   \once \override NoteHead.style = #'triangle c16^\markup {slap }  r8  r16 
   r16  \once \override NoteHead.style = #'triangle c16^\markup {slap }  \once \override NoteHead.style = #'harmonic c8~^\markup {T.R. }  |
   % ________________________________________bar 25 :
@@ -185,8 +185,8 @@ flute_one_part = \relative c' {
   r2 
   r4  |
   % ________________________________________bar 26 :
-  r8.  gis'16:32^\markup {frull. } 
-  c,2~ 
+  r8.  b16:32^\markup {frull. } 
+  c2~ 
   c8  \once \override NoteHead.style = #'triangle c16  b16:32~^\markup {frull. }  |
   % ________________________________________bar 27 :
   b2:32 
@@ -226,13 +226,13 @@ flute_one_part = \relative c' {
   % ________________________________________bar 2 :
   r16  r8  r16 
   r4 
-  r8.  <c fis >16^\markup {sing } 
+  r8.  <c cis >16^\markup {sing } 
   \once \override NoteHead.style = #'harmonic c16^\markup {T.R. }  \xNote c16^\markup {i }  r16  r16  |
   % ________________________________________bar 3 :
   r16  <c cis >16^\markup {sing }  \once \override NoteHead.style = #'triangle c8~^\markup {i } 
-  \once \override NoteHead.style = #'triangle c8.  d''16 
+  \once \override NoteHead.style = #'triangle c8.  c16 
   r4 
-  r16  \xNote c,,16^\markup {o }  r16  \once \override NoteHead.style = #'triangle c16~^\markup {slap }  |
+  r16  \xNote c16^\markup {o }  r16  \once \override NoteHead.style = #'triangle c16~^\markup {slap }  |
   % ________________________________________bar 4 :
   \once \override NoteHead.style = #'triangle c4 
   r2 
@@ -243,7 +243,7 @@ flute_one_part = \relative c' {
   r8.  <c cis >16^\markup {sing } 
   b16:32^\markup {frull. }  \xNote c16^\markup {sh }  r16  <c cis >16~^\markup {sing }  |
   % ________________________________________bar 6 :
-  <c cis >8  dis16  r16 
+  <c cis >8  cih16  r16 
   r2 
   r8.  c16~  |
   % ________________________________________bar 7 :
@@ -257,12 +257,12 @@ flute_one_part = \relative c' {
   c8.  r16  |
   % ________________________________________bar 9 :
   r4. 
-  r16  <c e >16^\markup {sing } 
+  r16  <c cis >16^\markup {sing } 
   <c cis >16^\markup {sing }  r16  r16  <c cis >16^\markup {sing } 
   r16  c8.~  |
   % ________________________________________bar 10 :
-  c8.  \once \override NoteHead.style = #'triangle fis16~^\markup {slap } 
-  \once \override NoteHead.style = #'triangle fis16  <c cis >8.~^\markup {sing } 
+  c8.  \once \override NoteHead.style = #'triangle c16~^\markup {slap } 
+  \once \override NoteHead.style = #'triangle c16  <c cis >8.~^\markup {sing } 
   <c cis >4 
   r4  |
   % ________________________________________bar 11 :
@@ -284,14 +284,14 @@ flute_one_part = \relative c' {
   % ________________________________________bar 15 :
   \once \override NoteHead.style = #'harmonic c16^\markup {i }  c16  r16  c16~ 
   c2~ 
-  dis16  \once \override NoteHead.style = #'triangle c8.~^\markup {slap }  |
+  c16  \once \override NoteHead.style = #'triangle c8.~^\markup {slap }  |
   % ________________________________________bar 16 :
-  \once \override NoteHead.style = #'triangle c8.  \once \override NoteHead.style = #'xcircle dis16^\markup {B.P. } 
+  \once \override NoteHead.style = #'triangle c8.  \once \override NoteHead.style = #'xcircle c16^\markup {B.P. } 
   <c cis >2~^\markup {sing } 
   <c cis >16  r8.  |
   % ________________________________________bar 17 :
   r4 
-  r16  \once \override NoteHead.style = #'triangle dis16^\markup {B.P. }  b8:32~^\markup {frull. } 
+  r16  \once \override NoteHead.style = #'triangle c16^\markup {B.P. }  b8:32~^\markup {frull. } 
   b4:32~ 
   b8:32  r8  |
   % ________________________________________bar 18 :
@@ -306,7 +306,7 @@ flute_one_part = \relative c' {
   r2 
   <b c >2~^\markup {sing }  |
   % ________________________________________bar 21 :
-  <b c >8  dis16  c16 
+  <b c >8  b16  c16 
   b4.:32^\markup {frull. } 
   r8 
   r4  |
@@ -330,15 +330,15 @@ flute_one_part = \relative c' {
   r4  |
   % ________________________________________bar 26 :
   r2 
-  r8  c16\f  f'16 
+  r8  c16\f  c16 
   r4  |
   % ________________________________________bar 27 :
   r4 
   r4. 
-  r16  \xNote c,16^\markup {o } 
+  r16  \xNote c16^\markup {o } 
   r4  |
   % ________________________________________bar 28 :
   r4 
   r8  \xNote c16^\markup {a }  \once \override NoteHead.style = #'harmonic c16^\markup {T.R. } 
-  r8  r16  c16 
+  r16  r8 
 }

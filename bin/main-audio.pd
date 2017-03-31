@@ -22,10 +22,10 @@ array-7 template-7-element;
 #N struct template-8 float x float y float z float s float id array
 array-8 template-8-element;
 #N struct template-8-element float y float s float w;
-#N canvas 1069 35 188 531 12;
+#N canvas 1081 42 188 531 12;
 #X declare -path ../_lib -path ../samples -path ~/Documents/dep/tID
 -stdpath mrpeach -stdlib mrpeach -stdpath tID -stdlib tID;
-#N canvas 279 43 441 539 controls 0;
+#N canvas 532 26 430 538 controls 0;
 #X obj 19 6 cnv 15 400 30 empty instructions section-7 15 15 0 14 -33289
 -262144 0;
 #X obj 21 41 bng 20 50 10 0 panic empty panic 25 7 0 10 -258113 -1
@@ -284,13 +284,12 @@ f 25;
 #X connect 37 0 38 0;
 #X connect 38 0 36 0;
 #X restore 178 150 pd random-morphing;
-#N canvas 204 37 732 598 transitionParams 0;
+#N canvas 232 306 1043 624 transitionParams 0;
 #X msg 33 19 bang;
 #X obj 34 63 unpack f f f;
 #X obj 34 85 + 1;
 #X obj 34 107 pack f f f;
 #X msg 139 13 reset;
-#X msg 34 156 \; _bParams-\$1 \$2 \$3 freq set stoch \;;
 #X msg 262 18 bang;
 #X obj 263 62 unpack f f f;
 #X obj 263 84 + 1;
@@ -322,10 +321,6 @@ f 25;
 #X obj 297 294 random 100;
 #X obj 297 316 + 1;
 #X obj 297 338 / 10;
-#X msg 36 476 \; _bParams-\$1 \$2 \$3 f range \$4 \; _bParams-\$1 \$2
-\$3 f min \$5 \; _bParams-\$1 \$2 \$3 f q \$6 \; _bParams-\$1 \$2 \$3
-freq set \$7 \; _bParams-\$1 \$2 \$3 offset \$8 \; _bParams-\$1 \$2
-\$3 amp \$9 \;;
 #X obj 514 316 + 1;
 #X obj 514 338 / 10;
 #X obj 36 252 t a b b b b b b, f 85;
@@ -349,124 +344,153 @@ freq set \$7 \; _bParams-\$1 \$2 \$3 offset \$8 \; _bParams-\$1 \$2
 #X obj 590 293 random 50;
 #X obj 590 359 + 0.5;
 #X text 222 233 randomize _bParams;
-#X obj 36 230 fd_mtxdelit 4 10 5 230;
-#X obj 34 41 fd_mtxdelit 4 10 5 100;
 #X obj 263 40 fd_mtxdelit 4 10 5 100;
 #X obj 481 41 fd_mtxdelit 4 10 5 100;
 #X obj 273 202 bng 15 250 50 0 empty empty done 17 7 0 10 -262144 -1
 -1;
-#X connect 0 0 62 0;
+#X obj 36 230 fd_mtxdelit 4 10 5 100;
+#X msg 745 22 bang;
+#X obj 746 66 unpack f f f;
+#X obj 746 88 + 1;
+#X msg 851 16 reset;
+#X obj 746 127 pack f f f 0;
+#X msg 746 159 \; _bParams-\$1 \$2 \$3 amp \$4 \;;
+#X obj 746 44 fd_mtxdelit 4 10 5 300;
+#X obj 387 223 spigot 1;
+#X obj 487 217 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 34 156 \; _bParams-\$1 \$2 \$3 freq set cos \;;
+#X obj 34 41 fd_mtxdelit 4 10 5 358;
+#X obj 179 79 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 36 476 \; _bParams-\$1 \$2 \$3 f range \$4 \; _bParams-\$1 \$2
+\$3 f min \$5 \; _bParams-\$1 \$2 \$3 f q \$6 \; _bParams-\$1 \$2 \$3
+freq set \$7 \; _bParams-\$1 \$2 \$3 offset \$8 \; _bParams-\$1 \$2
+\$3 amp \$9 \;;
+#X connect 0 0 73 0;
 #X connect 1 0 2 0;
 #X connect 1 1 3 1;
 #X connect 1 2 3 2;
 #X connect 2 0 3 0;
-#X connect 3 0 5 0;
-#X connect 4 0 62 1;
-#X connect 6 0 63 0;
-#X connect 7 0 8 0;
-#X connect 7 1 11 1;
-#X connect 7 2 10 0;
-#X connect 8 0 11 0;
-#X connect 9 0 63 1;
-#X connect 10 0 11 2;
-#X connect 10 1 12 0;
-#X connect 11 0 29 0;
+#X connect 3 0 72 0;
+#X connect 4 0 73 1;
+#X connect 5 0 59 0;
+#X connect 6 0 7 0;
+#X connect 6 1 10 1;
+#X connect 6 2 9 0;
+#X connect 7 0 10 0;
+#X connect 8 0 59 1;
+#X connect 9 0 10 2;
+#X connect 9 1 11 0;
+#X connect 10 0 28 0;
+#X connect 11 0 12 0;
 #X connect 12 0 13 0;
-#X connect 13 0 14 0;
-#X connect 14 0 11 3;
-#X connect 15 0 64 0;
-#X connect 16 0 17 0;
-#X connect 16 1 20 1;
-#X connect 16 2 19 0;
-#X connect 17 0 20 0;
-#X connect 18 0 64 1;
-#X connect 19 0 20 2;
-#X connect 19 1 21 0;
-#X connect 20 0 24 0;
+#X connect 13 0 10 3;
+#X connect 14 0 60 0;
+#X connect 15 0 16 0;
+#X connect 15 1 19 1;
+#X connect 15 2 18 0;
+#X connect 16 0 19 0;
+#X connect 17 0 60 1;
+#X connect 18 0 19 2;
+#X connect 18 1 20 0;
+#X connect 19 0 23 0;
+#X connect 20 0 21 0;
 #X connect 21 0 22 0;
-#X connect 22 0 23 0;
-#X connect 23 0 20 3;
-#X connect 25 0 61 0;
-#X connect 26 0 27 0;
-#X connect 26 1 45 1;
-#X connect 26 2 45 2;
-#X connect 27 0 45 0;
-#X connect 28 0 61 1;
+#X connect 22 0 19 3;
+#X connect 24 0 62 0;
+#X connect 25 0 26 0;
+#X connect 25 1 43 1;
+#X connect 25 2 43 2;
+#X connect 26 0 43 0;
+#X connect 27 0 62 1;
+#X connect 29 0 30 0;
 #X connect 30 0 31 0;
-#X connect 31 0 32 0;
-#X connect 32 0 45 3;
-#X connect 33 0 41 0;
+#X connect 31 0 43 3;
+#X connect 32 0 39 0;
+#X connect 33 0 34 0;
 #X connect 34 0 35 0;
-#X connect 35 0 36 0;
-#X connect 36 0 43 0;
-#X connect 38 0 39 0;
-#X connect 39 0 45 7;
-#X connect 40 0 26 0;
-#X connect 40 1 30 0;
-#X connect 40 2 33 0;
-#X connect 40 3 34 0;
-#X connect 40 4 44 0;
-#X connect 40 5 55 0;
-#X connect 40 6 58 0;
-#X connect 41 0 42 0;
-#X connect 42 0 45 4;
-#X connect 43 0 45 5;
-#X connect 44 0 46 0;
-#X connect 45 0 37 0;
-#X connect 46 0 47 0;
-#X connect 46 1 49 0;
-#X connect 46 2 50 0;
-#X connect 46 3 51 0;
-#X connect 46 4 52 0;
-#X connect 47 0 48 0;
-#X connect 48 0 45 6;
-#X connect 49 0 48 0;
-#X connect 50 0 48 0;
-#X connect 51 0 53 0;
-#X connect 52 0 54 0;
-#X connect 53 0 48 0;
-#X connect 54 0 48 0;
-#X connect 55 0 38 0;
-#X connect 56 0 59 0;
-#X connect 57 0 56 0;
-#X connect 58 0 57 0;
-#X connect 59 0 45 8;
-#X connect 61 0 40 0;
-#X connect 61 1 65 0;
-#X connect 62 0 1 0;
-#X connect 63 0 7 0;
-#X connect 64 0 16 0;
+#X connect 35 0 41 0;
+#X connect 36 0 37 0;
+#X connect 37 0 43 7;
+#X connect 38 0 25 0;
+#X connect 38 1 29 0;
+#X connect 38 2 32 0;
+#X connect 38 3 33 0;
+#X connect 38 4 42 0;
+#X connect 38 5 53 0;
+#X connect 38 6 56 0;
+#X connect 39 0 40 0;
+#X connect 40 0 43 4;
+#X connect 41 0 43 5;
+#X connect 42 0 44 0;
+#X connect 43 0 75 0;
+#X connect 44 0 45 0;
+#X connect 44 1 47 0;
+#X connect 44 2 48 0;
+#X connect 44 3 49 0;
+#X connect 44 4 50 0;
+#X connect 45 0 46 0;
+#X connect 46 0 43 6;
+#X connect 47 0 46 0;
+#X connect 48 0 46 0;
+#X connect 49 0 51 0;
+#X connect 50 0 52 0;
+#X connect 51 0 46 0;
+#X connect 52 0 46 0;
+#X connect 53 0 36 0;
+#X connect 54 0 57 0;
+#X connect 55 0 54 0;
+#X connect 56 0 55 0;
+#X connect 57 0 43 8;
+#X connect 59 0 6 0;
+#X connect 60 0 15 0;
+#X connect 61 0 70 0;
+#X connect 62 0 38 0;
+#X connect 62 1 61 0;
+#X connect 63 0 69 0;
+#X connect 64 0 65 0;
+#X connect 64 1 67 1;
+#X connect 64 2 67 2;
+#X connect 65 0 67 0;
+#X connect 66 0 69 1;
+#X connect 67 0 68 0;
+#X connect 69 0 64 0;
+#X connect 70 0 24 0;
+#X connect 71 0 70 1;
+#X connect 73 0 1 0;
+#X connect 73 1 74 0;
 #X restore 176 209 pd transitionParams;
-#X obj 320 44 r midievent;
-#X obj 320 66 list split 1;
-#X floatatom 320 88 5 0 0 0 - - -, f 5;
-#N canvas 0 22 530 445 _barkedParams 0;
-#X floatatom 400 236 5 0 0 0 - - -, f 5;
-#X obj 400 255 s length;
-#X msg 222 56 stoch;
-#X msg 238 81 sin;
-#X msg 246 106 cos;
-#X obj 222 130 symbol;
-#X floatatom 150 220 5 0 0 0 - - -, f 5;
-#X obj 161 26 fd_tabswitch \$0;
-#X floatatom 339 178 5 0 0 0 - - -, f 5;
-#X msg 320 203 list min \$1;
-#X msg 229 203 list range \$1;
-#X msg 150 239 list offset \$1;
-#X msg 165 154 list freq set \$1;
-#X obj 238 247 list prepend f;
-#X obj 161 316 list trim;
-#X msg 99 190 list amp \$1;
-#X floatatom 100 169 5 0 0 0 - - -, f 5;
-#X floatatom 378 119 5 0 0 0 - - -, f 5;
-#X obj 378 141 mtof;
-#X floatatom 319 107 5 0 0 0 - - -, f 5;
-#X floatatom 278 174 5 0 0 0 - - -, f 5;
-#X obj 161 338 s _barkedParams;
-#X obj 161 294 list prepend all all;
-#X floatatom 412 179 5 0 0 0 - - -, f 5;
-#X msg 412 198 list q \$1;
-#X obj 316 144 mtof;
+#X obj 92 40 r midievent;
+#X obj 92 62 list split 1;
+#X floatatom 92 84 5 0 0 0 - - -, f 5;
+#N canvas 0 22 479 434 _barkedParams 0;
+#X floatatom 338 231 5 0 0 0 - - -, f 5;
+#X obj 338 250 s length;
+#X msg 160 51 stoch;
+#X msg 176 76 sin;
+#X msg 184 101 cos;
+#X obj 160 125 symbol;
+#X floatatom 88 215 5 0 0 0 - - -, f 5;
+#X obj 99 21 fd_tabswitch \$0;
+#X floatatom 277 173 5 0 0 0 - - -, f 5;
+#X msg 258 198 list min \$1;
+#X msg 167 198 list range \$1;
+#X msg 88 234 list offset \$1;
+#X msg 103 149 list freq set \$1;
+#X obj 176 242 list prepend f;
+#X obj 99 311 list trim;
+#X msg 37 185 list amp \$1;
+#X floatatom 38 164 5 0 0 0 - - -, f 5;
+#X floatatom 316 114 5 0 0 0 - - -, f 5;
+#X obj 316 136 mtof;
+#X floatatom 257 102 5 0 0 0 - - -, f 5;
+#X floatatom 216 169 5 0 0 0 - - -, f 5;
+#X obj 99 333 s _barkedParams;
+#X obj 99 289 list prepend all all;
+#X floatatom 350 174 5 0 0 0 - - -, f 5;
+#X msg 350 193 list q \$1;
+#X obj 254 139 mtof;
 #X connect 0 0 1 0;
 #X connect 2 0 5 0;
 #X connect 3 0 5 0;
@@ -507,7 +531,7 @@ freq set \$7 \; _bParams-\$1 \$2 \$3 offset \$8 \; _bParams-\$1 \$2
 #X msg 342 26 8;
 #X msg 242 467 \; pd-data-\$1 vis 0;
 #X obj 112 418 hradio 15 1 0 8 empty empty see_data 0 -8 0 10 -262144
--1 -1 1;
+-1 -1 5;
 #X obj 112 438 + 1;
 #X msg 242 445 1 \, 2 \, 3 \, 4 \, 5 \, 6 \, 7 \, 8;
 #X obj 242 417 bng 15 250 50 0 empty empty hide_data 17 7 0 10 -262144
@@ -630,8 +654,8 @@ freq set \$7 \; _bParams-\$1 \$2 \$3 offset \$8 \; _bParams-\$1 \$2
 #X connect 23 0 24 0;
 #X connect 25 0 0 0;
 #X restore 22 210 pd switching-tests;
-#X text 60 98 manually carve these:;
-#N canvas 0 22 1007 598 section-presets 0;
+#X text 51 105 manually carve these:;
+#N canvas 188 20 1007 598 section-presets 0;
 #X msg 27 20 \; _barkedParams all all freq set cos \; _barkedParams
 all all amp 0.61 \; _barkedParams all all offset 20 \; _barkedParams
 all all f range 1 \; _barkedParams all all f min 1 \; _barkedParams
@@ -646,27 +670,31 @@ all all 1 \;;
 type 1 0 \, 1 \; dataExp type 2 1 \, 2 \; dataWalk 3 range 54 43 \,
 3 \; dataHann type 4 0 \, 4 \; dataLine type 5 1 \, 5 \; dataExp type
 6 1 \, 6 \;;
-#X msg 49 357 1 \, 2 \, 3 \, 4;
-#X msg 49 418 \; \$1-adc-onoff-set \$2 \; \$1-env-switch-set \$2 \;
+#X msg 308 356 1 \, 2 \, 3 \, 4;
+#X msg 308 417 \; \$1-adc-onoff-set \$2 \; \$1-env-switch-set \$2 \;
 monitor-set \$2 \; \$1-adc-gain-set \$2 \; \$1-sigmund-switch-set \$2
 \; \$1-bark-switch-set \$2 \;;
-#X obj 49 330 t b f;
-#X obj 49 389 pack;
-#X msg 158 341 1 \, 2 \, 3 \, 4;
+#X obj 308 329 t b f;
+#X obj 308 388 pack;
+#X msg 417 340 1 \, 2 \, 3 \, 4;
 #N canvas 590 432 450 300 no-analysis 0;
 #X obj 43 51 inlet;
 #X msg 43 112 \; \$1-sigmund-switch-set 0 \; \$1-bark-switch-set 0
 \; \$1-env-switch-set 0 \; monitor-set 0 \;;
 #X connect 0 0 1 0;
-#X restore 158 366 pd no-analysis;
-#X msg 49 305 1;
-#X msg 84 305 0;
-#X obj 454 436 tgl 15 0 empty empty switch 17 7 0 10 -262144 -1 -1
+#X restore 417 365 pd no-analysis;
+#X msg 308 304 1;
+#X msg 343 304 0;
+#X obj 713 435 tgl 15 0 empty empty switch 17 7 0 10 -262144 -1 -1
 0 1;
-#X obj 406 500 s _barkedSwitch;
-#X msg 406 477 all all \$1;
-#X msg 386 305 \; fd_clicktrack-0 144;
-#X msg 388 350 \; fd_clicktrack-0 reset;
+#X obj 665 499 s _barkedSwitch;
+#X msg 665 476 all all \$1;
+#X msg 645 304 \; fd_clicktrack-0 144;
+#X msg 647 349 \; fd_clicktrack-0 reset;
+#X msg 42 311 1;
+#X obj 42 377 s enable-adc-dac;
+#X msg 93 312 0;
+#X msg 775 434 0;
 #X connect 3 0 6 0;
 #X connect 5 0 3 0;
 #X connect 5 1 6 1;
@@ -676,8 +704,15 @@ monitor-set \$2 \; \$1-adc-gain-set \$2 \; \$1-sigmund-switch-set \$2
 #X connect 10 0 5 0;
 #X connect 11 0 13 0;
 #X connect 13 0 12 0;
+#X connect 16 0 17 0;
+#X connect 18 0 17 0;
+#X connect 19 0 13 0;
 #X restore 70 303 pd section-presets;
 #X text 30 271 and store them in presets;
+#X obj 204 39 fd_stopwatch;
+#X msg 351 40 1;
+#X obj 351 78 s rec;
+#X msg 388 40 0;
 #X connect 6 0 3 0;
 #X connect 7 0 2 0;
 #X connect 9 0 3 0;
@@ -685,6 +720,8 @@ monitor-set \$2 \; \$1-adc-gain-set \$2 \; \$1-sigmund-switch-set \$2
 #X connect 11 0 13 0;
 #X connect 15 0 16 0;
 #X connect 16 0 17 0;
+#X connect 25 0 26 0;
+#X connect 27 0 26 0;
 #X restore 15 290 pd controls;
 #N canvas 256 193 545 353 load-samples 0;
 #N canvas 0 22 551 311 arrays 0;
@@ -760,58 +797,58 @@ symbol violin-6 \, symbol violin-7 \, symbol violin-8 \, symbol violin-9
 #X obj 13 11 declare -path ../_lib -path ../samples -path ~/Documents/dep/tID
 -stdpath mrpeach -stdlib mrpeach -stdpath tID -stdlib tID, f 26;
 #X restore 15 9 pd declares;
-#N canvas 726 37 328 371 inputs 0;
-#X obj 22 94 tgl 15 0 1-env-switch 1-env-switch-set 1-env-switch 17
-7 0 10 -262144 -1 -1 0 1;
-#X obj 167 94 tgl 15 0 2-env-switch 2-env-switch-set 2-env-switch 17
-7 0 10 -262144 -1 -1 0 1;
-#X obj 22 75 tgl 15 0 1-adc-onoff 1-adc-onoff-set 1-adc-onoff 17 7
-0 10 -262144 -1 -1 1 1;
-#X obj 167 75 tgl 15 0 2-adc-onoff 2-adc-onoff-set 2-adc-onoff 17 7
-0 10 -262144 -1 -1 1 1;
-#X obj 25 242 tgl 15 0 3-env-switch 3-env-switch-set 3-env-switch 17
-7 0 10 -262144 -1 -1 0 1;
-#X obj 170 242 tgl 15 0 4-env-switch 4-env-switch-set 4-env-switch
-17 7 0 10 -262144 -1 -1 0 1;
-#X obj 25 223 tgl 15 0 3-adc-onoff 3-adc-onoff-set 3-adc-onoff 17 7
-0 10 -262144 -1 -1 1 1;
-#X obj 170 223 tgl 15 0 4-adc-onoff 4-adc-onoff-set 4-adc-onoff 17
+#N canvas 760 48 312 317 inputs 1;
+#X obj 12 80 tgl 15 0 1-env-switch 1-env-switch-set 1-env-switch 17
 7 0 10 -262144 -1 -1 1 1;
-#X obj 22 171 nbx 5 14 0 1e+37 0 0 1-adc-gain 1-adc-gain-set 1-adc-gain
+#X obj 147 80 tgl 15 0 2-env-switch 2-env-switch-set 2-env-switch 17
+7 0 10 -262144 -1 -1 1 1;
+#X obj 12 61 tgl 15 0 1-adc-onoff 1-adc-onoff-set 1-adc-onoff 17 7
+0 10 -262144 -1 -1 1 1;
+#X obj 147 61 tgl 15 0 2-adc-onoff 2-adc-onoff-set 2-adc-onoff 17 7
+0 10 -262144 -1 -1 1 1;
+#X obj 15 218 tgl 15 0 3-env-switch 3-env-switch-set 3-env-switch 17
+7 0 10 -262144 -1 -1 1 1;
+#X obj 150 218 tgl 15 0 4-env-switch 4-env-switch-set 4-env-switch
+17 7 0 10 -262144 -1 -1 1 1;
+#X obj 15 199 tgl 15 0 3-adc-onoff 3-adc-onoff-set 3-adc-onoff 17 7
+0 10 -262144 -1 -1 1 1;
+#X obj 150 199 tgl 15 0 4-adc-onoff 4-adc-onoff-set 4-adc-onoff 17
+7 0 10 -262144 -1 -1 1 1;
+#X obj 12 157 nbx 5 14 0 1e+37 0 0 1-adc-gain 1-adc-gain-set 1-adc-gain
 0 -8 0 10 -262144 -1 -1 1 256;
-#X obj 163 168 nbx 5 14 0 1e+37 0 0 2-adc-gain 2-adc-gain-set 2-adc-gain
+#X obj 143 154 nbx 5 14 0 1e+37 0 0 2-adc-gain 2-adc-gain-set 2-adc-gain
 0 -8 0 10 -262144 -1 -1 1 256;
-#X obj 23 318 nbx 5 14 0 1e+37 0 0 3-adc-gain 3-adc-gain-set 3-adc-gain
+#X obj 13 294 nbx 5 14 0 1e+37 0 0 3-adc-gain 3-adc-gain-set 3-adc-gain
 0 -8 0 10 -262144 -1 -1 1 256;
-#X obj 163 318 nbx 5 14 0 1e+37 0 0 4-adc-gain 4-adc-gain-set 4-adc-gain
+#X obj 143 294 nbx 5 14 0 1e+37 0 0 4-adc-gain 4-adc-gain-set 4-adc-gain
 0 -8 0 10 -262144 -1 -1 1 256;
-#X floatatom 93 171 5 0 0 2 1-rms 1-rms -, f 5;
-#X floatatom 233 170 5 0 0 2 2-rms 2-rms -, f 5;
-#X floatatom 99 316 5 0 0 2 3-rms 3-rms -, f 5;
-#X floatatom 240 317 5 0 0 2 4-rms 4-rms -, f 5;
-#X obj 255 50 tgl 15 0 monitor monitor-set monitor 17 7 0 10 -262144
--1 -1 0 1;
-#X obj 22 114 tgl 15 0 1-sigmund-switch 1-sigmund-switch-set 1-sigmund-switch
-17 7 0 10 -262144 -1 -1 0 1;
-#X obj 167 114 tgl 15 0 2-sigmund-switch 2-sigmund-switch-set 2-sigmund-switch
-17 7 0 10 -262144 -1 -1 0 1;
-#X obj 25 262 tgl 15 0 3-sigmund-switch 3-sigmund-switch-set 3-sigmund-switch
-17 7 0 10 -262144 -1 -1 0 1;
-#X obj 170 262 tgl 15 0 4-sigmund-switch 4-sigmund-switch-set 4-sigmund-switch
-17 7 0 10 -262144 -1 -1 0 1;
-#X obj 25 282 tgl 15 0 3-bark-switch 3-bark-switch-set 3-bark-switch
-17 7 0 10 -262144 -1 -1 0 1;
-#X obj 170 282 tgl 15 0 4-bark-switch 4-bark-switch-set 4-bark-switch
-17 7 0 10 -262144 -1 -1 0 1;
-#X obj 22 134 tgl 15 0 1-bark-switch 1-bark-switch-set 1-bark-switch
-17 7 0 10 -262144 -1 -1 0 1;
-#X obj 167 134 tgl 15 0 2-bark-switch 2-bark-switch-set 2-bark-switch
-17 7 0 10 -262144 -1 -1 0 1;
-#X text 18 52 INPUT 1;
-#X text 20 200 INPUT 3;
-#X text 165 202 INPUT 4;
-#X text 164 51 INPUT 2;
-#X obj 17 15 clone -s 1 _input 4 10 5 \$0 _barked;
+#X floatatom 83 157 5 0 0 2 1-rms 1-rms -, f 5;
+#X floatatom 213 156 5 0 0 2 2-rms 2-rms -, f 5;
+#X floatatom 89 292 5 0 0 2 3-rms 3-rms -, f 5;
+#X floatatom 220 293 5 0 0 2 4-rms 4-rms -, f 5;
+#X obj 245 14 tgl 15 0 monitor monitor-set monitor 17 7 0 10 -262144
+-1 -1 1 1;
+#X obj 12 100 tgl 15 0 1-sigmund-switch 1-sigmund-switch-set 1-sigmund-switch
+17 7 0 10 -262144 -1 -1 1 1;
+#X obj 147 100 tgl 15 0 2-sigmund-switch 2-sigmund-switch-set 2-sigmund-switch
+17 7 0 10 -262144 -1 -1 1 1;
+#X obj 15 238 tgl 15 0 3-sigmund-switch 3-sigmund-switch-set 3-sigmund-switch
+17 7 0 10 -262144 -1 -1 1 1;
+#X obj 150 238 tgl 15 0 4-sigmund-switch 4-sigmund-switch-set 4-sigmund-switch
+17 7 0 10 -262144 -1 -1 1 1;
+#X obj 15 258 tgl 15 0 3-bark-switch 3-bark-switch-set 3-bark-switch
+17 7 0 10 -262144 -1 -1 1 1;
+#X obj 150 258 tgl 15 0 4-bark-switch 4-bark-switch-set 4-bark-switch
+17 7 0 10 -262144 -1 -1 1 1;
+#X obj 12 120 tgl 15 0 1-bark-switch 1-bark-switch-set 1-bark-switch
+17 7 0 10 -262144 -1 -1 1 1;
+#X obj 147 120 tgl 15 0 2-bark-switch 2-bark-switch-set 2-bark-switch
+17 7 0 10 -262144 -1 -1 1 1;
+#X text 8 38 INPUT 1;
+#X text 10 176 INPUT 3;
+#X text 145 178 INPUT 4;
+#X text 144 37 INPUT 2;
+#X obj 11 12 clone -s 1 _input 4 10 5 \$0;
 #X restore 15 92 pd inputs;
 #X obj 15 180 fd_windows \$0 2048;
 #N canvas 166 215 413 400 generate 0;
@@ -1028,63 +1065,59 @@ symbol violin-6 \, symbol violin-7 \, symbol violin-8 \, symbol violin-9
 #X connect 22 0 12 1;
 #X restore 15 246 pd tab;
 #N canvas 596 127 453 485 midi 0;
-#X obj 36 120 r 0-pulse;
-#X msg 161 130 load;
-#X obj 34 48 fd_clicktrack 0;
-#X obj 136 221 sel 0;
-#X obj 173 270 s midistart;
-#X obj 193 202 route lyrics;
-#X obj 286 237 route bang;
-#X obj 286 259 s midistop;
-#X obj 310 287 print fd_midiread, f 11;
-#X obj 36 196 route 144;
-#X obj 36 416 s midievent;
-#X obj 36 229 unpack;
-#X obj 36 291 spigot;
-#X obj 81 259 t f f;
-#X obj 36 347 f;
-#X obj 66 347 + 1;
-#X obj 36 315 t b f;
-#X obj 136 244 t b b;
-#X msg 136 270 0;
-#X obj 161 99 loadbang;
-#X obj 36 162 fd_midiread elec;
-#X obj 193 232 symbol;
-#X obj 193 303 list fromsymbol, f 10;
-#X obj 193 349 list trim;
-#X obj 36 379 pack f f f f;
-#X obj 228 142 r fd_midi;
-#X text 169 48 <-- see fd_clicktrack;
-#X connect 0 0 20 0;
-#X connect 1 0 20 1;
+#X obj 36 18 fd_clicktrack 0;
+#X obj 136 201 sel 0;
+#X obj 173 438 s midistart;
+#X obj 193 182 route lyrics;
+#X obj 286 217 route bang;
+#X obj 286 436 s midistop;
+#X obj 310 267 print fd_midiread, f 11;
+#X obj 36 176 route 144;
+#X obj 36 436 s midievent;
+#X obj 36 209 unpack;
+#X obj 36 271 spigot;
+#X obj 81 239 t f f;
+#X obj 36 327 f;
+#X obj 66 327 + 1;
+#X obj 36 295 t b f;
+#X obj 136 224 t b b;
+#X msg 136 250 0;
+#X obj 193 212 symbol;
+#X obj 193 243 list fromsymbol, f 10;
+#X obj 193 289 list trim;
+#X obj 36 359 pack f f f f;
+#X obj 193 409 s midilyric;
+#X obj 161 111 r fd_midi;
+#X obj 36 142 fd_midiread elec;
+#X text 55 41 send 'click' sound OUT via 2nd outlet, f 22;
+#X connect 0 0 23 0;
+#X connect 1 0 15 0;
 #X connect 3 0 17 0;
-#X connect 5 0 21 0;
-#X connect 5 1 6 0;
-#X connect 6 0 7 0;
-#X connect 6 1 8 0;
-#X connect 9 0 11 0;
-#X connect 11 0 12 0;
-#X connect 11 1 13 0;
-#X connect 12 0 16 0;
+#X connect 3 1 4 0;
+#X connect 4 0 5 0;
+#X connect 4 1 6 0;
+#X connect 7 0 9 0;
+#X connect 9 0 10 0;
+#X connect 9 1 11 0;
+#X connect 10 0 14 0;
+#X connect 11 0 10 1;
+#X connect 11 1 20 2;
+#X connect 12 0 13 0;
+#X connect 12 0 20 0;
 #X connect 13 0 12 1;
-#X connect 13 1 24 2;
-#X connect 14 0 15 0;
-#X connect 14 0 24 0;
-#X connect 15 0 14 1;
-#X connect 16 0 14 0;
-#X connect 16 1 24 1;
+#X connect 14 0 12 0;
+#X connect 14 1 20 1;
+#X connect 15 0 16 0;
+#X connect 15 1 2 0;
+#X connect 16 0 12 1;
 #X connect 17 0 18 0;
-#X connect 17 1 4 0;
-#X connect 18 0 14 1;
-#X connect 19 0 1 0;
-#X connect 20 0 9 0;
-#X connect 20 1 3 0;
-#X connect 20 2 5 0;
-#X connect 21 0 22 0;
-#X connect 22 0 23 0;
-#X connect 23 0 24 3;
-#X connect 24 0 10 0;
-#X connect 25 0 20 1;
+#X connect 18 0 19 0;
+#X connect 19 0 21 0;
+#X connect 20 0 8 0;
+#X connect 22 0 23 1;
+#X connect 23 0 7 0;
+#X connect 23 1 1 0;
+#X connect 23 2 3 0;
 #X restore 15 136 pd midi;
 #N canvas 404 37 866 630 finetune-barks 0;
 #X obj 641 419 bng 15 250 50 0 empty 4-barked 4-barked 17 7 0 10 -262144
@@ -1138,43 +1171,77 @@ filter_range 0 42 \; 2-bark thresh -1 6.5 \; 2-bark minvel 1 \;;
 #X connect 27 0 10 0;
 #X restore 15 114 pd finetune-barks;
 #N canvas 380 129 626 425 fake-inputs 0;
-#X obj 329 301 s~ adc-1;
-#X obj 425 300 s~ adc-2;
-#X obj 338 278 s~ adc-3;
-#X obj 434 278 s~ adc-4;
-#X text 351 87 fake inputs for testing \, edit _input afterwards,
-f 18;
-#X msg 242 153 open ../extra/contraccolpi.wav \, 1;
-#X obj 242 181 readsf~ 2;
-#X msg 139 125 1;
-#X msg 180 125 0;
-#X obj 91 261 *~ 0.1;
-#X obj 175 262 *~ 0.1;
-#X floatatom 136 194 5 0 0 0 - - -, f 5;
-#X obj 91 297 throw~ 1-dacout, f 8;
-#X obj 175 297 throw~ 2-dacout, f 8;
-#X obj 242 91 inlet;
-#X connect 5 0 6 0;
-#X connect 6 0 0 0;
-#X connect 6 0 2 0;
-#X connect 6 0 9 0;
-#X connect 6 1 1 0;
-#X connect 6 1 3 0;
-#X connect 6 1 10 0;
-#X connect 6 2 5 0;
-#X connect 7 0 6 0;
-#X connect 8 0 6 0;
+#X obj 355 351 s~ adc-1;
+#X obj 491 350 s~ adc-2;
+#X obj 364 328 s~ adc-3;
+#X obj 500 328 s~ adc-4;
+#X text 77 38 fake inputs for testing \, edit _input afterwards, f
+18;
+#X obj 355 184 readsf~ 2;
+#X msg 297 137 1;
+#X msg 259 137 0;
+#X obj 146 299 *~ 0.1;
+#X obj 230 300 *~ 0.1;
+#X floatatom 191 232 5 0 0 0 - - -, f 5;
+#X obj 146 335 throw~ 1-dacout, f 8;
+#X obj 230 335 throw~ 2-dacout, f 8;
+#X obj 297 35 inlet;
+#X obj 297 78 t b b;
+#X msg 355 98 open ../extra/contraccolpi.wav, f 25;
+#X obj 450 184 fd_switch;
+#X obj 355 235 *~;
+#X obj 389 235 *~;
+#X obj 519 227 switch~;
+#X connect 5 0 17 0;
+#X connect 5 1 18 0;
+#X connect 5 2 14 0;
+#X connect 6 0 5 0;
+#X connect 6 0 16 0;
+#X connect 7 0 5 0;
+#X connect 7 0 16 0;
+#X connect 8 0 11 0;
 #X connect 9 0 12 0;
-#X connect 10 0 13 0;
-#X connect 11 0 9 1;
-#X connect 11 0 10 1;
-#X connect 14 0 5 0;
+#X connect 10 0 8 1;
+#X connect 10 0 9 1;
+#X connect 13 0 14 0;
+#X connect 14 0 6 0;
+#X connect 14 1 15 0;
+#X connect 15 0 5 0;
+#X connect 16 0 17 1;
+#X connect 16 0 18 1;
+#X connect 16 1 19 0;
+#X connect 17 0 2 0;
+#X connect 17 0 0 0;
+#X connect 17 0 8 0;
+#X connect 18 0 3 0;
+#X connect 18 0 1 0;
+#X connect 18 0 9 0;
 #X restore 15 62 pd fake-inputs;
 #X msg 15 39 contraccolpi;
 #X obj 16 358 route 1 2, f 15;
 #X obj 17 393 vu 15 120 empty empty -1 -8 0 10 -66577 -1 1 0;
 #X obj 75 393 vu 15 120 empty empty -1 -8 0 10 -66577 -1 1 0;
 #X obj 16 316 clone -s 1 _output 2 dacout, f 16;
+#N canvas 423 79 523 272 rec 0;
+#X msg 24 122 1 \, 2;
+#X msg 315 67 1 \, 2;
+#X msg 83 103 \; fd_stopwatch start;
+#X msg 24 59 bang;
+#X msg 315 92 \; fd_write-\$1 stop bang \; fd_stopwatch still \;;
+#X msg 24 157 \; write-switch 1 \; fd_write-\$1 full-path /Users/federicocamarahalac/Documents/fd_work/a.le.a/audio
+\; fd_write-\$1 filename triggered-grains-\$1 \;;
+#X obj 83 79 del 4000;
+#X obj 289 14 r rec;
+#X obj 289 39 sel 1 0;
+#X connect 0 0 5 0;
+#X connect 1 0 4 0;
+#X connect 3 0 0 0;
+#X connect 3 0 6 0;
+#X connect 6 0 2 0;
+#X connect 7 0 8 0;
+#X connect 8 0 3 0;
+#X connect 8 1 1 0;
+#X restore 127 434 pd rec;
 #X connect 12 0 11 0;
 #X connect 13 0 14 0;
 #X connect 13 1 15 0;

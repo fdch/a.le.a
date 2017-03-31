@@ -54,7 +54,7 @@ clarinet_three_part = {
   r16  r8.  |
   % ________________________________________bar 6 :
   r16  fis8.~ 
-  fis8.  a''16 
+  fis8.  fis16 
   r2  |
   % ________________________________________bar 7 :
   r16  r8. 
@@ -67,10 +67,10 @@ clarinet_three_part = {
   r4 
   fis16  r8  r16  |
   % ________________________________________bar 9 :
-  \once \override NoteHead.style = #'triangle ais16^\markup {slap }  r8. 
+  \once \override NoteHead.style = #'triangle fis16^\markup {slap }  r8. 
   r16  r16  r16  r16 
   r8.  r16 
-  \once \override NoteHead.style = #'triangle ais16^\markup {slap }  r8.  |
+  \once \override NoteHead.style = #'triangle fis16^\markup {slap }  r8.  |
   % ________________________________________bar 10 :
   r4. 
   r16  r16 
@@ -82,7 +82,7 @@ clarinet_three_part = {
   r2  |
   % ________________________________________bar 12 :
   r8  \once \override NoteHead.style = #'slash g''8~^\markup {teeth } 
-  \once \override NoteHead.style = #'slash g''8.  eih'16:32^\markup {frull. } 
+  \once \override NoteHead.style = #'slash g''8.  f16:32^\markup {frull. } 
   <fis g >16^\markup {sing }  fis16  r16  \once \override NoteHead.style = #'triangle fis16~ 
   \once \override NoteHead.style = #'triangle fis4~  |
   % ________________________________________bar 13 :
@@ -142,7 +142,7 @@ clarinet_three_part = {
   g4~ 
   g16  dis''16  d''16  dis''16 
   d''16  dis''16  d''16  dis''16 
-  d''16  b16  r8  |
+  d''16  g16  r8  |
   % ________________________________________bar 25 :
   \once \override NoteHead.style = #'triangle g16^\markup {slap }  f16:32^\markup {frull. }  r16  r16 
   r2 
@@ -159,7 +159,7 @@ clarinet_three_part = {
   r16  r8.  |
   % ________________________________________bar 28 :
   r8.  r16 
-  a''16  r16  \once \override NoteHead.style = #'triangle a''16  r16 
+  fis16  r16  \once \override NoteHead.style = #'triangle fis16  r16 
   r2  |
   % ________________________________________bar 29 :
   c'16\pp  e'16  gis16  c'16 
@@ -169,10 +169,10 @@ clarinet_three_part = {
   % ________________________________________bar 30 :
   e'16  g16  ais16  cis'16 
   e'16  g16  gis16  r16 
-  f16:32^\markup {frull. }  d'8.~ 
-  d'4~  |
+  f16:32^\markup {frull. }  fis8.~ 
+  fis4~  |
   % ________________________________________bar 31 :
-  d'8  cis''''8 
+  fis8  fis8 
   r16  r16  fis16  r16 
   fis2~  |
   % ________________________________________bar 32 :
@@ -225,7 +225,7 @@ clarinet_three_part = {
   r16  r16  r8  |
   % ________________________________________bar 42 :
   r2 
-  cis'''16 
+  fis16 
 }
 
 \score {

@@ -74,7 +74,7 @@ cello_three_part = {
   r8  r8  |
   % ________________________________________bar 10 :
   r4 
-  r16  a16  r8 
+  r16  cis16  r8 
   r4 
   r16  r16  cis16^\markup {pizz. }  \once \override NoteHead.style = #'harmonic cisih16  |
   % ________________________________________bar 11 :
@@ -98,7 +98,7 @@ cello_three_part = {
   dis''16  r16  r16  c16:32~ 
   c4:32~  |
   % ________________________________________bar 15 :
-  c8.:32  cis'16 
+  c8.:32  cis16 
   cis4. 
   r16  r16 
   r4  |
@@ -134,8 +134,8 @@ cello_three_part = {
   % ________________________________________bar 22 :
   a16  gis16  g16  fis16 
   gis16  ais16  c16  d16 
-  e16  dis16  cis'8~ 
-  cis'16  r16  r16  r16  |
+  e16  dis16  cis8~ 
+  cis16  r16  r16  r16  |
   % ________________________________________bar 23 :
   r2 
   r8  cis8^\markup {arco } 
@@ -166,11 +166,11 @@ cello_three_part = {
   cis16  f16  gis16  b16  |
   % ________________________________________bar 29 :
   d16  f16  gis16  r16 
-  r16  r16  r16  bih16:32~ 
-  bih2:32~  |
+  r16  r16  r16  c16:32~ 
+  c2:32~  |
   % ________________________________________bar 30 :
-  bih16:32  cisih8^\markup {arco }  r16 
-  eih'16^\markup {pizz. }  r8. 
+  c16:32  cisih8^\markup {arco }  r16 
+  cisih16^\markup {pizz. }  r8. 
   c16:32  cisih8.~^\markup {arco } 
   cisih8.  r16  |
   % ________________________________________bar 31 :

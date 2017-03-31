@@ -35,7 +35,7 @@ violin_one_part = \relative c' {
   % ________________________________________bar 7 :
   gis16  g16  g16  gis16 
   gis16  gis16  g16  g16 
-  f'16  g,8.~ 
+  gis16  g8.~ 
   g4~  |
   % ________________________________________bar 8 :
   g8.  g16:32\ppp 
@@ -54,20 +54,20 @@ violin_one_part = \relative c' {
   \once \override NoteHead.style = #'harmonic f16  \once \override NoteHead.style = #'harmonic e16  \once \override NoteHead.style = #'harmonic f16  \once \override NoteHead.style = #'harmonic e16  |
   % ________________________________________bar 11 :
   \once \override NoteHead.style = #'harmonic f16  \once \override NoteHead.style = #'harmonic e16  \once \override NoteHead.style = #'harmonic gis,,8~ 
-  \once \override NoteHead.style = #'harmonic gis16  r16  r16  d''16~^\markup {pizz. } 
-  d4~ 
-  d8  r8  |
+  \once \override NoteHead.style = #'harmonic gis16  r16  r16  gis16~^\markup {pizz. } 
+  gis4~ 
+  gis8  r8  |
   % ________________________________________bar 12 :
-  r16  r16  gis,,16^\markup {arco }  gis16~\f^\markup {pizz. } 
+  r16  r16  gis16^\markup {arco }  gis16~\f^\markup {pizz. } 
   gis8.  r16 
   r2  |
   % ________________________________________bar 13 :
   r16  f''16  e16  f16 
   e16  f16  e16  f16 
-  e16  b,16  d''8~ 
-  d4~  |
+  e16  gis,,16  gis8~ 
+  gis4~  |
   % ________________________________________bar 14 :
-  d8  gis,,,16  r16 
+  gis8  gis16  r16 
   r2 
   gis4~  |
   % ________________________________________bar 15 :
@@ -90,92 +90,95 @@ violin_one_part = \relative c' {
   e16  f16  e16  f16 
   e16  r8  r16  |
   % ________________________________________bar 19 :
-  f16  e16  a,,8:32 
-  gis4. 
-  r8  |
-  % ________________________________________bar 2 :
-  r8.  gis16^\markup {arco } 
-  r4 
-  r8.  \once \override NoteHead.style = #'harmonic gis16 
-  r16  f''16  e16  f16  |
-  % ________________________________________bar 3 :
-  e16  f16  e16  f16 
-  e16  r16  r8 
-  r2  |
-  % ________________________________________bar 4 :
-  r4. 
-  gis,,8~^\markup {pizz. } 
+  e16  g,,8:32  gis16~ 
   gis4~ 
-  gis8.  g16:32  |
+  gis16  r16  r8  |
+  % ________________________________________bar 2 :
+  r8  gis16^\markup {arco }  r16 
+  r4. 
+  \once \override NoteHead.style = #'harmonic gis16  r16 
+  f''16  e16  f16  e16  |
+  % ________________________________________bar 3 :
+  f16  e16  f16  e16 
+  r2 
+  r4  |
+  % ________________________________________bar 4 :
+  r4 
+  r16  gis,,8.~^\markup {pizz. } 
+  gis4~ 
+  gis8  g16:32  d'16  |
   % ________________________________________bar 5 :
-  d'16  c16  ais16  g16 
-  e'16  cis16  c16  b16 
-  ais16  a16  gis16  g16 
-  fis'16  e16  c16  gis16  |
+  c16  ais16  g16  e'16 
+  cis16  c16  b16  ais16 
+  a16  gis16  g16  fis'16 
+  e16  c16  gis16  e'16  |
   % ________________________________________bar 6 :
-  e'16  c16  gis16  e'16 
   c16  gis16  e'16  c16 
-  b16  g16  dis'16  b16 
-  g16  dis'16  b16  g16  |
+  gis16  e'16  c16  b16 
+  g16  dis'16  b16  g16 
+  dis'16  b16  g16  dis'16  |
   % ________________________________________bar 7 :
-  dis'16  b16  g16  dis'16 
   b16  g16  dis'16  b16 
-  g16  e'16  c16  b16 
-  ais16  a16  g8:32~  |
+  g16  dis'16  b16  g16 
+  e'16  c16  b16  ais16 
+  a16  g8.:32~  |
   % ________________________________________bar 8 :
-  g2:32 
+  g4.:32~ 
+  g16:32  r16 
   r2  |
   % ________________________________________bar 9 :
-  r16  \once \override NoteHead.style = #'harmonic gis16  r8 
-  r8  r16  a16^\markup {pizz. } 
+  \once \override NoteHead.style = #'harmonic gis16  r16  r8 
+  r8  a16^\markup {pizz. }  r16 
   r2  |
   % ________________________________________bar 10 :
-  r16  r8  r16 
   r4 
-  r8.  gis16~^\markup {arco } 
-  gis8  r16  r16  |
-  % ________________________________________bar 11 :
-  r16  c16  cis16  d16 
-  g,16  gis16  ais16  b16 
-  c16  cis16  a16  d16 
-  b16\p  g16  c16  a16  |
-  % ________________________________________bar 12 :
-  d16  b16  g16  c16 
-  a16  d16  b16  g16 
   r4. 
-  r16  gis16^\markup {pizz. }  |
+  gis8~^\markup {arco } 
+  gis16  r16  r16  r16  |
+  % ________________________________________bar 11 :
+  c16  cis16  d16  g,16 
+  gis16  ais16  b16  c16 
+  cis16  a16  d16  b16\p 
+  g16  c16  a16  d16  |
+  % ________________________________________bar 12 :
+  b16  g16  c16  a16 
+  d16  b16  g16  r16 
+  r4 
+  r8  gis16^\markup {pizz. }  r16  |
   % ________________________________________bar 13 :
-  r16  gis16^\markup {arco }  g16:32  r16 
-  r8  f''16  e16 
-  f16  e16  f16  e16 
-  f16  e16  gis,,8~^\markup {pizz. }  |
+  gis16^\markup {arco }  g16:32  r8 
+  r16  f''16  e16  f16 
+  e16  f16  e16  f16 
+  e16  gis,,8.~^\markup {pizz. }  |
   % ________________________________________bar 14 :
-  gis8  f''16  e16 
-  f16  e16  f16  e16 
-  f16  e16  r8 
+  gis16  f''16  e16  f16 
+  e16  f16  e16  f16 
+  e16  r16  r8 
   r4  |
   % ________________________________________bar 15 :
-  r2 
-  e,16  c16  a16  fis'16 
-  dis16  c16  ais16  gis16  |
-  % ________________________________________bar 16 :
-  fis'16  \once \override NoteHead.style = #'harmonic gis,16  e''16  e16 
-  f16  f16  e16  e16 
-  e16  f16  r16  f,16\mf 
-  e16  dis16  d16  cis16  |
-  % ________________________________________bar 17 :
-  c16  b16  g16  f'16 
-  r16  gis,16^\markup {pizz. }  r8 
-  r2  |
-  % ________________________________________bar 18 :
-  \once \override NoteHead.style = #'harmonic gis16  gis16^\markup {pizz. }  r8 
   r4 
-  r8  f''16  e16 
-  f16  e16  f16  e16  |
+  r8.  e,16 
+  c16  a16  fis'16  dis16 
+  c16  ais16  gis16  fis'16  |
+  % ________________________________________bar 16 :
+  \once \override NoteHead.style = #'harmonic gis,16  e''16  e16  f16 
+  f16  e16  e16  e16 
+  f16  r16  f,16\mf  e16 
+  dis16  d16  cis16  c16  |
+  % ________________________________________bar 17 :
+  b16  g16  f'16  r16 
+  gis,16^\markup {pizz. }  r16  r8 
+  r4 
+  r8.  \once \override NoteHead.style = #'harmonic gis16  |
+  % ________________________________________bar 18 :
+  gis16^\markup {pizz. }  r16  r8 
+  r4 
+  r16  f''16  e16  f16 
+  e16  f16  e16  f16  |
   % ________________________________________bar 19 :
-  f16  e16  r8 
+  e16  r8  r16 
   r2 
-  r16  gis,,8.~  |
+  gis,,4~  |
   % ________________________________________bar 20 :
   c16\mf  b16  g16  f'16 
   dis16  cis16  a16  gis16 
@@ -204,8 +207,8 @@ violin_one_part = \relative c' {
   r4  |
   % ________________________________________bar 7 :
   r4 
-  r8  r16  gis'16\mf^\markup {pizz. } 
-  f'16  e16  f16  e16 
+  r8  r16  gis16\mf^\markup {pizz. } 
+  f''16  e16  f16  e16 
   f16  e16  f16  e16  |
   % ________________________________________bar 8 :
   r2 
@@ -223,17 +226,17 @@ violin_one_part = \relative c' {
   r4  |
   % ________________________________________bar 11 :
   r2 
-  b''16^\markup {pizz. }  r16  r8 
+  gis16^\markup {pizz. }  r16  r8 
   r4  |
   % ________________________________________bar 12 :
-  r16  r16  g,,16:32\p  gis16 
+  r16  r16  g16:32\p  gis16 
   gis4 
   \once \override NoteHead.style = #'harmonic gis16  f''16  e16  f16 
   e16  f16  e16  f16  |
   % ________________________________________bar 13 :
-  e16  e,8.:32 
+  e16  g,,8.:32 
   r2 
-  r8  g,8:32  |
+  r8  g8:32  |
   % ________________________________________bar 14 :
   f'16^\markup {legato }  e16  dis16  d16 
   b16  a16  g16  e'16 
@@ -246,12 +249,12 @@ violin_one_part = \relative c' {
   r4  |
   % ________________________________________bar 16 :
   r4 
-  b16  r16  r8 
+  gis16  r16  r8 
   r2  |
   % ________________________________________bar 17 :
   r4 
-  r16  d8.~ 
-  d16  gis,16  r16  gis16~ 
+  r16  gis8.~ 
+  gis16  gis16  r16  gis16~ 
   gis4~  |
   % ________________________________________bar 18 :
   gis8.  \once \override NoteHead.style = #'harmonic gis16 
@@ -302,7 +305,7 @@ violin_one_part = \relative c' {
   \once \override NoteHead.style = #'harmonic g16  f''16  e16  f16  |
   % ________________________________________bar 28 :
   e16  f16  e16  f16 
-  e16  b,16:32  g8~^\markup {pizz. } 
+  e16  g,,16:32  g8~^\markup {pizz. } 
   g4~ 
   g8  r16  f''16  |
   % ________________________________________bar 29 :
@@ -335,8 +338,8 @@ violin_one_part = \relative c' {
   r2  |
   % ________________________________________bar 35 :
   g4.~ 
-  g16  cis'''16^\markup {arco } 
-  r8  gis,,,8~^\markup {pizz. } 
+  g16  g16^\markup {arco } 
+  r8  gis8~^\markup {pizz. } 
   gis8  gis16  r16  |
   % ________________________________________bar 36 :
   r4 
@@ -348,5 +351,5 @@ violin_one_part = \relative c' {
   g4:32 
   r2  |
   % ________________________________________bar 38 :
-  r16  cis16:32  r16 
+  r16  g16:32  r16  \once \override NoteHead.style = #'harmonic gis16 
 }

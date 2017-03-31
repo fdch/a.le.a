@@ -19,9 +19,9 @@
   % ________________________________________bar 5 :
   r4. 
   r8 
-  fis'2:32~^\markup {frull. }  |
+  b2:32~^\markup {frull. }  |
   % ________________________________________bar 6 :
-  fis'16:32  r16  \xNote c'16^\markup {sh }  r16 
+  b16:32  r16  \xNote c'16^\markup {sh }  r16 
   r4 
   r8  r16  \once \override NoteHead.style = #'triangle c'16^\markup {slap } 
   e'16  dis'16  e'16  dis'16  |
@@ -54,7 +54,7 @@
   r4 
   r16  \once \override NoteHead.style = #'triangle c'8.~^\markup {a }  |
   % ________________________________________bar 13 :
-  \once \override NoteHead.style = #'triangle c'8.  <c' e' >16^\markup {sing } 
+  \once \override NoteHead.style = #'triangle c'8.  <c' cis' >16^\markup {sing } 
   r16  r8. 
   r16  e'16  dis'16  e'16 
   dis'16  e'16  dis'16  e'16  |
@@ -80,9 +80,9 @@
   % ________________________________________bar 18 :
   e'16  dis'16  e'16  dis'16 
   \once \override NoteHead.style = #'triangle c'16  r8. 
-  \once \override NoteHead.style = #'xcircle dis'2~^\markup {B.P. }  |
+  \once \override NoteHead.style = #'xcircle c'2~^\markup {B.P. }  |
   % ________________________________________bar 19 :
-  \once \override NoteHead.style = #'xcircle dis'8  r8 
+  \once \override NoteHead.style = #'xcircle c'8  r8 
   r2 
   r4  |
   % ________________________________________bar 20 :
@@ -117,7 +117,7 @@
   % ________________________________________bar 26 :
   r4. 
   r16  r16 
-  <cis' dis' >16^\markup {sing }  <c' cis' >16^\markup {sing }  b16:32^\markup {frull. }  r16 
+  <c' cis' >16^\markup {sing }  <c' cis' >16^\markup {sing }  b16:32^\markup {frull. }  r16 
   r4  |
   % ________________________________________bar 27 :
   r16  r8. 

@@ -39,7 +39,7 @@ violin_two_part = {
   r16  r8. 
   r4  |
   % ________________________________________bar 3 :
-  r8  b16  f''16 
+  r8  gis16  f''16 
   e''16  f''16  e''16  f''16 
   e''16  f''16  e''16  r16 
   r4  |
@@ -97,7 +97,7 @@ violin_two_part = {
   r8.  r16 
   r2  |
   % ________________________________________bar 15 :
-  r16  r16  cis''16:32  g16~\p^\markup {pizz. } 
+  r16  r16  g16:32  g16~\p^\markup {pizz. } 
   g4~ 
   g8  r8 
   r4  |
@@ -108,9 +108,9 @@ violin_two_part = {
   r8.  fis'16  |
   % ________________________________________bar 17 :
   ais16\f  r16  gis16  r16 
-  r16  gis'8.~ 
-  gis'4~ 
-  gis'8.  r16  |
+  r16  gis8.~ 
+  gis4~ 
+  gis8.  r16  |
   % ________________________________________bar 18 :
   r16  gis16  r8 
   r4 
@@ -125,9 +125,9 @@ violin_two_part = {
   r4. 
   r16  \once \override NoteHead.style = #'harmonic gis16 
   r16  r8. 
-  r8.  d'16^\markup {pizz. }  |
+  r8.  gis16^\markup {pizz. }  |
   % ________________________________________bar 21 :
-  d''16  r16  r8 
+  gis16  r16  r8 
   r4 
   r8  r8 
   r16  r16  gis16  gis16  |
@@ -143,9 +143,9 @@ violin_two_part = {
   gis4~  |
   % ________________________________________bar 24 :
   gis4~ 
-  gis16  \once \override NoteHead.style = #'harmonic b16  gis16^\markup {arco }  \once \override NoteHead.style = #'harmonic a16 
-  r16  r16  c'16^\markup {pizz. }  a16 
-  a16  c''16  r8  |
+  gis16  \once \override NoteHead.style = #'harmonic gis16  gis16^\markup {arco }  \once \override NoteHead.style = #'harmonic a16 
+  r16  r16  a16^\markup {pizz. }  a16 
+  a16  a16  r8  |
   % ________________________________________bar 25 :
   r2 
   r8.  r16 
@@ -153,11 +153,11 @@ violin_two_part = {
   % ________________________________________bar 26 :
   gis4~ 
   gis16  r8. 
-  r8.  d''16~ 
-  d''4~  |
+  r8.  gis16~ 
+  gis4~  |
   % ________________________________________bar 27 :
-  d''4 
-  r16  gis'16  gis8~^\markup {arco } 
+  gis4 
+  r16  gis16  gis8~^\markup {arco } 
   gis8.  r16 
   gis16^\markup {pizz. }  r8.  |
   % ________________________________________bar 28 :

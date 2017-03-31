@@ -4,7 +4,7 @@ cello_one_part = {
 
   \clef treble 
   % ________________________________________bar 1 :
-  \once \override NoteHead.style = #'harmonic f,16\ff  r16  r16  b,16^\markup {pizz. } 
+  \once \override NoteHead.style = #'harmonic d,16\ff  r16  r16  d,16^\markup {pizz. } 
   r16  r16  c,16^\markup {non-legato }  d,16 
   e,16  fis,16\mf  a,16  c,16 
   dis,16  g,16  b,16  dis,16  |
@@ -17,7 +17,7 @@ cello_one_part = {
   f,16  g,16  a,16  cis,16 
   f,16  g,16  a,16  b,16 
   cis,16^\markup {arco }  r8. 
-  r16  r16  e'16^\markup {pizz. }  r16  |
+  r16  r16  cis,16^\markup {pizz. }  r16  |
   % ________________________________________bar 4 :
   r2 
   r8  r16  cis,16~ 
@@ -72,7 +72,7 @@ cello_one_part = {
   cis,4~  |
   % ________________________________________bar 15 :
   cis,8  r8 
-  r16  r16  g,8 
+  r16  r16  cis,8 
   r2  |
   % ________________________________________bar 16 :
   r16  fis,16  b,16  cis,16 
@@ -98,11 +98,11 @@ cello_one_part = {
   fis,16  gis,16  ais,16  c,16 
   d,16  e,16  g,16  ais,16 
   cis,16  e,16  g,16  ais,16 
-  cis,16  f,16  g'8~  |
+  cis,16  f,16  cis,8~  |
   % ________________________________________bar 21 :
-  g'2 
-  r16  cis,16  ais8~ 
-  ais4  |
+  cis,2 
+  r16  cis,16  cis,8~ 
+  cis,4  |
   % ________________________________________bar 22 :
   r4. 
   r8 
@@ -128,7 +128,7 @@ cello_one_part = {
   r8  cis,16  cis,16~  |
   % ________________________________________bar 27 :
   cis,4.~ 
-  cis,16  e'16 
+  cis,16  cis,16 
   r4 
   c,16:32  r16  cis,8~  |
   % ________________________________________bar 28 :
@@ -165,7 +165,7 @@ cello_one_part = {
   cis,16  r8  \once \override NoteHead.style = #'harmonic cis,16  |
   % ________________________________________bar 35 :
   r4 
-  r16  r16  a'16^\markup {arco }  r16 
+  r16  r16  cis,16^\markup {arco }  r16 
   r8.  r16 
   r4  |
   % ________________________________________bar 36 :

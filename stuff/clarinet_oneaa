@@ -20,17 +20,17 @@ clarinet_one_part = {
   r4  |
   % ________________________________________bar 4 :
   r4 
-  <f gis >8.^\markup {sing }  f16:32^\markup {frull. } 
+  <f fis >8.^\markup {sing }  f16:32^\markup {frull. } 
   r16  r16  r8 
   r4  |
   % ________________________________________bar 5 :
-  r8  r16  e''16~ 
-  e''2~ 
+  r8  r16  fis16~ 
+  fis2~ 
   fis16  r8.  |
   % ________________________________________bar 6 :
   r8  f16:32^\markup {frull. }  f16:32^\markup {frull. } 
-  ais4.~ 
-  ais16  r16 
+  fis4.~ 
+  fis16  r16 
   r16  f8:32^\markup {frull. }  f16^\markup {legato }  |
   % ________________________________________bar 7 :
   a16  cis'16  f16  a16 
@@ -65,9 +65,9 @@ clarinet_one_part = {
   fis16  r8. 
   r4 
   r16  fis16  r16  r16 
-  g'4~  |
+  fis4~  |
   % ________________________________________bar 14 :
-  g'16  r16  r16  r16 
+  fis16  r16  r16  r16 
   r4 
   r16  r8  r16 
   r8.  r16  |

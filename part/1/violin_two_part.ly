@@ -23,8 +23,8 @@ violin_two_part = {
   r4 
   r8  r16  r16  |
   % ________________________________________bar 5 :
-  gis''2~^\markup {pizz. } 
-  gis''8  gis16  gis16 
+  gis2~^\markup {pizz. } 
+  gis8  gis16  gis16 
   r16  g16:32\mf  r16  \once \override NoteHead.style = #'harmonic gisih16  |
   % ________________________________________bar 6 :
   gis2^\markup {arco } 
@@ -56,13 +56,13 @@ violin_two_part = {
   r4  |
   % ________________________________________bar 12 :
   r4 
-  b16  r16  r16  gis16 
+  gis16  r16  r16  gis16 
   r16  r8. 
   r8.  gis16~^\markup {arco }  |
   % ________________________________________bar 13 :
   gis4.~ 
   gis16  gis16 
-  f''8.^\markup {pizz. }  gis16 
+  gis8.^\markup {pizz. }  gis16 
   r16  r8.  |
   % ________________________________________bar 14 :
   gis8.  r16 
@@ -75,12 +75,12 @@ violin_two_part = {
   r16  r16  r8  |
   % ________________________________________bar 16 :
   r4. 
-  f''8~ 
-  f''8  f''16  e''16 
+  gis8~ 
+  gis8  f''16  e''16 
   f''16  e''16  f''16  e''16  |
   % ________________________________________bar 17 :
   f''16  e''16  r16  r16 
-  b'4. 
+  gis4. 
   r16  r16 
   r4  |
   % ________________________________________bar 18 :
@@ -92,10 +92,10 @@ violin_two_part = {
   r4 
   r4. 
   r16  r16 
-  b4~  |
+  gis4~  |
   % ________________________________________bar 20 :
-  b4~ 
-  b16  g8:32  gis16~\p 
+  gis4~ 
+  gis16  g8:32  gis16~\p 
   gis4 
   gis16  gis8.~  |
   % ________________________________________bar 21 :
@@ -114,7 +114,7 @@ violin_two_part = {
   r2  |
   % ________________________________________bar 24 :
   r16  r16  gis8~ 
-  gis16  r16  r16  f'16 
+  gis16  r16  r16  gis16 
   r16  g16:32  r16  f''16 
   e''16  e''16  f''16  f''16  |
   % ________________________________________bar 25 :
@@ -139,7 +139,7 @@ violin_two_part = {
   % ________________________________________bar 29 :
   gis8  r16  r16 
   r2 
-  \once \override NoteHead.style = #'harmonic bih16  r16  \once \override NoteHead.style = #'harmonic gisih16  r16  |
+  \once \override NoteHead.style = #'harmonic gisih16  r16  \once \override NoteHead.style = #'harmonic gisih16  r16  |
   % ________________________________________bar 30 :
   r4 
   r16  r16  r16  r16 

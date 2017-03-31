@@ -45,7 +45,7 @@ flute_two_part = {
   r8  <c' cis' >8~^\markup {sing } 
   <c' cis' >4~  |
   % ________________________________________bar 4 :
-  <c' cis' >8  r16  b''16 
+  <c' cis' >8  r16  c'16 
   r4 
   r16  r16  \xNote c'8~^\markup {e } 
   \xNote c'4  |
@@ -71,7 +71,7 @@ flute_two_part = {
   % ________________________________________bar 9 :
   r4 
   b2:32~\p^\markup {frull. } 
-  b8:32  dis'16  e'16  |
+  b8:32  c'16  e'16  |
   % ________________________________________bar 10 :
   dis'16  e'16  dis'16  e'16 
   dis'16  e'16  dis'16  c'16~ 
