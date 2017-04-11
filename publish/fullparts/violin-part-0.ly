@@ -232,7 +232,7 @@ violin_one_part = \relative c'' {
   % ________________________________________bar 14 :
   R1 *4  |
   % ________________________________________bar 18 :
-  r8  gis16^\markup {arco }  r16 
+  r8  \mark \default   gis16^\markup {arco }  r16 
   r2 
   r16  f'16\(\rfz\>  fis16  g,16  |
   % ________________________________________bar 19 :
@@ -741,14 +741,14 @@ violin_one_part = \relative c'' {
   r8  \once \override NoteHead.style = #'harmonic gis,16  r16  |
   % ________________________________________bar 12 :
   R1 * 4|
-  d'''1^\markup {
+  d'''1~^\markup {
     \left-column { 
       "molto flautando" 
       "molto sul tasto"
     }
   } \harmonic |
-  
-  R1*2 \bar "|."
+  1~  |
+  1\fermata \bar "|."
   
 
   

@@ -23,31 +23,14 @@
 \score {
   <<     
     \set Score.skipBars = ##t
-	\new Staff \with { 
-	  \magnifyStaff #4/7
-      instrumentName = "elec"	
-		shortInstrumentName = "el."
+    \set Score.markFormatter = #format-mark-box-alphabet
+     \override Score.BarNumber.break-visibility = ##(#t #t #t)
+     \override Score.BarNumber.font-size = #2
+      \set Score.barNumberVisibility = #(every-nth-bar-number-visible 4)
+      \override Score.BarNumber.self-alignment-X = #CENTER
 
-      } 
-    {
-      <<
-        \new Voice {        
-          \elec_one_part
-        }
-      >>
-    }
-	\new Staff \with { 
-	  \magnifyStaff #4/7
-      instrumentName = "video" 
-		shortInstrumentName = "vi."
-      } 
-    {
-      <<
-        \new Voice {        
-          \video_one_part
-        }
-      >>
-    }
+  
+    \new StaffGroup << %begin wind section
 
     \new Staff \with { 
       instrumentName = "flute" 
@@ -70,6 +53,28 @@
         }
       >>
     }
+    >>%end wind section
+      %percussion
+     \new Staff \with { 
+      instrumentName = "perc" 
+      shortInstrumentName = "perc."} 
+    {
+      <<
+        \new Voice {
+          \perc_one_part
+        }
+      >>
+    }
+   %piano
+    \ottavate #'(2 . 7) #'(-2 . -6) ##t
+    \new PianoStaff <<
+     \set PianoStaff.instrumentName = #"piano "
+      \set PianoStaff.shortInstrumentName = #"pno."
+      \new Staff = "pianoL_one_part" \pianoL_one_part
+      \new Staff = "pianoR_one_part" \pianoR_one_part
+    >>
+   
+    \new StaffGroup << %begin string section
     \new Staff \with { 
       instrumentName = "violin" 
       shortInstrumentName = "vn."} 
@@ -90,29 +95,44 @@
         }
       >>
     }
-    \new Staff \with { 
-      instrumentName = "perc" 
-      shortInstrumentName = "perc."} 
+    >> %end string section
+      \new StaffGroup \with {
+          \override StaffGrouper.staff-staff-spacing.basic-distance = #-10  
+    }
+    << %begin electronics
+      \new Staff \with { 
+	  \magnifyStaff #4/7
+      instrumentName = "elec"	
+		shortInstrumentName = "el."
+
+      } 
+  
     {
       <<
-        \new Voice {
-          \perc_one_part
+        \new Voice {      
+          \elec_one_part
         }
       >>
     }
-    \ottavate #'(2 . 7) #'(-2 . -6) ##t
-    \new PianoStaff <<
-     \set PianoStaff.instrumentName = #"piano "
-      \set PianoStaff.shortInstrumentName = #"pno."
-      \new Staff = "pianoL_one_part" \pianoL_one_part
-      \new Staff = "pianoR_one_part" \pianoR_one_part
-    >>
+	\new Staff \with { 
+	  \magnifyStaff #4/7
+      instrumentName = "video" 
+		shortInstrumentName = "vi."     
 
-  >>
+      } 
+    {
+      <<
+        \new Voice {        
+          \video_one_part
+        }
+      >>
+    }
+    >>%end electronics
+  >>%end score
   \layout {
     \mergeDifferentlyHeadedOn
     \mergeDifferentlyDottedOn
     \set Staff.pedalSustainStyle = #'mixed
-    #(set-default-paper-size "17x11")
+    #(set-default-paper-size "a3 landscape")
   }
 }

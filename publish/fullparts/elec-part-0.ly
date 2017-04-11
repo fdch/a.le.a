@@ -4,7 +4,7 @@ elec_one_part = \relative c' {
 
   \clef treble 
   % ________________________________________bar 1 :
-  r8  r16  e16~-0 
+  r8^"PVOC"  r16  e16~-0 
   e16  r16  e16-1  r16 
   r16  e8-2  r16 
   r16  e16-3  r16  r16  |

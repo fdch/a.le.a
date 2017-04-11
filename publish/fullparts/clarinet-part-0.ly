@@ -54,7 +54,7 @@ clarinet_one_part = \relative c''' {
   % ________________________________________bar 23 :
   R1 *4  |
   % ________________________________________bar 27 :
-  r2 
+  r2  \mark \default 
   \once \override NoteHead.style = #'slash g''8.\pp^\markup {teeth }  r16 
   r4  |
   % ________________________________________bar 28 :
@@ -144,7 +144,7 @@ clarinet_one_part = \relative c''' {
   r2 
   fis2~\ppp\<  |
   % ________________________________________bar 5 :
-  fis8\sfz  d'16\p\(  b16 
+  fis8\sfz  \mark \default   d'16\p\(  b16 
   gis16  f16\)  d'16\(  b16 
   gis16  g16  fis16  f16\) 
   e'16\(  dis16  d16  cis16  |
@@ -168,7 +168,7 @@ clarinet_one_part = \relative c''' {
   % ________________________________________bar 10 :
   R1  |
   % ________________________________________bar 11 :
-  r16  \once \override NoteHead.style = #'triangle fis,,16^\markup {slap }  r8 
+  r16  \mark \default   \once \override NoteHead.style = #'triangle fis,,16^\markup {slap }  r8 
   r2 
   <fis g >4~^\markup {sing }  |
   % ________________________________________bar 12 :
@@ -679,7 +679,8 @@ clarinet_one_part = \relative c''' {
   r2  |
   % ________________________________________bar 12 :
   R1 *4  |
-  e''1\pppp^"piu pp pos" |
-  R1*2 \bar "|."
+  e''1~\pppp^"piu pp pos" |
+  1~  |
+  1\fermata  \bar "|."
   
 }

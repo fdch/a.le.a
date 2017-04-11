@@ -731,7 +731,7 @@ cello_one_part = \relative c, {
   % ________________________________________bar 3 :
   R1 *4   | 
   % ________________________________________bar 7 :
-  r4.  cis8\ppp-.^\markup {pizz. }
+  r4.  \mark \default  cis8\ppp-.^\markup {pizz. }
   r2    |
   % ________________________________________bar 8 :
   R1*3    |
@@ -745,7 +745,8 @@ cello_one_part = \relative c, {
   
   %FIRST FIFTEEN BARS OF PART 3
   % ________________________________________bar 3 :
- <d'' g\harmonic>1\ppp |
- R1*2 \bar "|."
+ <d'' g\harmonic>1~\ppp |
+  1~  |
+  1\fermata \bar "|."
   
 }

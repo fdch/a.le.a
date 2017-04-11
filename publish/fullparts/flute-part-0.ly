@@ -7,7 +7,7 @@ flute_one_part = \relative c' {
   R1 *2  |
   % ________________________________________bar 3 :
   r2 
-  r4 
+  r4 \mark \default
   r8  r16  c16\mf  |
   % ________________________________________bar 4 :
   r16  \once \override NoteHead.style = #'xcircle e16\pp\<  \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle e16 
@@ -198,7 +198,7 @@ flute_one_part = \relative c' {
   b16  a16  g16  f16 
   cis'16\)\<-.\p  c16-.  cis16-.  c16-. 
   cis16-.  c16-.  cis16-.  c16\f-. |
-  \xNote c1^"i (high spectrum)"\ppp |
+  \xNote c1^"i (high spectrum)"\ppp  \mark \default  |
   
   R1  |
   % ________________________________________bar 64 :
@@ -489,9 +489,9 @@ flute_one_part = \relative c' {
   % ________________________________________bar 10 :
   R1*6 | 
   
-  \xNote c'1^"i (high spectrum)"\ppp |
-  
-  R1*2 \bar "|."
+  \xNote c'1~^"i (high spectrum)"\ppp  \mark \default  |
+  1~ |
+  1  \fermata \bar "|."
   
   
   

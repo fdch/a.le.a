@@ -82,7 +82,7 @@ pianoL_one_part = \relative c'''' {
   r8  cis,,8~ 
   cis2.  |
   % ________________________________________bar 38 :
-  r16  cis16\staccatissimo  r8 
+  r16  \mark \default   cis16\staccatissimo  r8 
   r8.  cis16\staccatissimo
   g'''16\<\(  fis16  g16  fis16 
   g16  fis16  g16  fis16\!\)  |
@@ -266,7 +266,7 @@ pianoL_one_part = \relative c'''' {
   r8.  cis,,,16\sfz 
   r2  |
   % ________________________________________bar 64 :
-  r4 
+  r4  \mark \default 
   r8  <g' gis a >16  r16 
   c,4.~ 
   c16  r16  |
@@ -289,7 +289,7 @@ pianoL_one_part = \relative c'''' {
   dis16  cis16  g'16  f16\) 
   r2  |
   % ________________________________________bar 76 :
-  r8  cis16\sfz  r16 
+  r8  \mark \default  cis16\sfz  r16 
   g'16\<\(\mf  c,16  f16  ais16 
   dis,16  gis16  cis,16  f16 
   a16\!\)  r8.  |
@@ -684,5 +684,6 @@ pianoL_one_part = \relative c'''' {
   r2.
   \unaCorda cis16\ppp\sustainOn   cis8.  |
   % ________________________________________bar 10 :
-  R1*9 \bar "|."
+  R1*8 |
+  r2...\fermata r16\sustainOff \bar "|."
 }
