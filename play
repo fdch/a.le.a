@@ -1,0 +1,3 @@
+#!/bin/bash
+open bin/gui.pd; open bin/main-audio.pd
+exit

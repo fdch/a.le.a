@@ -428,7 +428,7 @@ echo
 ***************************************************************
 "
 cd $PD
-open $MAIN/bin/main-audio.pd  
+open $MAIN/bin/main-audio.pd; open $MAIN/bin/gui.pd
 open --new --background $MAIN/bin/main-video.pd
 echo 
 "

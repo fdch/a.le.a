@@ -1,0 +1,17 @@
+#N canvas 338 35 285 185 12;
+#X obj 26 51 switch~;
+#X obj 25 98 r~ \$1-adc;
+#X obj 26 29 r \$1-adcrms-switch;
+#X obj 25 145 s \$1-adcrms;
+#X obj 25 120 env~ 2048;
+#X obj 155 71 r monitor;
+#X obj 155 151 s \$1-rms;
+#X obj 155 125 f;
+#X obj 155 96 metro 100;
+#X connect 1 0 4 0;
+#X connect 2 0 0 0;
+#X connect 4 0 3 0;
+#X connect 4 0 7 1;
+#X connect 5 0 8 0;
+#X connect 7 0 6 0;
+#X connect 8 0 7 0;

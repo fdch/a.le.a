@@ -1,0 +1,27 @@
+#N canvas 539 214 436 285 10;
+#X obj 48 115 sigmund~ -npeaks 10 -maxfreq 4000 peaks;
+#X obj 48 137 list prepend send;
+#X obj 48 159 list trim;
+#X obj 48 181 netsend;
+#X msg 166 174 connect localhost 3001;
+#X floatatom 48 203 5 0 0 0 - - -, f 5;
+#X obj 116 219 print;
+#X obj 51 78 readsf~ 8, f 28;
+#X msg 51 30 open /Users/federicocamarahalac/Documents/fd_work/a.le.a-audios/0-audio/24-raw-rec-8ch.wav
+\, 1;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 5 0;
+#X connect 3 1 6 0;
+#X connect 4 0 3 0;
+#X connect 7 0 0 0;
+#X connect 7 1 0 0;
+#X connect 7 2 0 0;
+#X connect 7 3 0 0;
+#X connect 7 4 0 0;
+#X connect 7 5 0 0;
+#X connect 7 6 0 0;
+#X connect 7 7 0 0;
+#X connect 7 8 8 0;
+#X connect 8 0 7 0;

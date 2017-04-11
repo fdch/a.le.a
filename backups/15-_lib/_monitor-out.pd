@@ -1,0 +1,5 @@
+#N canvas 0 22 450 300 12;
+#X obj 10 10 cnv 15 36 120 empty empty \$1-out 3 10 0 10 -1 -262144
+0;
+#X obj 17 43 vu 20 80 \$1-mainvu empty 1 1 0 10 -262144 -1 0 0;
+#X coords 0 -1 1 1 36 120 2 10 10;

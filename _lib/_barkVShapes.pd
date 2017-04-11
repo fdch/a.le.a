@@ -1,0 +1,6 @@
+#N canvas 210 62 219 171 12;
+#X obj 44 22 inlet;
+#X obj 113 24 inlet;
+#X obj 53 91 _cgrain;
+#X connect 0 0 2 0;
+#X connect 1 0 2 1;

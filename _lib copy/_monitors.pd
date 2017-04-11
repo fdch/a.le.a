@@ -1,0 +1,38 @@
+#N canvas 513 249 545 284 10;
+#X obj 316 6 tgl 30 0 empty empty monitor 34 15 0 14 -262144 -1 -1
+0 1;
+#X obj 10 6 tgl 30 0 empty empty enable-adc-dac 35 15 0 14 -262144
+-1 -1 0 1;
+#X obj 172 6 tgl 30 0 empty empty analysis 34 15 0 14 -262144 -1 -1
+0 1;
+#X obj 10 49 _monitor 1;
+#X obj 419 69 _monitor-out 1;
+#X obj 420 6 cnv 15 73 60 empty empty %_cpu_% 10 12 0 14 -1 -262144
+0;
+#X obj 427 39 fd_cputime;
+#X obj 10 192 bng 15 250 50 0 empty empty fake-inputs 17 7 0 10 -262144
+-1 -1;
+#X obj 100 192 bng 15 50 10 0 panic empty panic 17 7 0 10 -258113 -1
+-1;
+#X obj 393 192 fd_stopwatch;
+#X obj 113 224 list prepend enable-adc-dac;
+#X obj 113 246 s to-audio-pd;
+#X obj 207 246 list prepend analysis;
+#X obj 289 222 list prepend monitor;
+#X msg 10 212 symbol fake-inputs;
+#X msg 19 240 symbol panic;
+#X obj 112 49 _monitor 2;
+#X obj 214 49 _monitor 3;
+#X obj 316 49 _monitor 4;
+#X obj 457 69 _monitor-out 2;
+#X connect 0 0 13 0;
+#X connect 1 0 10 0;
+#X connect 2 0 12 0;
+#X connect 7 0 14 0;
+#X connect 8 0 15 0;
+#X connect 10 0 11 0;
+#X connect 12 0 11 0;
+#X connect 13 0 11 0;
+#X connect 14 0 11 0;
+#X connect 15 0 11 0;
+#X coords 0 -1 1 1 483 201 2 10 6;

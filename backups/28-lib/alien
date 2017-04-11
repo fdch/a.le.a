@@ -1,0 +1,7 @@
+#!/bin/bash
+PD="/Applications/Pd-0.47-1.app/Contents/Resources/bin/"
+MAIN=$(pwd)
+cd $PD
+./pd -nogui -noaudio $MAIN/_alien.pd
+cd $MAIN
+exit

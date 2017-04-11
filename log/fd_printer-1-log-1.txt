@@ -1,0 +1,9 @@
+started 0:0:0 waits 0;
+enable-adc-dac 1 0:2:911 waits 2911.91;
+enable-adc-dac 0 0:40:293 waits 37381.2;
+analysis 0 0:40:293 waits 0;
+monitor 0 0:40:293 waits 0;
+enable-adc-dac 1 0:41:605 waits 1311.89;
+analysis 1 0:41:605 waits 0;
+monitor 1 0:41:605 waits 0;
+stopped 0:47:228 waits 5623.44;

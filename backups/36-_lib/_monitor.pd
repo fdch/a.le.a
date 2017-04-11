@@ -1,0 +1,32 @@
+#N canvas 244 249 450 300 12;
+#X obj 10 10 cnv 15 80 80 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 14 44 tgl 15 0 empty \$1-env-switch-set \$1-env 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 14 59 tgl 15 0 empty \$1-sigmund-switch-set \$1-sigmund 17 7
+0 10 -262144 -1 -1 0 1;
+#X obj 14 74 tgl 15 0 empty \$1-bark-switch-set \$1-bark 17 7 0 10
+-262144 -1 -1 0 1;
+#X obj 14 26 nbx 5 14 -1e+37 1e+37 0 0 empty empty \$1-rms 0 -8 0 10
+-262144 -1 -1 0 256;
+#X obj 161 29 r \$1-barked;
+#X obj 161 54 spigot;
+#X obj 216 54 r monitor;
+#X obj 71 25 bng 15 250 50 0 empty empty brk 0 -7 0 10 -262144 -1 -1
+;
+#X obj 160 78 r \$1-rms;
+#X obj 160 103 spigot;
+#X obj 223 104 r monitor;
+#X obj 170 152 s \$1-env-switch;
+#X obj 164 177 s \$1-sigmund-switch;
+#X obj 174 197 s \$1-bark-switch;
+#X connect 1 0 12 0;
+#X connect 2 0 13 0;
+#X connect 3 0 14 0;
+#X connect 5 0 6 0;
+#X connect 6 0 8 0;
+#X connect 7 0 6 1;
+#X connect 9 0 10 0;
+#X connect 10 0 4 0;
+#X connect 11 0 10 1;
+#X coords 0 -1 1 1 80 80 2 10 10;

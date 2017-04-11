@@ -1,23 +1,11 @@
 #!/bin/bash
-FILE=$1
-ID=$2
-
-if [$ID] ; then
-echo "id is $ID"
-else
-echo "provide an ID in arg 2"
-fi
-     
-if [$FILE] ; then
-echo "writing $FILE in backups/"
-else
-echo "provide a filename in arg 1"
-fi
-
-if [$FILE && $ID] ; then     
-cp  -R $FILE backups/$FILE-$ID; ls backups
-else
-echo "no arguments provided"
-fi
-
+declare -i ID=$(cat backups/backup-id)
+ID=$ID+1
+cp -R bin backups/$ID-bin
+cp -R _lib backups/$ID-_lib
+cp -R lib backups/$ID-lib
+cp -R presets backups/$ID-presets
+echo "$ID">backups/backup-id
+echo "
+$ID-backup: $1">>backups/info.txt
 exit

@@ -1,0 +1,8 @@
+#!/bin/bash
+MAIN=$(pwd)
+cd /Applications/Pd-0.47-1.app/Contents/Resources/bin
+./pd -noaudio -nomidi -open $MAIN/../_lib/_controls.pd &
+./pd -noaudio -nomidi -open $MAIN/main-video.pd & 
+./pd -path ../extra/mrpeach -nogui -audiodev 1 -channels 4 -open $MAIN/main-audio.pd
+cd $MAIN
+exit

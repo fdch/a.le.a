@@ -1,0 +1,16 @@
+#N canvas 0 22 450 300 10;
+#X obj 95 89 f;
+#X obj 125 90 - 1;
+#X obj 95 130 /;
+#X obj 125 124 s until-next-section;
+#X obj 95 235 s until-next-display;
+#X obj 189 49 inlet;
+#X obj 96 43 inlet;
+#X connect 0 0 1 0;
+#X connect 0 0 2 0;
+#X connect 0 0 3 0;
+#X connect 1 0 0 1;
+#X connect 2 0 4 0;
+#X connect 5 0 0 1;
+#X connect 5 0 2 1;
+#X connect 6 0 0 0;

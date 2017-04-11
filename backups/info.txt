@@ -1,0 +1,37 @@
+BACKUP 20 IS WORKING
+
+21-backup: added silence-thres, tempo is 120, working fine
+
+22-backup: complexmod works, timbrestamp works, added soft vlines on receive switches to prevent clips, almost changed fd_switched functionality...
+
+23-backup: specdelays are finally working...
+
+24-backup: phasevocoder is working but i need to implement how it interacts
+
+25-backup: backuping before making the 6 channel turn
+
+26-backup: enabled 6 channel input. phasevocoder: resizing tables creates POPS. Never do that live...
+
+27-backup: recording and phasevocoding makes a lot of crackling sounds, so i might disable it altogether... also added fd_oxygen-49 abstraction, to enable midi input, but it's laggy on the gui side
+
+28-backup: still get pops, but everything seems to work
+
+29-backup: works
+
+30-backup: yes, it works
+
+31-backup: worked throughout 2nd rehearsal. kept fiddling with the *goto* functionality of fd_clicktrack and fd_midiread... it sshould automatically allow you to move across barnumers and eventnumbers by only choosing barnumbers. Also, phasevocoders are rather loud and i cannot control the levels, which is highly important. Why did i not include an oscillator filter bank, do you remember?
+
+32-backup: working patch, use this for performance. the next patch will have different window types for the phasevocoder
+
+33-backup: window changes are fine as long as they are in the reading of the fft tables
+
+34-backup: working the video
+
+35-backup: sigmundbuffer, but i dont like what it looks like
+
+36-backup: really nice galaxy type sound analysis
+
+37-backup: before switching to network setup
+
+38-backup: video barks work

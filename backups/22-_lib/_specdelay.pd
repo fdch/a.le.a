@@ -1,0 +1,18 @@
+#N canvas 0 22 450 300 12;
+#X obj 127 12 r specdelay;
+#X obj 355 153 switch~;
+#X obj 325 106 t f f;
+#X obj 37 143 _spat dacout;
+#X obj 227 15 inlet;
+#X obj 37 98 _spdel \$1;
+#X obj 127 41 route params switch;
+#X obj 37 28 r~ adc-\$1;
+#X connect 0 0 6 0;
+#X connect 2 0 3 1;
+#X connect 2 1 1 0;
+#X connect 4 0 6 0;
+#X connect 5 0 3 0;
+#X connect 6 0 5 1;
+#X connect 6 1 2 0;
+#X connect 6 2 3 1;
+#X connect 7 0 5 0;

@@ -1,0 +1,55 @@
+#N canvas 0 22 465 407 12;
+#X obj 30 20 cnv 15 120 190 empty empty specdelayGui 4 9 0 10 -233017
+-1 0;
+#X obj 76 57 vsl 15 128 0.001 100 1 0 empty empty wi 0 -9 0 10 -262144
+-1 -1 7300 1;
+#X obj 34 57 vsl 15 128 0.01 0.99 1 0 empty empty am 0 -9 0 10 -262144
+-1 -1 6000 1;
+#X obj 55 57 vsl 15 128 -127 127 0 0 empty empty fr 0 -9 0 10 -262144
+-1 -1 10100 1;
+#X obj 100 55 vradio 15 1 0 8 empty empty tables 0 -8 0 10 -262144
+-1 -1 1;
+#X obj 119 70 vradio 15 1 0 8 empty empty 0-gau 0 -8 0 10 -262144 -1
+-1 6;
+#X obj 123 222 + 8;
+#X obj 181 139 _seltab;
+#X obj 143 254 t f f;
+#X msg 38 283 0 \$1;
+#X msg 88 283 1 \$1;
+#X msg 128 283 2 \$1;
+#X msg 168 283 3 \$1;
+#X obj 117 22 tgl 15 0 empty empty sw 17 7 0 10 -262144 -1 -1 1 1;
+#X msg 282 96 switch \$1;
+#X msg 204 28 label \$1;
+#X obj 38 192 hsl 50 15 -1 1 0 0 empty empty spat 14 8 0 10 -262144
+-1 -1 500 1;
+#X msg 24 235 spat \$1;
+#X obj 98 192 hsl 50 15 0.01 1 1 0 empty empty spat-amp 0 8 0 10 -262144
+-1 -1 3800 1;
+#X msg 262 239 amp \$1;
+#X obj 44 313 list prepend params;
+#X obj 44 338 list trim;
+#X obj 304 289 s specdelay;
+#X connect 1 0 11 0;
+#X connect 2 0 9 0;
+#X connect 3 0 10 0;
+#X connect 4 0 8 0;
+#X connect 5 0 6 0;
+#X connect 6 0 8 0;
+#X connect 7 0 15 0;
+#X connect 8 0 12 0;
+#X connect 8 1 7 0;
+#X connect 9 0 20 0;
+#X connect 10 0 20 0;
+#X connect 11 0 20 0;
+#X connect 12 0 20 0;
+#X connect 13 0 14 0;
+#X connect 14 0 22 0;
+#X connect 15 0 5 0;
+#X connect 16 0 17 0;
+#X connect 17 0 22 0;
+#X connect 18 0 19 0;
+#X connect 19 0 22 0;
+#X connect 20 0 21 0;
+#X connect 21 0 22 0;
+#X coords 0 -1 1 1 120 190 2 30 20;

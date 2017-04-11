@@ -1,0 +1,155 @@
+#N canvas 18 563 316 67 10;
+#X declare -path ~/Documents/fd_lib;
+#X declare -stdlib Gem;
+#X obj 6 6 fd_netreceive;
+#N canvas 1048 49 161 167 VIDEO 1;
+#N canvas 0 22 454 473 dependencies 0;
+#X text 18 17 declare all dependencies here;
+#X obj 19 43 cnv 15 400 400 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 40 85 declare -path ~/Documents/fd_lib;
+#X obj 40 62 declare -stdlib Gem;
+#X restore 7 6 pd dependencies _______;
+#N canvas 17 45 236 169 tables 0;
+#X text 12 30 place all [array] objects here;
+#X obj 19 56 array define example;
+#X restore 7 68 pd tables _____________;
+#N canvas 828 456 339 250 gui-glue 0;
+#X text 19 20 place all gui related glue-type messages;
+#X obj 27 99 s report;
+#X text 87 104 <-- sending to <report> will print to console, f 24
+;
+#X obj 27 55 r video;
+#X obj 27 77 list prepend video;
+#X connect 3 0 4 0;
+#X connect 4 0 1 0;
+#X restore 7 87 pd gui-glue ___________;
+#N canvas 0 22 254 322 presets 0;
+#X obj 22 78 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 48 69 Edit the following message with your on-load presets
+, f 27;
+#X obj 22 16 r video-loadbang;
+#X obj 22 38 del 10;
+#X msg 22 115 \; \; gemwin-set 1 \; \; borders-set 1 \; video-set 1
+\; \; \; \; pd-VIDEO_GUI vis 1 \;;
+#X connect 0 0 4 0;
+#X connect 2 0 3 0;
+#X connect 3 0 0 0;
+#X restore 7 107 pd presets ____________;
+#N canvas 28 27 479 401 gemheads 0;
+#N canvas 869 455 450 300 borders 0;
+#X obj 22 138 scale 0.75;
+#X msg 96 183 draw line;
+#X obj 22 207 rectangle 5.2 4;
+#X obj 22 160 pix_texture;
+#X obj 22 95 t a a;
+#X obj 96 138 spigot 1;
+#X obj 96 160 t b b;
+#X msg 132 159 0;
+#X obj 22 50 r borders;
+#X obj 22 73 gemhead 2;
+#X obj 122 24 r border-scale;
+#X obj 130 73 spigot;
+#X obj 166 50 r border-scale-switch;
+#X obj 122 46 / 100;
+#X connect 0 0 3 0;
+#X connect 1 0 2 0;
+#X connect 3 0 2 0;
+#X connect 4 0 0 0;
+#X connect 4 1 5 0;
+#X connect 5 0 6 0;
+#X connect 6 0 1 0;
+#X connect 6 1 7 0;
+#X connect 7 0 5 1;
+#X connect 8 0 9 0;
+#X connect 9 0 4 0;
+#X connect 10 0 13 0;
+#X connect 11 0 0 1;
+#X connect 12 0 11 1;
+#X connect 13 0 11 0;
+#X restore 19 53 pd borders;
+#X text 17 11 place [gemheads] here;
+#N canvas 869 455 450 300 video 0;
+#X obj 22 207 rectangle 5.2 4;
+#X obj 22 160 pix_texture;
+#X obj 22 50 r borders;
+#X obj 22 73 gemhead 1;
+#X obj 22 138 pix_video;
+#X obj 22 104 scale 1;
+#X obj 91 14 r video-scale;
+#X obj 91 71 spigot;
+#X obj 145 73 r video-scale-switch;
+#X obj 91 36 / 100;
+#X connect 1 0 0 0;
+#X connect 2 0 3 0;
+#X connect 3 0 5 0;
+#X connect 4 0 1 0;
+#X connect 5 0 4 0;
+#X connect 6 0 9 0;
+#X connect 7 0 5 1;
+#X connect 8 0 7 1;
+#X connect 9 0 7 0;
+#X restore 19 33 pd video;
+#X restore 7 47 pd gemheads ___________;
+#N canvas 0 22 450 300 from-audio-pd 0;
+#X obj 20 77 t b a;
+#X obj 20 17 r from-audio-pd;
+#X text 125 18 <-- this receive is dedicated to the incoming data from
+<MAIN_AUDIO_PD>, f 39;
+#X obj 20 254 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 46 256 <-- use this if you want to bang things <after> each
+incoming data stream is passed;
+#X text 78 76 <-- route this message at will;
+#X obj 161 136 s blabla1;
+#X obj 104 163 s blabla2;
+#X obj 47 190 s blabla3;
+#X obj 47 103 route blabla3 blabla2 blabla1 frequency-2 frequency-1
+;
+#X obj 237 207 s border-scale;
+#X obj 303 170 s video-scale;
+#X connect 0 0 3 0;
+#X connect 0 1 9 0;
+#X connect 1 0 0 0;
+#X connect 9 0 8 0;
+#X connect 9 1 7 0;
+#X connect 9 2 6 0;
+#X connect 9 3 10 0;
+#X connect 9 4 11 0;
+#X restore 7 27 pd from-audio-pd ______;
+#N canvas 0 22 420 225 gemwin 0;
+#X obj 14 186 gemwin;
+#X obj 14 7 r gemwin;
+#X msg 33 73 0 \, destroy;
+#X obj 14 29 route float;
+#X obj 14 51 sel 1 0;
+#X text 76 116 edit this message according to your needs;
+#X msg 14 148 0 \, destroy \, FSAA 4 \, offset 525 22 \, title MAIN_VIDEO_PD
+\, dimen 520 400 \, create \, 1 \,;
+#X connect 1 0 3 0;
+#X connect 2 0 0 0;
+#X connect 3 0 4 0;
+#X connect 3 1 0 0;
+#X connect 4 0 6 0;
+#X connect 4 1 2 0;
+#X connect 6 0 0 0;
+#X restore 7 127 pd gemwin _____________;
+#X restore 85 39 pd VIDEO;
+#N canvas 615 473 274 249 VIDEO_GUI 0;
+#X obj 8 26 cnv 15 250 200 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 22 45 tgl 15 0 gemwin gemwin-set gemwin 17 7 0 10 -262144 -1
+-1 0 1;
+#X obj 22 68 tgl 15 0 borders borders-set borders 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 22 88 tgl 15 0 video video-set video 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 115 88 tgl 15 0 video-scale-switch video-scale-switch-set video-scale-switch
+17 7 0 10 -262144 -1 -1 0 1;
+#X obj 115 68 tgl 15 0 border-scale-switch border-scale-switch-set
+border-scale-switch 17 7 0 10 -262144 -1 -1 0 1;
+#X text 121 50 toggle ON these;
+#X text 25 193 amplitude of the signal controls scale;
+#X text 6 7 place your VIDEO GUI here;
+#X restore 6 39 pd VIDEO_GUI;
