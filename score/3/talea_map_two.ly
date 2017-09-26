@@ -7,621 +7,22 @@
 % more information is available at lilypond.org
 % Released under the GNU General Public License.
 
-flute_two_part = \relative c' 
-{
-
-\time 4/4
+clarinet_two_part = \time 4/4
 
 \clef treble 
 % ________________________________________bar 1 :
- r16  r16  r8 
-	r8.  \once \override NoteHead.style = #'triangle c16~ 
-		\once \override NoteHead.style = #'triangle c4~ 
-			\once \override NoteHead.style = #'triangle c16  r16  <b c >8^\markup {sing }  |
-% ________________________________________bar 2 :
-r16  r8. 
-	r8  r16  <b c >16~^\markup {sing } 
-		<b c >2~  |
-% ________________________________________bar 3 :
-r2 
-		r16  b16:32^\markup {frull. }  r8 
-			\once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16  |
-% ________________________________________bar 4 :
-\once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16 
-	\once \override NoteHead.style = #'harmonic c2~ 
-			\once \override NoteHead.style = #'harmonic c16  \xNote c16^\markup {u }  <b c >8~^\markup {sing }  |
-% ________________________________________bar 5 :
-<b c >16  r16  r8 
-	r2 
-			b4~  |
-% ________________________________________bar 6 :
-b4 
-	<b c >16\p^\markup {sing }  <b c >8.~^\markup {sing } 
-		<b c >16  r16  r8 
-			r8.  r16  |
-% ________________________________________bar 7 :
-r16  r8. 
-	r4 
-		r16  r16  r8 
-			r4  |
-% ________________________________________bar 8 :
-r16  r16  r8 
-	r4 
-		r8.  \xNote c16^\markup {i } 
-			\xNote c4^\markup {o }  |
-% ________________________________________bar 9 :
-\once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16 
-	\once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16 
-		r8.  r16 
-			\once \override NoteHead.style = #'triangle b16^\markup {slap }  r8.  |
-% ________________________________________bar 10 :
-r4. 
-	r16  r16 
-		<b c >4.^\markup {sing } 
-			\once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16  |
-% ________________________________________bar 11 :
-\once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16 
-	\once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16  r8 
-		r4 
-			r8.  e16  |
-% ________________________________________bar 12 :
-dis16  e16  dis16  e16 
-	dis16  e16  dis16  r16 
-		r4. 
-			r16  b16:32^\markup {frull. }  |
-% ________________________________________bar 13 :
-r16  r16  r8 
-	r8  r16  r16 
-		r8  \xNote c8~^\markup {u } 
-			\xNote c4  |
-% ________________________________________bar 14 :
-r16  r16  r16  b16:32~\mf^\markup {frull. } 
-	b16:32  r16  r8 
-		r16  r16  r16  r16 
-			r4  |
-% ________________________________________bar 15 :
-r16  b16:32^\markup {frull. }  r16  \xNote c16^\markup {sh } 
-	r4. 
-		r16  c16 
-			e16  dis16  e16  dis16  |
-% ________________________________________bar 16 :
-e16  dis16  e16  dis16 
-	r16  r16  r8 
-		r4 
-			r16  \xNote c16^\markup {u }  r16  r16  |
-% ________________________________________bar 17 :
-r4 
-	r4 
-		r16  r16  r8 
-			r4  |
-% ________________________________________bar 18 :
-r4 
-	c2~ 
-			c8  <c cis >16^\markup {sing }  \once \override NoteHead.style = #'xcircle c16^\markup {B.P. }  |
-% ________________________________________bar 19 :
-r16  r16  <c cis >16^\markup {sing }  r16 
-	r8.  r16 
-		r16  r16  r16  \once \override NoteHead.style = #'xcircle e16 
-			\once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle e16  |
-% ________________________________________bar 20 :
-\once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16  r16 
-	r4 
-		r8.  b16:32~^\markup {frull. } 
-			b4:32~  |
-% ________________________________________bar 21 :
-b8:32  r16  \once \override NoteHead.style = #'harmonic c16^\markup {T.R. } 
-	\once \override NoteHead.style = #'xcircle c16^\markup {B.P. }  \once \override NoteHead.style = #'harmonic c16^\markup {B.P. }  b16:32^\markup {frull. }  r16 
-		\xNote c4.~^\markup {e } 
-			\xNote c16  r16  |
-% ________________________________________bar 22 :
-r8  <c cis >16^\markup {sing }  \once \override NoteHead.style = #'harmonic c16^\markup {T.R. } 
-	\once \override NoteHead.style = #'xcircle c16^\markup {B.P. }  \once \override NoteHead.style = #'harmonic c16^\markup {B.P. }  c16  r16 
-		r16  r16  \once \override NoteHead.style = #'xcircle c16^\markup {B.P. }  \xNote c16~^\markup {i } 
-			\xNote c4~  |
-% ________________________________________bar 23 :
-\xNote c4~ 
-	\xNote c16  \xNote c16^\markup {e }  <c cis >8~^\markup {sing } 
-		<c cis >4~ 
-			<c cis >8.  r16  |
-% ________________________________________bar 24 :
-r4. 
-	r16  \once \override NoteHead.style = #'xcircle c16^\markup {B.P. } 
-		\once \override NoteHead.style = #'triangle c16^\markup {slap }  r8  r16 
-			r16  \once \override NoteHead.style = #'triangle c16^\markup {slap }  \once \override NoteHead.style = #'harmonic c8~^\markup {T.R. }  |
-% ________________________________________bar 25 :
-\once \override NoteHead.style = #'harmonic c8.  r16 
-	r4. 
-		r16  r16 
-			r4  |
-% ________________________________________bar 26 :
-r8.  b16:32^\markup {frull. } 
-	c2~ 
-			c8  \once \override NoteHead.style = #'triangle c16  b16:32~^\markup {frull. }  |
-% ________________________________________bar 27 :
-b2:32 
-		r16  r8. 
-			r16  r16  r16  \once \override NoteHead.style = #'xcircle cis16~^\markup {B.P. }  |
-% ________________________________________bar 28 :
-\once \override NoteHead.style = #'xcircle cis4.~ 
-	\once \override NoteHead.style = #'xcircle cis16  r16 
-		\xNote c4~^\markup {i } 
-			\xNote c16  \once \override NoteHead.style = #'triangle c8^\markup {i }  r16  |
-% ________________________________________bar 29 :
-r16  r8. 
-	r4 
-		r16  \once \override NoteHead.style = #'harmonic c16^\markup {i }  \once \override NoteHead.style = #'harmonic c8~^\markup {i } 
-			\once \override NoteHead.style = #'harmonic c16  \once \override NoteHead.style = #'triangle c8.~^\markup {i }  |
-% ________________________________________bar 30 :
-\once \override NoteHead.style = #'triangle c4~ 
-	\once \override NoteHead.style = #'triangle c16  c16  c16  \xNote c16~^\markup {a } 
-		\xNote c2~  |
-% ________________________________________bar 31 :
-r16  c16  \once \override NoteHead.style = #'harmonic cih16^\markup {T.R. }  \once \override NoteHead.style = #'xcircle cih16~^\markup {B.P. } 
-	\once \override NoteHead.style = #'xcircle cih4~ 
-		\once \override NoteHead.style = #'xcircle cih16  r8. 
-			r8  r16  \xNote c16^\markup {o }  |
-% ________________________________________bar 32 :
-cih16  r16  r8 
-	r4 
-		r16  r16  \once \override NoteHead.style = #'harmonic c16^\markup {T.R. }  r16 
-			r4  |
-% ________________________________________bar 33 :
-r4 
-	r16  r8. 
-		r8.  r16 
-			r16  r8.  |
-% ________________________________________bar 34 :
-r8.  r16 
-	r4 
-		c4 
-			r16  b8:32^\markup {frull. }  r16  |
-% ________________________________________bar 35 :
-r16  r8. 
-	c4~ 
-		c16  \once \override NoteHead.style = #'xcircle c8.~^\markup {B.P. } 
-			\once \override NoteHead.style = #'xcircle c4~  |
-% ________________________________________bar 36 :
-\once \override NoteHead.style = #'xcircle c16  r8  r16 
-	c16  \xNote c16^\markup {o }  \once \override NoteHead.style = #'triangle c16^\markup {slap }  \xNote c16~\f^\markup {o } 
-		\xNote c2~  |
-% ________________________________________bar 37 :
-\xNote c16  r16  \once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16 
-	\once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16 
-		\once \override NoteHead.style = #'xcircle e16  \once \override NoteHead.style = #'xcircle dis16  e16  dis16 
-			e16  dis16  e16  dis16  |
-% ________________________________________bar 38 :
-e16  dis16  r16 
+ r16 
 }
 
-clarinet_two_part = \relative c 
+violin_two_part = \relative c' 
 {
 
 \time 4/4
 
 \clef treble 
 % ________________________________________bar 1 :
- r4 
-	f16  \once \override NoteHead.style = #'triangle f16  r8 
-		\once \override NoteHead.style = #'xcircle dis''16  \once \override NoteHead.style = #'xcircle d16  \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle d16 
-			\once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle d16  \once \override NoteHead.style = #'xcircle dis16\p  \once \override NoteHead.style = #'xcircle d16  |
-% ________________________________________bar 2 :
-f,,4~ 
-	f16  r16  r8 
-		r4 
-			r8.  r16  |
-% ________________________________________bar 3 :
-dis''16  d16  dis16  d16 
-	dis16  d16  dis16  d16 
-		r16  r16  f,,16  \once \override NoteHead.style = #'slash g''16^\markup {teeth } 
-			r4  |
-% ________________________________________bar 4 :
-r8.  r16 
-	f,,4 
-		r4 
-			r16  r16  f16  r16  |
-% ________________________________________bar 5 :
-r2 
-		f16  dis''16  d16  dis16 
-			d16  dis16  d16  dis16  |
-% ________________________________________bar 6 :
-d16  f,,8.:32~^\markup {frull. } 
-	f4:32~ 
-		f16:32  r16  r8 
-			r8  <f fis >16^\markup {sing }  r16  |
-% ________________________________________bar 7 :
-r4. 
-	r16  r16 
-		r4 
-			r16  f8.~  |
-% ________________________________________bar 8 :
-f4 
-	r16  \once \override NoteHead.style = #'triangle f8.~^\markup {slap } 
-		\once \override NoteHead.style = #'triangle f4 
-			f16  gis16  b16  d16  |
-% ________________________________________bar 9 :
-e16  fis,16  gis16  ais16 
-	c16  e16  gis,16  c16 
-		e16  gis,16  c16  e16 
-			gis,16  c16  e16  gis,16  |
-% ________________________________________bar 10 :
-c16  cis16  d16  f,16~ 
-	f4~ 
-		f8  \once \override NoteHead.style = #'triangle f8 
-			\once \override NoteHead.style = #'slash g''4~^\markup {teeth }  |
-% ________________________________________bar 11 :
-\once \override NoteHead.style = #'slash g4. 
-	f,,16  <f fis >16~^\markup {sing } 
-		<f fis >4 
-			f16  r16  r8  |
-% ________________________________________bar 12 :
-r8.  fis16 
-	fis16  r8. 
-		r4 
-			r16  r16  f16:32^\markup {frull. }  \once \override NoteHead.style = #'slash g''16^\markup {teeth }  |
-% ________________________________________bar 13 :
-r4. 
-	r16  fis,,16~ 
-		fis4~ 
-			fis16  \once \override NoteHead.style = #'triangle fis16^\markup {slap }  <fis g >8~\mf^\markup {sing }  |
-% ________________________________________bar 14 :
-<fis g >16  \once \override NoteHead.style = #'slash g''16^\markup {teeth }  r16  r16 
-	r4 
-		r16  \once \override NoteHead.style = #'slash g8.^\markup {sim } 
-			r8  r8  |
-% ________________________________________bar 15 :
-r16  \once \override NoteHead.style = #'triangle g16^\markup {sim }  fis,,8~ 
-	fis8.  r16 
-		dis'16  e16  f,16  g16 
-			a16  b16  cis16  dis16  |
-% ________________________________________bar 16 :
-f,16  <fis g >16^\markup {sing }  r16  r16 
-	r4 
-		r16  r16  r16  r16 
-			r4  |
-% ________________________________________bar 17 :
-r4. 
-	r16  \once \override NoteHead.style = #'xcircle dis''16 
-		\once \override NoteHead.style = #'xcircle d16  \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle d16  \once \override NoteHead.style = #'xcircle dis16 
-			\once \override NoteHead.style = #'xcircle d16  \once \override NoteHead.style = #'xcircle dis16  \once \override NoteHead.style = #'xcircle d16  dis16  |
-% ________________________________________bar 18 :
-d16  dis16  d16  dis16 
-	d16  dis16  d16  r16 
-		r16  f,,16:32^\markup {frull. }  fis8~ 
-			fis4~  |
-% ________________________________________bar 19 :
-fis8  r8 
-	r4 
-		f2:32^\markup {frull. }  |
-% ________________________________________bar 20 :
-f16:32^\markup {frull. }  r16  fis16  r16 
-	r4 
-		r16  r16  r8 
-			r4  |
-% ________________________________________bar 21 :
-r8.  r16 
-	fis4 
-		fis16  r8. 
-			r8  r16  r16  |
-% ________________________________________bar 22 :
-fis16  r8. 
-	r4 
-		r16  \once \override NoteHead.style = #'slash g''16^\markup {teeth }  r16  r16 
-			r8.  r16  |
-% ________________________________________bar 23 :
-\once \override NoteHead.style = #'triangle g4.~^\markup {teeth } 
-	\once \override NoteHead.style = #'triangle g16  \once \override NoteHead.style = #'triangle g16^\markup {teeth } 
-		r16  r16  r8 
-			r8.  r16  |
-% ________________________________________bar 24 :
-r2 
-		r16  \once \override NoteHead.style = #'triangle g16^\markup {teeth }  r8 
-			r16  fis,,8.~  |
-% ________________________________________bar 25 :
-fis4. 
-	r16  r16 
-		r2  |
-% ________________________________________bar 26 :
-r16  r16  r8 
-	r2 
-			r16  r16  r16  r16  |
-% ________________________________________bar 27 :
-r2 
-		r16  r8. 
-			r4  |
-% ________________________________________bar 28 :
-r8  r16  r16 
-	r4 
-		r8.  fis16 
-			r16  r16  r8  |
-% ________________________________________bar 29 :
-r2 
-		\once \override NoteHead.style = #'triangle fis2~^\markup {slap }  |
-% ________________________________________bar 30 :
-\once \override NoteHead.style = #'triangle fis16  r16  r8 
-	r8  r16  fis16 
-		r16  r8. 
-			r4  |
-% ________________________________________bar 31 :
-r8.  r16 
-	r8.  r16 
-		fis4.~ 
-			fis16  \once \override NoteHead.style = #'triangle fis16  |
-% ________________________________________bar 32 :
-fis16  r8. 
-	r4 
-		<fis g >8.^\markup {sing }  r16 
-			r4  |
-% ________________________________________bar 33 :
-r16  r8. 
-	r4 
-		\once \override NoteHead.style = #'slash g''16^\markup {teeth }  r16  r16  fis,,16~ 
-			fis4~  |
-% ________________________________________bar 34 :
-fis8.  fis16 
-	r16  r16  r8 
-		r4 
-			r16  r16  r16  r16  |
-% ________________________________________bar 35 :
-r4. 
-	fis16  gis16 
-		b16  d16  f,16  g16 
-			a16  b16  cis16  f,16  |
-% ________________________________________bar 36 :
-a16  cis16  f,16  a16 
-	cis16  f,16  a16  r16 
-		r4 
-			r16  \once \override NoteHead.style = #'slash g''8.^\markup {teeth }  |
-% ________________________________________bar 37 :
-r2 
-		r16  r16  r16  r16 
-			r16  f,,16:32^\markup {frull. }  r16  \once \override NoteHead.style = #'slash g''16^\markup {sim }  |
-% ________________________________________bar 38 :
-r4 
-	r16  r16  f,,8:32~^\markup {frull. } 
-		f8:32  r8 
-			r16 
-}
-
-violin_two_part = \relative c'' 
-{
-
-\time 4/4
-
-\clef treble 
-% ________________________________________bar 1 :
- f16  e16  f16  e16 
-	f16  e16  f16  e16 
-		r8  gis,,16  c16 
-			g16  d'16  a16  e'16  |
-% ________________________________________bar 2 :
-b16  fis'16  g,16  b16 
-	dis16  g,16  b16  dis16 
-		g,16  b16  dis16  a16 
-			dis16  a16  dis16  a16  |
-% ________________________________________bar 3 :
-dis16  f'16  e16  f16 
-	e16  f16  e16  f16 
-		e16  r8. 
-			r4  |
-% ________________________________________bar 4 :
-r8  f16  e16 
-	f16  e16  f16  e16 
-		f16  e16\p  g,,16:32  r16 
-			r4  |
-% ________________________________________bar 5 :
-r16  a16^\markup {legato }  dis16  e16 
-	b16  e16  a,16  d16 
-		g,16  c16  f16  ais,16 
-			dis16  gis,16  cis16  fis16  |
-% ________________________________________bar 6 :
-a,16  c16  dis16  fis16 
-	a,16  c16  d16  gis,16 
-		r16  r8. 
-			r8  g16  g16~  |
-% ________________________________________bar 7 :
-g4 
-	d'16^\markup {legato }  gis,16  d'16  gis,16 
-		d'16  gis,16  gis16  gis16 
-			gis16  gis16  gis16  gis16  |
-% ________________________________________bar 8 :
-gis16  gis16  gis16  gis16 
-	gis16  gis16  gis16  gis16 
-		gis16  gis16  gis16  r16 
-			f''16  e16  f16  e16  |
-% ________________________________________bar 9 :
-f16  e16  f16  e16 
-	\once \override NoteHead.style = #'harmonic g,,8  r16  g16~^\markup {pizz. } 
-		g4~ 
-			g8.  g16  |
-% ________________________________________bar 10 :
-gis16  gis16  b16  c16 
-	d16  e16  fis16  gis,16 
-		ais16  c16  d16  e16 
-			fis16  gis,16  ais16  c16  |
-% ________________________________________bar 11 :
-d16  f16  fis16  g,16 
-	gis16  a16  ais16  g16:32 
-		r16  g16  r8 
-			r4  |
-% ________________________________________bar 12 :
-r8.  r16 
-	r4 
-		r16  b16  c16  cis16 
-			d16  dis16  e16  f16  |
-% ________________________________________bar 13 :
-fis16  g,16  gis16  a16 
-	ais16  b16  c16  cis16 
-		d16  dis16  fis16  a,16 
-			c16  dis16  fis16  a,16  |
-% ________________________________________bar 14 :
-cis16  b16  a16  dis16 
-	dis16  dis16  gis,16  cis16 
-		fis16  g,16  g16  g16 
-			g16  g16  g16  g16  |
-% ________________________________________bar 15 :
-g16  g16  gis16  a16 
-	ais16  b16  c16  r16 
-		g4~ 
-			g16  g16:32  r8  |
-% ________________________________________bar 16 :
-r4. 
-	r16  cis16 
-		d16  dis16  e16  f16 
-			fis16  g,16  ais16  cis16  |
-% ________________________________________bar 17 :
-e16  g,16  ais16  cis16 
-	e16  g,16  ais16  cis16 
-		dis16  f16  g,16  a16 
-			b16  cis16  g16  r16  |
-% ________________________________________bar 18 :
-g16  r8. 
-	r8  g8~ 
-		g4~ 
-			g16  g16:32  r16  g16~^\markup {arco }  |
-% ________________________________________bar 19 :
-g4~ 
-	g16  r16  g16^\markup {pizz. }  r16 
-		r8.  dis'16 
-			f16  g,16  a16  b16  |
-% ________________________________________bar 20 :
-cis16  dis16  f16  a,16 
-	cis16  f16  a,16  cis16 
-		f16  a,16  cis16  d16 
-			dis16  e16  f16  fis16  |
-% ________________________________________bar 21 :
-g,16  gis16  g8~ 
-	g2~ 
-			g8:32  gis16  r16  |
-% ________________________________________bar 22 :
-gis8.  r16 
-	r2 
-			r16  f''16\mf  e16  f16  |
-% ________________________________________bar 23 :
-e16  f16  e16  f16 
-	e16  r8. 
-		r2  |
-% ________________________________________bar 24 :
-r8  r16  r16 
-	g,,16:32  gis16  r16  gis16~ 
-		gis8  r8 
-			r8  r16  r16  |
-% ________________________________________bar 25 :
-r4. 
-	r16  g16 
-		gis16  g16  gis16  gis16 
-			g16  g16  g16  gis16  |
-% ________________________________________bar 26 :
-r16  r16  g16:32  r16 
-	f''16  e16  f16  e16 
-		f16  e16  f16  e16 
-			r16  gis,,16  gis16^\markup {arco }  r16  |
-% ________________________________________bar 27 :
-r8  r16  r16 
-	r8.  r16 
-		r4 
-			r8.  r16  |
-% ________________________________________bar 28 :
-r2 
-		r8.  r16 
-			gis16^\markup {pizz. }  g8.:32~  |
-% ________________________________________bar 29 :
-g8:32  r8 
-	r16  f''16  e16  f16 
-		e16  f16  e16  f16 
-			e16  r16  r16  r16  |
-% ________________________________________bar 30 :
-r4. 
-	r16  g,,16:32~ 
-		g2:32~  |
-% ________________________________________bar 31 :
-r16  gis16^\markup {arco }  gis16  gis16 
-	gis16  gis16  gis16  gis16 
-		gis16  gis16  gis16  r16 
-			g8.:32  gis16^\markup {pizz. }  |
-% ________________________________________bar 32 :
-r16  gis16  gis16  g16:32~ 
-	g4:32~ 
-		g8:32  r16  f''16 
-			e16  f16  e16  f16  |
-% ________________________________________bar 33 :
-e16  f16  e16  r16 
-	r2 
-			r16  r16  r16  r16  |
-% ________________________________________bar 34 :
-r8  r16  gis,,16 
-	gis16  \once \override NoteHead.style = #'harmonic gis16  r8 
-		r16  gis16^\markup {pizz. }  r16  r16 
-			r4  |
-% ________________________________________bar 35 :
-r16  r16  gis8~^\markup {arco } 
-	gis16  r16  r8 
-		r8  r16  gis16^\markup {pizz. } 
-			r16  gis16^\markup {arco }  a8~^\markup {pizz. }  |
-% ________________________________________bar 36 :
-a4~ 
-	a16  f''16  e16  f16 
-		e16  f16\f  e16  f16 
-			e16  r16  a,,16  a16^\markup {arco }  |
-% ________________________________________bar 37 :
-a16^\markup {pizz. }  a16  a8~ 
-	a16  r16  r8 
-		r8.  gis16~ 
-			gis16  gis16  gis16  gis16~^\markup {arco }  |
-% ________________________________________bar 38 :
-gis4.~ 
-	gis16  g16:32~ 
-		g16:32  gis8.~^\markup {pizz. } 
-			gis8.  r16  |
-% ________________________________________bar 39 :
-r4. 
-	r16  r16 
-		r2  |
-% ________________________________________bar 40 :
-gisih8  r16  r16 
-	gisih16^\markup {arco }  r8. 
-		r4 
-			r8.  r16  |
-% ________________________________________bar 41 :
-r16  r16  r16  r16 
-	r16  r16  r16  r16 
-		r2  |
-% ________________________________________bar 42 :
-r16  r16  r8 
-	r8  r8 
-		r4 
-			r16  gis8.~^\markup {pizz. }  |
-% ________________________________________bar 43 :
-gis16  r16  r16  r16 
-	f''16  e16  f16  e16 
-		f16  e16\mf  f16  e16 
-			r4  |
-% ________________________________________bar 44 :
-r8.  gis,,16 
-	gis16  r16  f''16  e16 
-		f16  e16  f16  e16 
-			f16  e16  r16  g,,16:32~  |
-% ________________________________________bar 45 :
-g4:32~ 
-	g16:32  gis16^\markup {arco }  g8:32~ 
-		g2:32~  |
-% ________________________________________bar 46 :
-r2 
-		r16  gis16^\markup {pizz. }  f''16  e16 
-			e16  e16  f16  e16  |
-% ________________________________________bar 47 :
-e16  e16  r16  r16 
-	r4 
-		r8  f16  e16 
-			f16  e16\f  f16  e16  |
-% ________________________________________bar 48 :
-f16  e16  \once \override NoteHead.style = #'harmonic gis,,8~ 
-	\once \override NoteHead.style = #'harmonic gis8  g16  b16 
-		r16  g8.:32~ 
-			g4:32~  |
-% ________________________________________bar 49 :
-g8.:32  r16 
-	r4 
-		r16  \once \override NoteHead.style = #'harmonic gis16  r16  r16 
+ gisih2 
+		\once \override NoteHead.style = #'harmonic a16 
 }
 
 cello_two_part = \relative c, 
@@ -631,222 +32,14 @@ cello_two_part = \relative c,
 
 \clef treble 
 % ________________________________________bar 1 :
- c4:32~ 
-	c16:32  r8. 
-		r8.  r16 
+ c16:32  c8.:32~ 
+	c4:32~ 
+		c8.:32  r16 
 			r4  |
 % ________________________________________bar 2 :
-c16^\markup {non-legato }  d16  e16\p  fis16 
-	gis16  ais16  c,16  d16 
-		e16  f16  fis16  g16 
-			gis16  a16  ais16  b16  |
-% ________________________________________bar 3 :
-c,16  cis16  d16  dis16 
-	e16  fis16  gis16  \once \override NoteHead.style = #'harmonic c,16~ 
-		\once \override NoteHead.style = #'harmonic c4~ 
-			\once \override NoteHead.style = #'harmonic c16  r16  c16^\markup {pizz. }  r16  |
-% ________________________________________bar 4 :
-r4. 
-	r16  r16 
-		c4~ 
-			c16  r16  r16  r16  |
-% ________________________________________bar 5 :
-r2 
-		r4 
-			r16  r8.  |
-% ________________________________________bar 6 :
-r4 
-	c16^\markup {arco }  r8  ais'16 
-		c,16  dis16  fis16  a16 
-			cis,16  f16  a16  cis,16  |
-% ________________________________________bar 7 :
-f16  a16  cis,16  f16 
-	a16  cis,16  e16  g16 
-		ais16  cis,16  e16  g16 
-			ais16  cis,16  c8~^\markup {pizz. }  |
-% ________________________________________bar 8 :
-c16  r16  r8 
-	r4 
-		r8  c8~ 
-			c8  \once \override NoteHead.style = #'harmonic c16  c16~^\markup {arco }  |
-% ________________________________________bar 9 :
-c2~ 
-		c16  r8. 
-			r4  |
-% ________________________________________bar 10 :
-r8.  c16^\markup {pizz. } 
-	\once \override NoteHead.style = #'harmonic c2~ 
-			\once \override NoteHead.style = #'harmonic c16  e''16  dis16  e16  |
-% ________________________________________bar 11 :
-dis16  e16  dis16  e16 
-	dis16  r16  c,,16^\markup {arco }  \once \override NoteHead.style = #'harmonic c16 
-		r2  |
-% ________________________________________bar 12 :
-r8  r8 
-	r4 
-		r8.  e''16 
-			dis16  e16  dis16  e16  |
-% ________________________________________bar 13 :
-dis16  e16  dis16  e16 
-	dis16  e16  dis16  e16 
-		dis16  e16  dis16  c,,16:32 
-			c16^\markup {pizz. }  r16  r8  |
-% ________________________________________bar 14 :
-r16  r16  r8 
-	r4 
-		r8  c16:32  r16 
-			c16^\markup {arco }  r8.  |
-% ________________________________________bar 15 :
-r4 
-	r16  r16  r16  c16:32~ 
-		c8:32  c16:32  r16 
-			r4  |
-% ________________________________________bar 16 :
-r8  r16  cis16~ 
-	cis4 
-		e''16  dis16\mf  e16  dis16 
-			e16  dis16  e16  dis16  |
-% ________________________________________bar 17 :
-r4 
-	r16  cis,,16^\markup {pizz. }  r8 
-		r16  cis8. 
-			r16  cis16  r16  r16  |
-% ________________________________________bar 18 :
-r16  r8. 
-	r4 
-		r16  e''16  dis16  e16 
-			dis16  e16  dis16  e16  |
-% ________________________________________bar 19 :
-dis16  r16  e,,16  g16 
-	ais16  cis,16  e16  g16 
-		ais16  cis,16  e16  r16 
-			r16  \once \override NoteHead.style = #'harmonic cis16  e''16  dis16  |
-% ________________________________________bar 20 :
-e16  dis16  e16  dis16 
-	e16  dis16  c,,8:32~ 
-		c8:32  c8:32 
-			e''16  dis16  e16  dis16  |
-% ________________________________________bar 21 :
-e16  dis16  e16  dis16 
-	cis,,16^\markup {pizz. }  c8.:32~ 
-		c4:32~ 
-			c8.:32  r16  |
-% ________________________________________bar 22 :
-r4 
-	r16  r16  r8 
-		r16  e''16  dis16  e16 
-			dis16  e16  dis16  e16  |
-% ________________________________________bar 23 :
-dis16  r16  r16  cis,,16~ 
-	cis8  r8 
-		r4 
-			r8.  g'16  |
-% ________________________________________bar 24 :
-ais16  cis,16  e16  g16 
-	b16  c,16  cis16  d16 
-		r16  r16  e''16  dis16 
-			e16  dis16  e16  dis16  |
-% ________________________________________bar 25 :
-e16  dis16  r16  cis,,16 
-	dis16  e16  f16  fis16 
-		g16  gis16  a16  ais16 
-			b16  c,16  cis16  d16  |
-% ________________________________________bar 26 :
-dis16  e16  fis16  gis16 
-	r4 
-		cis,4.~ 
-			cis16  cis16  |
-% ________________________________________bar 27 :
-r16  c8.:32~ 
-	c4:32 
-		r16  r8. 
-			r8  r16  e''16  |
-% ________________________________________bar 28 :
-dis16  e16  dis16  e16 
-	dis16  e16  dis16  \once \override NoteHead.style = #'harmonic cis,,16 
-		r2  |
-% ________________________________________bar 29 :
-\once \override NoteHead.style = #'harmonic cis2~ 
-		\once \override NoteHead.style = #'harmonic cis16  r16  cis16^\markup {arco }  cis16^\markup {pizz. } 
-			cis4~  |
-% ________________________________________bar 30 :
-cis8.  cis16~ 
-	cis4~ 
-		cis8.  r16 
-			r4  |
-% ________________________________________bar 31 :
-r4 
-	r16  r16  r8 
-		r8  r16  r16 
-			ais'16  c,16  d16  e16  |
-% ________________________________________bar 32 :
-fis16  gis16  ais16  c,16 
-	a'16  fis16  dis16  c16 
-		a'16  fis16  dis16  c16 
-			r4  |
-% ________________________________________bar 33 :
-r16  d8.~ 
-	d4~ 
-		d8  r16  d16 
-			r16  r16  r16  r16  |
-% ________________________________________bar 34 :
-r2 
-		\once \override NoteHead.style = #'harmonic cis4. 
-			r8  |
-% ________________________________________bar 35 :
-r4 
-	r16  r16  cis8~^\markup {arco } 
-		cis4~ 
-			cis8.  r16  |
-% ________________________________________bar 36 :
-r4 
-	r16  r16  r16  cis16^\markup {pizz. } 
-		r2  |
-% ________________________________________bar 37 :
-r8  cis16  cis16 
-	r16  r8. 
-		cis16  e''16  dis16  e16 
-			dis16  e16  dis16  e16  |
-% ________________________________________bar 38 :
-dis16  r16  r8 
-	r4 
-		r16  r16  fis,,16  c16 
-			fis16  c16  e16  gis16  |
-% ________________________________________bar 39 :
-c,16  dis16  fis16  a16 
-	c,16  dis16  fis16  a16 
-		c,16  cis16  r8 
-			r4  |
-% ________________________________________bar 40 :
-r16  r16  r16  r16 
-	r8  r16  r16 
-		r4 
-			r8.  r16  |
-% ________________________________________bar 41 :
-r4 
-	r16  r16  cis8~ 
-		cis4~ 
-			cis16  \once \override NoteHead.style = #'harmonic cis16  r16  r16  |
-% ________________________________________bar 42 :
-r16  r8. 
-	r16  r16  cis16^\markup {pizz. }  r16 
-		r2  |
-% ________________________________________bar 43 :
-r16  r8. 
-	r4 
-		cis2~  |
-% ________________________________________bar 44 :
-cis8  r16  r16 
-	r16  r16  cis16  r16 
-		r2  |
-% ________________________________________bar 45 :
-r16  r8. 
-	r4 
-		r8  r8 
-			r16  cis16  cis8~  |
-% ________________________________________bar 46 :
-cis16  cis16  r16  r16 
-	r2 
+r8  e''16  dis16\mf 
+	e16  dis16  e16  dis16 
+		e16  dis16 
 }
 
 perc_two_part = \relative c 
@@ -856,597 +49,33 @@ perc_two_part = \relative c
 
 \clef treble 
 % ________________________________________bar 1 :
- r4. 
-	r16  f16~\p 
-		f4~ 
-			f16  f8  r16  |
-% ________________________________________bar 2 :
-f2 
-		e16:32  e8.:32~ 
-			e4:32~  |
-% ________________________________________bar 3 :
-e8:32  r8 
-	r8.  r16 
-		r16  r8. 
-			r16  r16  r8  |
-% ________________________________________bar 4 :
-r16  e16:32  f8~ 
-	f4~ 
-		f8.  r16 
-			r4  |
-% ________________________________________bar 5 :
-r4 
-	e16:32  f8.~ 
-		f8  r16  e16:32 
-			<g b d f >4~  |
-% ________________________________________bar 6 :
-<g b d f >16  r8. 
-	r4 
-		r8.  r16 
-			e16:32  r16  f8~  |
-% ________________________________________bar 7 :
-f8.  r16 
-	r8  r16  <g b d f >16 
-		r16  <g b >8.~ 
-			<g b >4  |
-% ________________________________________bar 8 :
-r16  e16:32  r8 
-	r8  r8 
-		r16  e16:32  e8:32~ 
-			e4:32~  |
-% ________________________________________bar 9 :
-e4:32 
-	f16  e8.:32~ 
-		e4:32~ 
-			e8.:32  r16  |
-% ________________________________________bar 10 :
-e16:32  e16:32  r8 
-	r2 
-			r16  f16  r16  f16  |
-% ________________________________________bar 11 :
-r4. 
-	r16  r16 
-		r4 
-			r16  r8.  |
-% ________________________________________bar 12 :
-r16  r8  r16 
-	r2 
-			f4  |
-% ________________________________________bar 13 :
-e16:32  f8.~ 
-	f8  r16  r16 
-		f16  r16  e8:32~ 
-			e8.:32  r16  |
-% ________________________________________bar 14 :
-r2 
-		r16  r16  r16  f16 
-			e4:32~  |
-% ________________________________________bar 15 :
-e4:32~ 
-	e16:32  <g b d f >8. 
-		e16:32  e16:32  r8 
-			r4  |
-% ________________________________________bar 16 :
-r4 
-	r16  r8. 
-		r4 
-			r8  f16\mf  r16  |
-% ________________________________________bar 17 :
-e2:32~ 
-		e8:32  r8 
-			r4  |
-% ________________________________________bar 18 :
-r4 
-	f16  f16  r16  r16 
-		e16:32  e8.:32 
-			r4  |
-% ________________________________________bar 19 :
-r4. 
-	r16  f16 
-		r4 
-			r16  g8.~  |
-% ________________________________________bar 20 :
-g8  e16:32  r16 
-	e16:32  g16  <g b d f >16  r16 
-		r2  |
-% ________________________________________bar 21 :
-r16  r16  e16:32  f16 
-	e16:32  r16  r16  e16:32 
-		r16  e8.:32~ 
-			e4:32~  |
-% ________________________________________bar 22 :
-e8.:32  r16 
-	r4 
-		r8  r16  f16 
-			e4:32~  |
-% ________________________________________bar 23 :
-e8:32  r8 
-	r8  e16:32  e16:32 
-		r8  r16  r16 
-			r16  r16  r16  r16  |
-% ________________________________________bar 24 :
-r16  f16  e8:32~ 
-	e4:32~ 
-		e8:32  r8 
-			r8  e16:32  r16  |
-% ________________________________________bar 25 :
-r16  r8. 
-	r8  r16  e16:32~ 
-		e4:32~ 
-			e16:32  r8.  |
-% ________________________________________bar 26 :
-r4 
-	r16  e8.:32~ 
-		e4:32 
-			r16  r8.  |
-% ________________________________________bar 27 :
-r8  r16  r16 
-	r16  r8. 
-		r4 
-			r8  r8  |
-% ________________________________________bar 28 :
-r16  r8. 
-	r8  f16  r16 
-		e2:32  |
-% ________________________________________bar 29 :
-e16:32  r16  r8 
-	r4 
-		r16  r16  r16  r16 
-			r4  |
-% ________________________________________bar 30 :
-r4 
-	r16  e16:32  r16  r16 
-		r4 
-			r8  r16  f16  |
-% ________________________________________bar 31 :
-r16  r8. 
-	r4 
-		e4.:32 
-			r16  e16:32  |
-% ________________________________________bar 32 :
-e16:32  r8. 
-	r16  r16  r16  e16:32 
-		f16  r16  e8:32~ 
-			e4:32~  |
-% ________________________________________bar 33 :
-e8.:32  r16 
-	r4 
-		r8.  r16 
-			r16  r16  r16  f16  |
-% ________________________________________bar 34 :
-r4 
+ f16 
 }
 
-pianoL_two_part = \relative c'''' 
+pianoL_two_part = \relative c''' 
 {
 
 \time 4/4
 
 \clef treble 
 % ________________________________________bar 1 :
- g16  fis16  g16  fis16 
-	g16  fis16\p  g16  fis16 
-		c,,16  ais'16  gis16  fis16 
-			e16  d16  c16  ais'16  |
+ fis16  g16  fis16  c,,16^\markup {legato } 
+	dis16  g16  b16  dis,16 
+		g16  b16  dis,16  g16 
+			b16  dis,16  g16  b16  |
 % ________________________________________bar 2 :
-gis16  fis16  e16  d16 
-	ais'16  fis16  d16  ais'16 
-		fis16  d16  ais'16  fis16 
-			d16  ais'16  g16  r16  |
-% ________________________________________bar 3 :
-r8  r16  e16 
-	a16  a16  a16  a16 
-		ais16  b16  e,16  a16 
-			d,16  g16  c,16  f16  |
-% ________________________________________bar 4 :
-ais16  fis16  d16  ais'16 
-	fis16  d16  b'16  gis16 
-		gis16  gis16  g''16  fis16 
-			g16  fis16  g16  fis16  |
-% ________________________________________bar 5 :
-g16  fis16  r16  c,,16~ 
-	c8.  c16~ 
-		c4~ 
-			c8.  r16  |
-% ________________________________________bar 6 :
-r2 
-		r16  c16  f16  d16 
-			c16  ais'16  gis16  fis16  |
-% ________________________________________bar 7 :
-f16  e16  dis16  d16 
-	cis16  c16  b'16  ais16 
-		a16  gis16  g16  dis16 
-			b'16  ais16  a16  gis16  |
-% ________________________________________bar 8 :
-g16  r8. 
-	r4 
-		r16  r8. 
-			r4  |
-% ________________________________________bar 9 :
-r16  g''16  fis16  g16 
-	fis16  g16  fis16  g16 
-		fis16  r8. 
-			r4  |
-% ________________________________________bar 10 :
-r8  c,,8~ 
-	c8  r16  <a''' dis a' >16 
-		r16  c,,,16  d16  dis16 
-			c16  cis16  dis16  c16  |
-% ________________________________________bar 11 :
-cis16  d16  cis16  dis16 
-	cis16  c16  d16  cis16 
-		dis16  cis16  c16  d16 
-			cis16  dis16  cis16  cis16  |
-% ________________________________________bar 12 :
-d16  r8. 
-	r4 
-		r16  r16  r8 
-			r4  |
-% ________________________________________bar 13 :
-r8.  dis16 
-	b'16  a16  g16  f16 
-		dis16  cis16  b'16  a16 
-			g16  f16  e16  dis16  |
-% ________________________________________bar 14 :
-d16  cis16  ais'16  g16 
-	e16  cis16  ais'16  g16 
-		e16  dis16  c8~ 
-			c4~  |
-% ________________________________________bar 15 :
-c4 
-	c16  r16  r8 
-		r4 
-			c4~  |
-% ________________________________________bar 16 :
-c8.  d16 
-	cis16  dis16  f16  b16 
-		f16  e16  dis16  d16 
-			cis16  c16  b'16  ais16  |
-% ________________________________________bar 17 :
-a16  gis16  g16  fis16 
-	f16  e16  dis16  d16 
-		c16  ais'16  cis,16  cis16 
-			r16  cis8.~  |
-% ________________________________________bar 18 :
-cis4.~ 
-	cis16  r16 
-		<d'' gis >16  r16  r8 
-			r4  |
-% ________________________________________bar 19 :
-r8.  cis,,16 
-	e16\mf  ais16  a16  gis16 
-		g16  fis16  f16  e16 
-			dis16  r16  g''16  fis16  |
-% ________________________________________bar 20 :
-g16  fis16  g16  fis16 
-	g16  fis16  r16  <e fis a b >16 
-		r16  d,,16  cis16  c16 
-			b'16  ais16  gis16  g16  |
-% ________________________________________bar 21 :
-fis16  f16  r16  r16 
-	r2 
-			r16  <g b dis >16  r16  cis,16  |
-% ________________________________________bar 22 :
-cis4. 
-	r8 
-		r4 
-			r16  cis16  r16  r16  |
-% ________________________________________bar 23 :
-cis16  r16  c16  ais'16 
-	fis16  e16  d8~ 
-		d4~ 
-			d8.  c16~  |
-% ________________________________________bar 24 :
-c4. 
-	ais'16  gis16~ 
-		gis8.  fis16 
-			<d''' e f g >16  r16  r16  e,,,16  |
-% ________________________________________bar 25 :
-d4 
-	c16  ais'16  gis16  fis16~ 
-		fis4~ 
-			fis8.  e16~  |
-% ________________________________________bar 26 :
-e16  d8.~ 
-	d4 
-		c16  g'''16  fis16  g16 
-			fis16  g16  fis16  g16  |
-% ________________________________________bar 27 :
-fis16  r8. 
-	r8  r16  r16 
-		r16  r16  r8 
-			r8  r16  r16  |
-% ________________________________________bar 28 :
-r4. 
-	r8 
-		r4 
-			r16  <a,, ais cis d >16  r16  cis,16~  |
-% ________________________________________bar 29 :
-cis2~ 
-		cis16  r8  r16 
-			r8  cis8  |
-% ________________________________________bar 30 :
-cis4~ 
-	cis16  r16  r16  cis16~ 
-		cis16  g'''16  fis16  g16 
-			fis16  g16  fis16  g16  |
-% ________________________________________bar 31 :
-fis16  r8. 
-	r16  cis,,16  r8 
-		r4 
-			r16  r8.  |
-% ________________________________________bar 32 :
-r4. 
-	r16  r16 
-		r4. 
-			<d''' fis c' >16  r16  |
-% ________________________________________bar 33 :
-r16  cis,,,16  cis16  r16 
-	r8  cis16  r16 
-		cis16  r8. 
-			r8  r8  |
-% ________________________________________bar 34 :
-r4 
-	r16  r16  d16  d16 
-		r16  d8.~ 
-			d4~  |
-% ________________________________________bar 35 :
-d16  r16  r16  r16 
-	r4 
-		r16  r16  cis16  cis16 
-			cis16  r8.  |
-% ________________________________________bar 36 :
-r4 
-	r16  r8. 
-		r4 
-			r16  r16  r8  |
-% ________________________________________bar 37 :
-r8.  r16 
-	r16  r16  r16  r16 
-		r2  |
-% ________________________________________bar 38 :
-r16  cisih8.~ 
-	cisih16  r8  r16 
-		r2  |
-% ________________________________________bar 39 :
-r8  r16  cisih16~ 
-	cisih16  r8. 
-		r4 
-			r16  r16  r16  ais'16  |
-% ________________________________________bar 40 :
-fis2~ 
-		fis16  d16  b'16  gis16 
-			f16  d16  b'16  gis16~  |
-% ________________________________________bar 41 :
-gis8  f16  d16~ 
-	d4 
-		b'16  gis16  f8~ 
-			f8  d16  c16  |
-% ________________________________________bar 42 :
-r4 
-	ais'16  gis16  fis16  e16 
-		d16  c16  ais'16  gis16 
-			fis16  c16  g'16  d16  |
-% ________________________________________bar 43 :
-a'16  e16  b'16  fis16 
-	cis2 
-			r16  r16  r8  |
-% ________________________________________bar 44 :
-r16  g'''16  fis16  g16 
-	fis16  g16  fis16  g16 
-		fis16  cis,,16  r8 
-			r16  r16  r16  r16  |
-% ________________________________________bar 45 :
-r16  r8. 
-	r4 
-		r16  r16  r16  r16 
-			r4  |
-% ________________________________________bar 46 :
-r16  cis16  cis16  r16 
-	r16  r16  cis8~ 
-		cis4~ 
-			cis8.  r16  |
-% ________________________________________bar 47 :
-r4 
-	fis''16  fis16  fis16  g16 
-		g16  g16  fis16  g16 
-			r16  r8.  |
-% ________________________________________bar 48 :
-r8. 
+dis,16  g16  b16  r16 
+	cis,16 
 }
 
-pianoR_two_part = \relative c, 
+pianoR_two_part = \relative c,, 
 {
 
 \time 4/4
 
 \clef treble 
 % ________________________________________bar 1 :
- r4 
-	fis16\p  g16  gis,16  a16 
-		ais16  b16  dis16  f16 
-			g16  a,16  cis16  f16  |
-% ________________________________________bar 2 :
-a,16  c16  dis16  fis16 
-	a,16  cis16  f16  a,16 
-		cis16  dis16  g16  r16 
-			gis,16  r8.  |
-% ________________________________________bar 3 :
-r4 
-	cis''16  c16  cis16  c16 
-		cis16  c16  cis16  c16 
-			gis,,16  cis''16  c16  cis16  |
-% ________________________________________bar 4 :
-c16  cis16  c16  cis16 
-	c16  <fis, b fis' >16  r16  gis,,16 
-		r16  r16  r8 
-			r4  |
-% ________________________________________bar 5 :
-r4 
-	gis16  r8. 
-		r4 
-			r8.  gis16  |
-% ________________________________________bar 6 :
-b16  dis16  g16  b,16 
-	dis16  g16  b,16  d16 
-		f16  gis,16  b16  c16 
-			cis16  f16  a,16  cis16  |
-% ________________________________________bar 7 :
-f16  a,16  cis16  f16 
-	a,16  cis16  f16  r16 
-		gis,2  |
-% ________________________________________bar 8 :
-gis16  r16  r8 
-	r2 
-			<fis'' b >16  r16  gis,,8~  |
-% ________________________________________bar 9 :
-gis8  r16  gis16 
-	r4 
-		a16  cis16  f16  a,16 
-			cis16  f16  a,16  cis16  |
-% ________________________________________bar 10 :
-fis16  b,16  e16  a,16 
-	d16  g16  b,16  dis16 
-		g16  b,16  dis16  g16 
-			b,16  dis16  g16  cis'16  |
-% ________________________________________bar 11 :
-c16  cis16  c16  cis16 
-	c16  cis16  c16  r16 
-		r8.  r16 
-			<cis,, e >16  r16  r16  cis''16  |
-% ________________________________________bar 12 :
-c16  cis16  c16  cis16 
-	c16  cis16  c16  r16 
-		r4 
-			r16  cis16  c16  cis16  |
-% ________________________________________bar 13 :
-c16  cis16  c16  cis16 
-	c16  gis,,8.~ 
-		gis8.  gis16 
-			r16  r8.  |
-% ________________________________________bar 14 :
-r4. 
-	r16  gis16 
-		r16  r8. 
-			r16  r8.  |
-% ________________________________________bar 15 :
-r4. 
-	r16  r16 
-		r4. 
-			r16  cis''16  |
-% ________________________________________bar 16 :
-c16  cis16  c16  cis16 
-	c16  cis16  c16  r16 
-		r16  r8. 
-			r4  |
-% ________________________________________bar 17 :
-r16  a,,16  r16  a16~ 
-	a4~ 
-		a8.  a16 
-			a4~  |
-% ________________________________________bar 18 :
-a16  r16  r16  r16 
-	r2 
-			r16  r16  r16  r16  |
-% ________________________________________bar 19 :
-r8.  r16 
-	a16  a16  r16  a16 
-		r16  a8.~ 
-			a16  r8.  |
-% ________________________________________bar 20 :
-r8.  r16 
-	r4. 
-		r16  a16\mf 
-			r8  r16  r16  |
-% ________________________________________bar 21 :
-a2~ 
-		a8  a16  r16 
-			r4  |
-% ________________________________________bar 22 :
-r16  r16  r16  r16 
-	r8  a8~ 
-		a4~ 
-			a8.  b16  |
-% ________________________________________bar 23 :
-dis16  g16  b,16  a16 
-	g'16  f16  dis16  cis16 
-		r16  a16  cis''16  c16 
-			cis16  c16  cis16  c16  |
-% ________________________________________bar 24 :
-cis16  c16  r8 
-	r4 
-		a,,16  r16  a16  r16 
-			r4  |
-% ________________________________________bar 25 :
-r4 
-	r16  <fis'' c' fis >16  r16  r16 
-		r8.  r16 
-			r4  |
-% ________________________________________bar 26 :
-r8.  r16 
-	r16  a,,8. 
-		a16  r16  r8 
-			r8  r16  r16  |
-% ________________________________________bar 27 :
-r16  r16  r16  r16 
-	r2 
-			r16  ais16  <fis'' b >16  r16  |
-% ________________________________________bar 28 :
-ais,,2~ 
-		ais16  r16  <fis'' gis ais b >16  r16 
-			a,,16  a8.  |
-% ________________________________________bar 29 :
-a16  r8. 
-	r8.  r16 
-		r2  |
-% ________________________________________bar 30 :
-r16  r16  a16  r16 
-	r2 
-			r8  r16  r16  |
-% ________________________________________bar 31 :
-r2 
-		r16  r16  r16  r16 
-			r4  |
-% ________________________________________bar 32 :
-r8  aih16  aih16 
-	r16  r16  r16  r16 
-		r16  aih8.~ 
-			aih4~  |
-% ________________________________________bar 33 :
-aih8  aih16  a16~ 
-	a2~ 
-			r4  |
-% ________________________________________bar 34 :
-r16  r16  a16  a16~ 
-	a4~ 
-		a8  r8 
-			r4  |
-% ________________________________________bar 35 :
-r16  a16  <cis' dis >16  r16 
-	r16  cis,16  cis16  cis16 
-		dis16  f16  g16  c,16 
-			f16  ais,16  dis16  gis,16  |
-% ________________________________________bar 36 :
-cis16  fis16  b,16  e16 
-	f16  r16  r16  a,16~ 
-		a4 
-			r4  |
-% ________________________________________bar 37 :
-r8.  r16 
-	r16  r16  r16  r16 
-		r4 
-			r8.  a16  |
-% ________________________________________bar 38 :
-r16  a16  r16  r16 
-	r2 
-			r16  r16  r8  |
-% ________________________________________bar 39 :
-r4. 
-	r16  a16 
-		a4 
-			a16  r16  a8~  |
-% ________________________________________bar 40 :
-a4. 
+ r16  gis16^\markup {non-legato }  b16^\markup {non-legato }  a16 
 }
 
 elec_two_part = \relative c' 
@@ -1456,114 +85,34 @@ elec_two_part = \relative c'
 
 \clef treble 
 % ________________________________________bar 1 :
- dis8-192  r16  dis16~-193 
-	dis2~ 
-			dis16  r16  dis16-194  r16  |
+ e4-7 
+	e4-8 
+		e16-9  e16-10  e16-11  e16-12 
+			e16-13  r8.  |
 % ________________________________________bar 2 :
-r16  r8. 
-	r4 
-		r8.  dis16~-195 
-			dis4~  |
+r4. 
+	r16  r16 
+		r4 
+			r16  r8  e16-14  |
 % ________________________________________bar 3 :
-dis8.  dis16-196 
-	dis2~-197 
-			dis8  r16  dis16-198  |
+e16-15  e8-16  e16~-17 
+	e16  e16-18  r8 
+		r4 
+			r16  r16  r8  |
 % ________________________________________bar 4 :
-r4 
-	dis2~-199 
-			dis8  r16  dis16-200  |
+e8-19  r16  r16 
+	r16  e8.~-20 
+		e4~ 
+			e16  r16  r8  |
 % ________________________________________bar 5 :
-dis16-201  r8. 
-	r4 
-		r16  dis8.-202 
-			dis16-203  r16  e8-204  |
+r4 
+	eih16-21  r16  eih8-22 
+		r16  eih16-23  r8 
+			r16  r16  r16  r16  |
 % ________________________________________bar 6 :
 r16  r16  r16  r16 
-	r16  r16  r16  r16 
-		r16  r16  r16  r16 
-			r16  r16  r16  e16-205  |
-% ________________________________________bar 7 :
-r16  e16-206  r8 
-	e8-207  r16  r16 
-		e16-208  r16  e16-209  r16 
-			r16  r16  r8  |
-% ________________________________________bar 8 :
-e16-210  r16  e8-211 
-	r8  e16-212  r16 
-		r16  r8  r16 
-			e16-213  r8  e16~-214  |
-% ________________________________________bar 9 :
-e16  r16  e16-215  r16 
-	r8  r16  e16-216 
-		r16  r16  r8 
-			e8-217  r16  r16  |
-% ________________________________________bar 10 :
-r16  r16  e16-218  r16 
-	r16  e16-219  r16  e16-220 
-		r8  r16  e16~-221 
-			e16  r16  r16  e16-222  |
-% ________________________________________bar 11 :
-r16  r16  r8 
-	r16  r16  r16  r16 
-		r16  e8-223  r16 
-			r16  r16  e16-224  r16  |
-% ________________________________________bar 12 :
-e8-225  r8 
-	r4 
-		r8.  r16 
-			r16  r16  e16-226  r16  |
-% ________________________________________bar 13 :
-r16  r16  r16  r16 
-	e8-227  r8 
-		r16  r16  e16-228  r16 
-			r16  e8-229  r16  |
-% ________________________________________bar 14 :
-r16  r16  r16  r16 
-	r16  e16-230  r16  r16 
-		r16  r16  e8-231 
-			r16  r8  e16-232  |
-% ________________________________________bar 15 :
-r16  e8-233  r16 
-	r16  r16  e16-234  r16 
-		e16-235  r8  r16 
-			e8-236  r16  e16~-237  |
-% ________________________________________bar 16 :
-e4~ 
-	e16  e16-238  r8 
-		r8  e8-239 
-			r8.  e16-240  |
-% ________________________________________bar 17 :
-r16  e8-241  r16 
-	e16-242  r16  r16  e16~-243 
-		e4~ 
-			e8.  r16  |
-% ________________________________________bar 18 :
-r16  r16  e8~-244 
-	e2~ 
-			r16  r16  r16  r16  |
-% ________________________________________bar 19 :
-r16  e16-245  r16  r16 
-	e16-246  r16  r16  r16 
-		r16  r16  e8~-247 
-			e8.  r16  |
-% ________________________________________bar 20 :
-r8  e16-248  r16 
-	e2-249 
-			r16  r8  e16-250  |
-% ________________________________________bar 21 :
-r16  e16-251  r16  e16~-252 
-	e16  r16  r16  r16 
-		r8  e16-253  r16 
-			e8-254  r8  |
-% ________________________________________bar 22 :
-r16  r16  r8 
-	e16-255  r16  e16-256  e16-257 
-		e16-258  r16  r8 
-			r16  e16-259  r16  e16~-260  |
-% ________________________________________bar 23 :
-e16  e16-261  r16  e16-262 
-	r16  e8.~-263 
-		e16  r16  e16-264 
+	r16  r16  e16-24  r16 
+		r16  r16  e16-25  r16 
 }
 
 video_two_part = \relative c' 
@@ -1573,120 +122,84 @@ video_two_part = \relative c'
 
 \clef treble 
 % ________________________________________bar 1 :
- r4. 
-	r16  r16 
-		r4 
-			r8.  r16  |
-% ________________________________________bar 2 :
-r16  f16-300  f8~-301 
-	f8  r16  r16 
-		r4 
-			f4~-302  |
-% ________________________________________bar 3 :
-f4. 
-	r16  r16 
-		r8  r16  f16~-303 
-			f4~  |
-% ________________________________________bar 4 :
-f8  f16-304  f16~-305 
-	f16  f16-306  r16  f16-307 
-		r16  f8-308  r16 
-			r8.  f16-309  |
-% ________________________________________bar 5 :
-r2 
-		r8  f16-310  r16 
-			r4  |
-% ________________________________________bar 6 :
-r8.  r16 
-	f4.-311 
-		r8 
-			r4  |
-% ________________________________________bar 7 :
-r16  f16-312  r8 
-	r2 
-			f8-313  r8  |
-% ________________________________________bar 8 :
-r8.  f16-314 
-	r16  r16  r8 
-		r16  r16  f16-315  r16 
-			r4  |
-% ________________________________________bar 9 :
-r8.  f16-316 
-	r16  f8.-317 
-		f2~-318  |
-% ________________________________________bar 10 :
-f16  r8. 
-	r16  f16-319  f8~-320 
-		f4~ 
-			f16  r16  r8  |
-% ________________________________________bar 11 :
-r8  r16  f16-321 
-	r4 
+ e16-51  e8-52  r16 
+	r16  r8  r16 
 		r4. 
-			r16  e16-322  |
+			r16  r16  |
+% ________________________________________bar 2 :
+r16  eih16-53  r8 
+	eih16-54  r16  r16  r16 
+		e16-55  dis8-56  r16 
+			r8.  dis16-57  |
+% ________________________________________bar 3 :
+r2 
+		r16  dis8.~-58 
+			dis4~  |
+% ________________________________________bar 4 :
+dis16  dis16-59  dis8~-60 
+	dis8.  dis16-61 
+		r16  dis8.~-62 
+			dis4~  |
+% ________________________________________bar 5 :
+dis16  r8. 
+	r4 
+		r8.  dis16-63 
+			r16  dis8.~-64  |
+% ________________________________________bar 6 :
+dis8  r8 
+	dis16-65  dis8.~-66 
+		dis16  r8. 
+			r8.  dis16-67  |
+% ________________________________________bar 7 :
+r16  dis8-68  r16 
+	r2 
+			r16  dis8.~-69  |
+% ________________________________________bar 8 :
+dis8  r16  dis16~-70 
+	dis2~ 
+			dis16-71  r8.  |
+% ________________________________________bar 9 :
+r8  dis8-72 
+	r16  dis8.-73 
+		dis2-74  |
+% ________________________________________bar 10 :
+r8.  dis16~-75 
+	dis16  dis8.~-76 
+		dis4 
+			dis16-77  r8.  |
+% ________________________________________bar 11 :
+r4. 
+	r16  dis16~-78 
+		dis16  dis8.~-79 
+			dis16  r16  dis8~-80  |
 % ________________________________________bar 12 :
-r16  e16-323  e8~-324 
-	e4 
-		r16  e16-325  r8 
-			e4~-326  |
+dis16  r8  r16 
+	r8  e16-81  e16~-82 
+		e2~  |
 % ________________________________________bar 13 :
-e4~ 
-	e16  r16  e16-327  r16 
-		r4 
-			r16  r8.  |
+e16  r16  e16-83  r16 
+	r16  e16-84  r8 
+		r8  e8~-85 
+			e4  |
 % ________________________________________bar 14 :
-r16  r16  r16  r16 
-	r8.  r16 
-		e4.~-328 
-			e16  e16-329  |
+e16-86  e8.~-87 
+	e4 
+		e16-88  e16-89  r8 
+			r8  e8-90  |
 % ________________________________________bar 15 :
-r16  e16-330  e8-331 
-	r4. 
-		r16  r16 
-			r4  |
+e4~-91 
+	e16  r16  e16-92  e16~-93 
+		e2~  |
 % ________________________________________bar 16 :
-r8.  r16 
-	r4. 
-		r16  e16-332 
-			r8.  e16-333  |
+r16  e16-94  e16-95  e16~-96 
+	e4~ 
+		e16  r16  e8~-97 
+			e4~  |
 % ________________________________________bar 17 :
-r16  r8  r16 
-	e8-334  r8 
-		e4-335 
-			r16  r16  r8  |
-% ________________________________________bar 18 :
-r16  e16-336  r8 
-	r16  e16-337  r16  r16 
-		r16  r16  e8-338 
-			e16-339  r16  e16-340  r16  |
-% ________________________________________bar 19 :
-r8  r16  r16 
-	e16-341  r16  r8 
-		e16-342  r16  e8-343 
-			r8  e16-344  r16  |
-% ________________________________________bar 20 :
-e8-345  r16  r16 
-	e16-346  r8  r16 
-		e8-347  r8 
-			r16  r8  e16-348  |
-% ________________________________________bar 21 :
-r16  r16  e16-349  e16~-350 
-	e16  r16  r8 
-		e16-351  r16  e8-352 
-			r16  r8  r16  |
-% ________________________________________bar 22 :
-e16-353  r16  r16  e16~-354 
-	e2~ 
-			r16  r8  e16-355  |
-% ________________________________________bar 23 :
-r16  e8-356  r16 
-	r16  e16-357  r16  e16-358 
-		e8-359  r8 
-			r16  e16-360  r8  |
-% ________________________________________bar 24 :
-e16-361  r16  r8 
-	e16-362  r8. 
-		r8  r16 
+e4 
+	e16-98  r16  r8 
+		r4 
+			r8. 
 }
 
 
@@ -1697,13 +210,6 @@ e16-361  r16  r8
 
 \score {
 	<<
-	\new Staff \with { instrumentName = "flute_two" } {
-		<<
-		\new Voice {
-			\flute_two_part
-		}
-		>>
-	}
 	\new Staff \with { instrumentName = "clarinet_two" } {
 		<<
 		\new Voice {
@@ -1756,7 +262,12 @@ e16-361  r16  r8
 	\new Staff \with { instrumentName = "video_two" } {
 		<<
 		\new Voice {
+			\voiceOne
 			\video_two_part
+		}
+		\new Voice {
+			\voiceTwo
+			\video_one_part
 		}
 		>>
 	}

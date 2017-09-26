@@ -1,0 +1,9 @@
+  g2~^\markup {pizz. } 
+  g16  r8. 
+  r4  |
+  % ________________________________________bar 5 :
+  r16  g16^\markup {arco }  g8~ 
+  g4~ 
+  g8  g16^\markup {pizz. }  r16 
+  r16 
+}

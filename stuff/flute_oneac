@@ -1,0 +1,9 @@
+  b4. 
+  \once \override NoteHead.style = #'harmonic b16  b16:32~^\markup {frull. } 
+  b8:32  \once \override NoteHead.style = #'harmonic b16  \once \override NoteHead.style = #'harmonic b16~ 
+  \once \override NoteHead.style = #'harmonic b4~  |
+  % ________________________________________bar 5 :
+  \once \override NoteHead.style = #'harmonic b8.  b16:32^\markup {frull. } 
+  b8.  \once \override NoteHead.style = #'triangle b16^\markup {slap } 
+  \once \override NoteHead.style = #'harmonic b4.^\markup {T.R. } 
+}

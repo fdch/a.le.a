@@ -1,4 +1,4 @@
-#N canvas 0 22 1280 722 10;
+#N canvas 0 23 1280 722 10;
 #X obj 40 187 list split 1;
 #X obj 74 216 list trim;
 #X obj 74 359 i-define;
